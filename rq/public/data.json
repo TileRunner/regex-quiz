@@ -1,0 +1,9 @@
+[
+    {
+        "question": "W.DM..?LL?",
+        "answers": [ "WADMAAL", "WADMAL", "WADMEL", "WADMOL", "WADMOLL"]
+    },{
+        "question": "AMBAR.{1,3}",
+        "answers": [ "AMBARI", "AMBARIES", "AMBARIS", "AMBARY"]
+    }
+]
