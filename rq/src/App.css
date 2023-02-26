@@ -1,9 +1,28 @@
+.question {
+  text-align: center;
+  margin-top: 10px;
+  background-color: slategray;
+}
 .rex {
   font-size: larger;
   margin-left: 10px;
   background-color: blue;
   color: whitesmoke;
 }
+.guess {
+  margin-left: 10px;
+}
 .answer {
   margin-left: 10px;
+}
+.wrong {
+  margin-left: 10px;
+  color: red;
+}
+.missed {
+  margin-left: 10px;
+  color: red;
+}
+table, th, td {
+  border: 1px solid blue;
 }
