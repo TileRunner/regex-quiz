@@ -1,0 +1,13 @@
+[
+    {
+        "id":0,
+        "filename":"qnwl2020.txt",
+        "desc":"Beginner quiz to get used to how it works",
+        "lexicon":"NWL2020"
+    },{
+        "id":1,
+        "filename":"perogiesnwl2020.txt",
+        "desc":"Dumplings, canoes, pastries, and a fever producing substance",
+        "lexicon":"NWL2020"
+    }
+]
