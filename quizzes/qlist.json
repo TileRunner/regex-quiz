@@ -6,8 +6,33 @@
         "lexicon":"NWL2020"
     },{
         "id":1,
+        "filename":"thievesnwl2020.txt",
+        "desc":"Thieves",
+        "lexicon":"NWL2020"
+    },{
+        "id":2,
+        "filename":"galabiasnwl2020.txt",
+        "desc":"Long hooded garments and large passenger boats",
+        "lexicon":"NWL2020"
+    },{
+        "id":3,
+        "filename":"kumisnwl2020.txt",
+        "desc":"A beverage made from camel's milk",
+        "lexicon":"NWL2020"
+    },{
+        "id":4,
         "filename":"perogiesnwl2020.txt",
         "desc":"Dumplings, canoes, pastries, and a fever producing substance",
+        "lexicon":"NWL2020"
+    },{
+        "id":5,
+        "filename":"durrasnwl2020.txt",
+        "desc":"Cereal grasses, stretchers, loincloths et al",
+        "lexicon":"NWL2020"
+    },{
+        "id":6,
+        "filename":"ginkgosnwl2020.txt",
+        "desc":"Trees, muskets, and patriots",
         "lexicon":"NWL2020"
     }
 ]
