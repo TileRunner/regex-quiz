@@ -98,7 +98,6 @@ const TakeQuiz=({filename}) => {
 
     return ( <div>
         <h1>Regex Quiz</h1>
-        {!done && <Button onClick={() => {finishQuiz();}}>Lock in your guesses</Button>}
         {done && <div>
             <h2>Correct: {results.correct}, Wrong: {results.wrong}, Missed: {results.missed}, Total Points: {results.points}</h2>
             <Button onClick={() => {getDataTxt();}}>Restart the quiz</Button>
@@ -128,6 +127,11 @@ const TakeQuiz=({filename}) => {
                 </Col>
                 </Row>
             </div> : index === currentIndex && <div>
+                <Row>
+                    {currentIndex > 0 && <Col xs={2}><Button onClick={() => setCurrentIndex(currentIndex-1)}>&lt;&lt; Previous question</Button></Col>}
+                    {currentIndex + 1 < data.length && <Col xs={2}><Button onClick={() => setCurrentIndex(currentIndex+1)}>Next question &gt;&gt;</Button></Col>}
+                    <Col xs={2}><Button onClick={() => {finishQuiz();}}>Lock in your guesses</Button></Col>
+                </Row>
                 <div className='question'>Regular expression {index+1}: <span className='rex'>{item.question}</span></div>
                 <div>Guesses:
                 <InputWord key={`item${index}guessinput`}
@@ -138,8 +142,6 @@ const TakeQuiz=({filename}) => {
                     <p className='guess' key={`item${index}guess${guessindex}`}>{guessindex+1}: {guess}
                     {done && item.answers.indexOf(guess) < 0 && <span className='wrong'>(wrong)</span>}
                     </p>)}
-                {currentIndex > 0 && <Button onClick={() => setCurrentIndex(currentIndex-1)}>Previous</Button>}
-                {currentIndex + 1 < data.length && <Button onClick={() => setCurrentIndex(currentIndex+1)}>Next</Button>}
                 </div>
             </div>}
         </div>)}
