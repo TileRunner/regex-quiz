@@ -1,0 +1,14 @@
+[
+    {
+        "level":1,"desc":"Getting started"
+    }
+    ,{
+        "level":2,"desc":"Single expression with similar answers"
+    }
+    ,{
+        "level":3,"desc":"Multiple simple expressions with similar answers"
+    }
+    ,{
+        "level":4,"desc":"Complex expressions with diverse answers"
+    }
+]
