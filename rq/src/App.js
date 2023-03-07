@@ -52,7 +52,7 @@ function App() {
     <div>
       <header>
         {lindex > -1 && <div>
-          Quiz level {lindex}: {ldesc} <Button onClick={() => {setLindex(-1);}}>Quit this level</Button>
+          Quiz level {lindex}: {ldesc} <Button onClick={() => {setLindex(-1); setQindex(-1);}}>Quit this level</Button>
           {qindex > -1 && <div>
             Quiz: {qdesc} <Button onClick={() => {setQindex(-1);}}>Quit this quiz</Button>
           </div>}
