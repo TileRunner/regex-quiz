@@ -5,7 +5,7 @@
         "lexicon":"NWL2020",
         "level":1
     },{
-        "filename":"thieves.txt",
+        "filename":"ganef.txt",
         "desc":"Ganef galore",
         "lexicon":"NWL2020",
         "level":2
@@ -40,6 +40,11 @@
         "lexicon":"NWL2020",
         "level":3
     },{
+        "filename":"zedwords.txt",
+        "desc":"Zed words",
+        "lexicon":"NWL2020",
+        "level":3
+    },{
         "filename":"perogies.txt",
         "desc":"Perogi plus",
         "lexicon":"NWL2020",
@@ -47,6 +52,11 @@
     },{
         "filename":"durras.txt",
         "desc":"Durra dungeon",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"qwords.txt",
+        "desc":"Q words",
         "lexicon":"NWL2020",
         "level":4
     }
