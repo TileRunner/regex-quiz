@@ -1,45 +1,53 @@
 [
     {
-        "id":0,
         "filename":"primer.txt",
         "desc":"Beginner quiz to get used to how it works",
         "lexicon":"NWL2020",
         "level":1
     },{
-        "id":1,
         "filename":"thieves.txt",
-        "desc":"Thieves",
+        "desc":"Ganef galore",
         "lexicon":"NWL2020",
         "level":2
     },{
-        "id":2,
-        "filename":"galabias.txt",
-        "desc":"Long hooded garments and large passenger boats",
-        "lexicon":"NWL2020",
-        "level":3
-    },{
-        "id":3,
         "filename":"kumis.txt",
-        "desc":"A beverage made from camel's milk",
+        "desc":"The musky kumys",
         "lexicon":"NWL2020",
         "level":2
     },{
-        "id":4,
-        "filename":"perogies.txt",
-        "desc":"Dumplings, canoes, pastries, and a fever producing substance",
+        "filename":"cabala.txt",
+        "desc":"Cabala conundrum",
         "lexicon":"NWL2020",
-        "level":4
+        "level":2
     },{
-        "id":5,
-        "filename":"durras.txt",
-        "desc":"Cereal grasses, stretchers, loincloths et al",
+        "filename":"sherif.txt",
+        "desc":"There's a new sherif in town",
         "lexicon":"NWL2020",
-        "level":4
+        "level":2
     },{
-        "id":6,
-        "filename":"ginkgos.txt",
-        "desc":"Trees, muskets, and patriots",
+        "filename":"baht.txt",
+        "desc":"Take a baht",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
+        "filename":"galabias.txt",
+        "desc":"Galabia gotcha",
         "lexicon":"NWL2020",
         "level":3
+    },{
+        "filename":"ginkgos.txt",
+        "desc":"Bingo with jingo",
+        "lexicon":"NWL2020",
+        "level":3
+    },{
+        "filename":"perogies.txt",
+        "desc":"Perogi plus",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"durras.txt",
+        "desc":"Durra dungeon",
+        "lexicon":"NWL2020",
+        "level":4
     }
 ]
