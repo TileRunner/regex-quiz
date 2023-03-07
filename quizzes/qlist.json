@@ -41,5 +41,23 @@
         "desc":"Trees, muskets, and patriots",
         "lexicon":"NWL2020",
         "level":3
+    },{
+        "id":7,
+        "filename":"cabala.txt",
+        "desc":"An occult or secret doctrine",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
+        "id":8,
+        "filename":"sherif.txt",
+        "desc":"There's a new sherif in town",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
+        "id":9,
+        "filename":"baht.txt",
+        "desc":"Money, whirlwind, furniture, stone",
+        "lexicon":"NWL2020",
+        "level":2
     }
 ]
