@@ -1,7 +1,7 @@
 import './App.css';
 import {useState, useEffect} from 'react';
 import TakeQuiz from './components/takeQuiz';
-import { Button, Table } from 'react-bootstrap';
+import { Button, Table, ListGroup } from 'react-bootstrap';
 
 function App() {
   const [llist, setLlist] = useState([]);
@@ -51,12 +51,12 @@ function App() {
   return (
     <div>
       <header>
-        {lindex > -1 && <div>
-          Quiz level {lindex}: {ldesc} <Button onClick={() => {setLindex(-1); setQindex(-1);}}>Quit this level</Button>
-          {qindex > -1 && <div>
-            Quiz: {qdesc} <Button onClick={() => {setQindex(-1);}}>Quit this quiz</Button>
-          </div>}
-        </div>}
+        {lindex > -1 && <ListGroup horizontal>
+          <ListGroup.Item variant='info'>Level {lindex}: {ldesc}</ListGroup.Item>
+          <ListGroup.Item variant='secondary'><Button onClick={() => {setLindex(-1); setQindex(-1);}} variant="dark">Quit this level</Button></ListGroup.Item>
+          {qindex > -1 && <ListGroup.Item variant='info'>Quiz: {qdesc}</ListGroup.Item>}
+          {qindex > -1 && <ListGroup.Item variant='secondary'><Button onClick={() => {setQindex(-1);}} variant="dark">Quit this quiz</Button></ListGroup.Item>}
+        </ListGroup>}
         {llist && llist.length && lindex < 0 && <div>
           <h1>Quiz Level List</h1>
           <Table striped bordered hover variant="dark">

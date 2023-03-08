@@ -4,6 +4,7 @@ import InputWord from './inputWord';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Container, ListGroup } from 'react-bootstrap';
 
 const TakeQuiz=({filename}) => {
     const [data, setData] = useState([]);
@@ -97,36 +98,47 @@ const TakeQuiz=({filename}) => {
     }
 
     return ( <div>
-        {done && <div>
-            <h2>Correct: {results.correct}, Wrong: {results.wrong}, Missed: {results.missed}, Total Points: {results.points}</h2>
-            <Button onClick={() => {getDataTxt();}}>Restart the quiz</Button>
-        </div>}
+        {done && <ListGroup horizontal>
+            <ListGroup.Item variant='info'>Correct:</ListGroup.Item>
+            <ListGroup.Item variant='primary'>{results.correct}</ListGroup.Item>
+            <ListGroup.Item variant='info'>Wrong:</ListGroup.Item>
+            <ListGroup.Item variant='primary'>{results.wrong}</ListGroup.Item>
+            <ListGroup.Item variant='info'>Missed:</ListGroup.Item>
+            <ListGroup.Item variant='primary'>{results.missed}</ListGroup.Item>
+            <ListGroup.Item variant='info'>Total Points:</ListGroup.Item>
+            <ListGroup.Item variant='primary'>{results.points} out of {results.correct + results.missed}</ListGroup.Item>
+            <ListGroup.Item variant='dark'><Button variant='dark' onClick={() => {getDataTxt(filename);}}>Restart the quiz</Button></ListGroup.Item>
+        </ListGroup>}
         {data && data.length && data.map((item,index) =>
             <div key={`item${index}`}>
-            {done ? <div>
-                <div className='question'>Regular expression {index+1}: <span className='rex'>{item.question}</span></div>
+            {done ? <Container fluid>
                 <Row>
-                <Col>
-                    <div>
-                    <h2>Guesses</h2>
+                    <Col md="3"><h2>Regular expression {index+1}:</h2></Col>
+                    <Col md="auto"><span className='rex'>{item.question}</span></Col>
+                </Row>
+                <Row>
+                <Col md="3">
+                    <h3>Guesses</h3>
                     {item.guesses && item.guesses.map((guess,guessindex) =>
                         <p className='guess' key={`item${index}guess${guessindex}`}>{guessindex+1}: {guess}
                         {done && item.answers.indexOf(guess) < 0 && <span className='wrong'>(wrong)</span>}
                         </p>)}
-                    </div>
                 </Col>
-                <Col>
-                    <div>
-                    <h2>Answers</h2>
+                <Col md="auto">
+                    <h3>Answers</h3>
                     {item.answers && item.answers.map((answer,answerindex) =>
                         <p className='answer' key={`item${index}answer${answerindex}`}>{answerindex+1}: {answer}
                         {item.guesses.indexOf(answer) < 0 && <span className='missed'>(missed)</span>}
                         </p>)}
-                    </div>
                 </Col>
                 </Row>
-            </div> : index === currentIndex && <div>
-                <div className='question'>Regular expression {index+1} of {data.length}: <span className='rex'>{item.question}</span></div>
+            </Container> : index === currentIndex && <div>
+                <ListGroup horizontal>
+                    <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex === 0} onClick={() => setCurrentIndex(currentIndex-1)}>Prev</Button></ListGroup.Item>
+                    <ListGroup.Item variant='primary'>{index+1} of {data.length}: <span className='rex'>{item.question}</span></ListGroup.Item>
+                    <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex + 1 === data.length} onClick={() => setCurrentIndex(currentIndex+1)}>Next</Button></ListGroup.Item>
+                    <ListGroup.Item variant='dark'><Button variant='success' onClick={() => {finishQuiz();}}>Lock in your guesses</Button></ListGroup.Item>
+                </ListGroup>
                 <div>Guesses:
                     <InputWord key={`item${index}guessinput`}
                         handleSubmit={submitGuess}
@@ -140,11 +152,6 @@ const TakeQuiz=({filename}) => {
                         )}
                     </div>
                 </div>
-                <Row>
-                    {currentIndex > 0 && <Col xs={2}><Button onClick={() => setCurrentIndex(currentIndex-1)}>&lt;&lt; Previous question</Button></Col>}
-                    {currentIndex + 1 < data.length && <Col xs={2}><Button onClick={() => setCurrentIndex(currentIndex+1)}>Next question &gt;&gt;</Button></Col>}
-                    <Col xs={2}><Button onClick={() => {finishQuiz();}}>Lock in your guesses</Button></Col>
-                </Row>
             </div>}
         </div>)}
     </div>);
