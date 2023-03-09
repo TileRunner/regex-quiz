@@ -25,10 +25,25 @@
         "lexicon":"NWL2020",
         "level":2
     },{
+        "filename":"calpac.txt",
+        "desc":"Calorie pack",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
         "filename":"baht.txt",
         "desc":"Take a baht",
         "lexicon":"NWL2020",
         "level":2
+    },{
+        "filename":"mark.txt",
+        "desc":"Mark my words",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
+        "filename":"wwords.txt",
+        "desc":"W words",
+        "lexicon":"NWL2020",
+        "level":3
     },{
         "filename":"galabias.txt",
         "desc":"Galabia gotcha",
@@ -45,6 +60,16 @@
         "lexicon":"NWL2020",
         "level":3
     },{
+        "filename":"ForRicker.txt",
+        "desc":"Requested by Ricker",
+        "lexicon":"NWL2020",
+        "level":3
+    },{
+        "filename":"posies.txt",
+        "desc":"Pocket full of posies ... that's another story",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
         "filename":"perogies.txt",
         "desc":"Perogi plus",
         "lexicon":"NWL2020",
@@ -57,6 +82,11 @@
     },{
         "filename":"qwords.txt",
         "desc":"Q words",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"hwords.txt",
+        "desc":"H words, mostly",
         "lexicon":"NWL2020",
         "level":4
     }
