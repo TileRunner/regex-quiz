@@ -98,7 +98,7 @@ const TakeQuiz=({filename}) => {
     }
 
     return ( <div>
-        {done && <ListGroup horizontal>
+        {done && <div className='resultsdiv'><ListGroup horizontal>
             <ListGroup.Item variant='info'>Correct:</ListGroup.Item>
             <ListGroup.Item variant='primary'>{results.correct}</ListGroup.Item>
             <ListGroup.Item variant='info'>Wrong:</ListGroup.Item>
@@ -108,7 +108,7 @@ const TakeQuiz=({filename}) => {
             <ListGroup.Item variant='info'>Total Points:</ListGroup.Item>
             <ListGroup.Item variant='primary'>{results.points} out of {results.correct + results.missed}</ListGroup.Item>
             <ListGroup.Item variant='dark'><Button variant='dark' onClick={() => {getDataTxt(filename);}}>Restart the quiz</Button></ListGroup.Item>
-        </ListGroup>}
+        </ListGroup></div>}
         {data && data.length && data.map((item,index) =>
             <div key={`item${index}`}>
             {done ? <Container fluid>
@@ -132,14 +132,15 @@ const TakeQuiz=({filename}) => {
                         </p>)}
                 </Col>
                 </Row>
-            </Container> : index === currentIndex && <div>
+            </Container> : index === currentIndex && <div className='questiondiv'>
                 <ListGroup horizontal>
                     <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex === 0} onClick={() => setCurrentIndex(currentIndex-1)}>Prev</Button></ListGroup.Item>
                     <ListGroup.Item variant='primary'>{index+1} of {data.length}: <span className='rex'>{item.question}</span></ListGroup.Item>
                     <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex + 1 === data.length} onClick={() => setCurrentIndex(currentIndex+1)}>Next</Button></ListGroup.Item>
                     <ListGroup.Item variant='dark'><Button variant='success' onClick={() => {finishQuiz();}}>Lock in your guesses</Button></ListGroup.Item>
                 </ListGroup>
-                <div>Guesses:
+                <div className='guessdiv'>
+                    <h2>Enter your guesses below:</h2>
                     <InputWord key={`item${index}guessinput`}
                         handleSubmit={submitGuess}
                         questionIndex={index}

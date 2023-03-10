@@ -40,6 +40,11 @@
         "lexicon":"NWL2020",
         "level":2
     },{
+        "filename":"scram.txt",
+        "desc":"Scram bingoes",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
         "filename":"wwords.txt",
         "desc":"W words",
         "lexicon":"NWL2020",
