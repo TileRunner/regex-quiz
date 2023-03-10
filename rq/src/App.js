@@ -57,9 +57,9 @@ function App() {
           {qindex > -1 && <ListGroup.Item variant='info'>Quiz: {qdesc}</ListGroup.Item>}
           {qindex > -1 && <ListGroup.Item variant='secondary'><Button onClick={() => {setQindex(-1);}} variant="dark">Quit this quiz</Button></ListGroup.Item>}
         </ListGroup>}
-        {llist && llist.length && lindex < 0 && <div>
+        {llist && llist.length && lindex < 0 && <div className='levellistdiv'>
           <h1>Quiz Level List</h1>
-          <Table striped bordered hover variant="dark">
+          <Table striped bordered hover variant="dark" size="sm">
             <thead>
               <tr>
                 <th>Level</th>
@@ -71,12 +71,12 @@ function App() {
               {llist.map((l) => <tr key={`level${l.level}`}>
                 <td>{l.level}</td>
                 <td>{l.desc}</td>
-                <td><Button onClick={() => {setLindex(l.level); setLdesc(l.desc)}}>Select this level</Button></td>
+                <td><Button onClick={() => {setLindex(l.level); setLdesc(l.desc)}}>Select</Button></td>
               </tr>)}
             </tbody>
           </Table>
         </div>}
-        {qlist && qlist.length && lindex > -1 && qindex < 0 && <div>
+        {qlist && qlist.length && lindex > -1 && qindex < 0 && <div className='quizlistdiv'>
           <h1>Quiz List</h1>
           <Table striped bordered hover variant="dark">
             <thead>

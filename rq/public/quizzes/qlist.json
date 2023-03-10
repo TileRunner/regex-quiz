@@ -70,6 +70,11 @@
         "lexicon":"NWL2020",
         "level":3
     },{
+        "filename":"said.txt",
+        "desc":"Enough said",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
         "filename":"posies.txt",
         "desc":"Pocket full of posies ... that's another story",
         "lexicon":"NWL2020",

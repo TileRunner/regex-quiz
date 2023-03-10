@@ -110,11 +110,10 @@ const TakeQuiz=({filename}) => {
             <ListGroup.Item variant='dark'><Button variant='dark' onClick={() => {getDataTxt(filename);}}>Restart the quiz</Button></ListGroup.Item>
         </ListGroup></div>}
         {data && data.length && data.map((item,index) =>
-            <div key={`item${index}`}>
+            <div key={`item${index}`} className='qadiv'>
             {done ? <Container fluid>
                 <Row>
-                    <Col md="3"><h2>Regular expression {index+1}:</h2></Col>
-                    <Col md="auto"><span className='rex'>{item.question}</span></Col>
+                    <Col md="auto"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></Col>
                 </Row>
                 <Row>
                 <Col md="3">
@@ -135,12 +134,12 @@ const TakeQuiz=({filename}) => {
             </Container> : index === currentIndex && <div className='questiondiv'>
                 <ListGroup horizontal>
                     <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex === 0} onClick={() => setCurrentIndex(currentIndex-1)}>Prev</Button></ListGroup.Item>
-                    <ListGroup.Item variant='primary'>{index+1} of {data.length}: <span className='rex'>{item.question}</span></ListGroup.Item>
+                    <ListGroup.Item variant='primary'><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></ListGroup.Item>
                     <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex + 1 === data.length} onClick={() => setCurrentIndex(currentIndex+1)}>Next</Button></ListGroup.Item>
                     <ListGroup.Item variant='dark'><Button variant='success' onClick={() => {finishQuiz();}}>Lock in your guesses</Button></ListGroup.Item>
                 </ListGroup>
                 <div className='guessdiv'>
-                    <h2>Enter your guesses below:</h2>
+                    <h3>Enter your guesses below:</h3>
                     <InputWord key={`item${index}guessinput`}
                         handleSubmit={submitGuess}
                         questionIndex={index}

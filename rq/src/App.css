@@ -1,8 +1,15 @@
+.rexlabel {
+  font-size: x-large;
+  padding-left: 2px;
+  background-color: rgb(200, 260, 250);
+  color: black;
+}
 .rex {
   font-size: x-large;
   margin-left: 10px;
   background-color: blue;
   color: whitesmoke;
+  text-align: center;
 }
 .answer {
   margin-left: 10px;
@@ -19,11 +26,24 @@ table, th, td {
   border: 1px solid blue;
 }
 .questiondiv {
-  margin-left: 5vh;
+  margin-top: 1vh;
 }
 .guessdiv {
-  margin-left: 5vh;
+  margin-top: 1vh;
+  width: 35%;
 }
 .resultsdiv {
-  margin-left: 5vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.levellistdiv {
+  width: fit-content;
+}
+.quizlistdiv {
+  width: fit-content;
+}
+.qadiv {
+  background-color: maroon;
+  color: whitesmoke;
+  width: 50%;
 }
