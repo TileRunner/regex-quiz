@@ -1,7 +1,7 @@
 import './App.css';
 import {useState, useEffect} from 'react';
 import TakeQuiz from './components/takeQuiz';
-import { Button, Table, ListGroup } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
 
 function App() {
   const [llist, setLlist] = useState([]);
@@ -51,12 +51,12 @@ function App() {
   return (
     <div>
       <header>
-        {lindex > -1 && <ListGroup horizontal>
-          <ListGroup.Item variant='info'>Level {lindex}: {ldesc}</ListGroup.Item>
-          <ListGroup.Item variant='secondary'><Button onClick={() => {setLindex(-1); setQindex(-1);}} variant="dark">Quit this level</Button></ListGroup.Item>
-          {qindex > -1 && <ListGroup.Item variant='info'>Quiz: {qdesc}</ListGroup.Item>}
-          {qindex > -1 && <ListGroup.Item variant='secondary'><Button onClick={() => {setQindex(-1);}} variant="dark">Quit this quiz</Button></ListGroup.Item>}
-        </ListGroup>}
+        {lindex > -1 && <ul class="list-group list-group-horizontal">
+          <li class="list-group-item list-group-item-info">Level {lindex}: {ldesc}</li>
+          <li class="list-group-item list-group-item-secondary"><button className='btn btn-dark' onClick={() => {setLindex(-1); setQindex(-1);}}>Quit this level</button></li>
+          {qindex > -1 && <li class="list-group-item list-group-item-info">Quiz: {qdesc}</li>}
+          {qindex > -1 && <li class="list-group-item list-group-item-secondary"><button className='btn btn-dark' onClick={() => {setQindex(-1);}}>Quit this quiz</button></li>}
+        </ul>}
         {llist && llist.length && lindex < 0 && <div className='levellistdiv'>
           <h1>Quiz Level List</h1>
           <Table striped bordered hover variant="dark" size="sm">
@@ -71,7 +71,7 @@ function App() {
               {llist.map((l) => <tr key={`level${l.level}`}>
                 <td>{l.level}</td>
                 <td>{l.desc}</td>
-                <td><Button onClick={() => {setLindex(l.level); setLdesc(l.desc)}}>Select</Button></td>
+                <td><button className='btn btn-primary' onClick={() => {setLindex(l.level); setLdesc(l.desc)}}>Select</button></td>
               </tr>)}
             </tbody>
           </Table>
@@ -91,7 +91,7 @@ function App() {
                 <tr key={`quizlistitem${q.id}`}>
                   <td>{q.desc}</td>
                   <td>{q.lexicon}</td>
-                  <td><Button onClick={() => {setQindex(q.id); setQdesc(q.desc);}}>Take this quiz</Button></td>
+                  <td><button className='btn btn-primary' onClick={() => {setQindex(q.id); setQdesc(q.desc);}}>Select</button></td>
                 </tr>
               )}
             </tbody>

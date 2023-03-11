@@ -1,10 +1,6 @@
 import '../App.css';
 import {useState, useEffect} from 'react';
 import InputWord from './inputWord';
-import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { Container, ListGroup } from 'react-bootstrap';
 
 const TakeQuiz=({filename}) => {
     const [data, setData] = useState([]);
@@ -97,47 +93,30 @@ const TakeQuiz=({filename}) => {
         setDone(true);
     }
 
-    return ( <div>
-        {done && <div className='resultsdiv'><ListGroup horizontal>
-            <ListGroup.Item variant='info'>Correct:</ListGroup.Item>
-            <ListGroup.Item variant='primary'>{results.correct}</ListGroup.Item>
-            <ListGroup.Item variant='info'>Wrong:</ListGroup.Item>
-            <ListGroup.Item variant='primary'>{results.wrong}</ListGroup.Item>
-            <ListGroup.Item variant='info'>Missed:</ListGroup.Item>
-            <ListGroup.Item variant='primary'>{results.missed}</ListGroup.Item>
-            <ListGroup.Item variant='info'>Total Points:</ListGroup.Item>
-            <ListGroup.Item variant='primary'>{results.points} out of {results.correct + results.missed}</ListGroup.Item>
-            <ListGroup.Item variant='dark'><Button variant='dark' onClick={() => {getDataTxt(filename);}}>Restart the quiz</Button></ListGroup.Item>
-        </ListGroup></div>}
+    const QuizInProgress = <div>
         {data && data.length && data.map((item,index) =>
-            <div key={`item${index}`} className='qadiv'>
-            {done ? <Container fluid>
-                <Row>
-                    <Col md="auto"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></Col>
-                </Row>
-                <Row>
-                <Col md="3">
-                    <h3>Guesses</h3>
-                    {item.guesses && item.guesses.map((guess,guessindex) =>
-                        <p className='guess' key={`item${index}guess${guessindex}`}>{guessindex+1}: {guess}
-                        {done && item.answers.indexOf(guess) < 0 && <span className='wrong'>(wrong)</span>}
-                        </p>)}
-                </Col>
-                <Col md="auto">
-                    <h3>Answers</h3>
-                    {item.answers && item.answers.map((answer,answerindex) =>
-                        <p className='answer' key={`item${index}answer${answerindex}`}>{answerindex+1}: {answer}
-                        {item.guesses.indexOf(answer) < 0 && <span className='missed'>(missed)</span>}
-                        </p>)}
-                </Col>
-                </Row>
-            </Container> : index === currentIndex && <div className='questiondiv'>
-                <ListGroup horizontal>
-                    <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex === 0} onClick={() => setCurrentIndex(currentIndex-1)}>Prev</Button></ListGroup.Item>
-                    <ListGroup.Item variant='primary'><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></ListGroup.Item>
-                    <ListGroup.Item variant='secondary'><Button variant='dark' disabled={currentIndex + 1 === data.length} onClick={() => setCurrentIndex(currentIndex+1)}>Next</Button></ListGroup.Item>
-                    <ListGroup.Item variant='dark'><Button variant='success' onClick={() => {finishQuiz();}}>Lock in your guesses</Button></ListGroup.Item>
-                </ListGroup>
+            <div key={`item${index}`}>
+            {index === currentIndex && <div className='questiondiv'>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item list-group-item-secondary">
+                        {currentIndex === 0 ?
+                            <button className='btn btn-dark' disabled>Prev</button>
+                        :
+                            <button className='btn btn-dark' active onClick={() => setCurrentIndex(currentIndex-1)}>Prev</button>
+                        }
+                    </li>
+                    <li class="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></li>
+                    <li class="list-group-item list-group-item-secondary">
+                        {currentIndex + 1 === data.length ?
+                            <button className='btn btn-dark' disabled>Next</button>
+                        :
+                            <button className='btn btn-dark' onClick={() => setCurrentIndex(currentIndex+1)}>Next</button>
+                        }
+                    </li>
+                    <li class="list-group-item list-group-item-dark">
+                        <button className='btn btn-success' onClick={() => {finishQuiz();}}>Lock in your guesses</button>
+                    </li>
+                </ul>
                 <div className='guessdiv'>
                     <h3>Enter your guesses below:</h3>
                     <InputWord key={`item${index}guessinput`}
@@ -154,6 +133,52 @@ const TakeQuiz=({filename}) => {
                 </div>
             </div>}
         </div>)}
+    </div>;
+
+    const QuizDone = <div className='resultsdiv'>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item list-group-item-info"><span className='correct' data-bs-toggle="tooltip" title="You gain 1 point per correct answer">Correct</span></li>
+            <li class="list-group-item list-group-item-primary">{results.correct}</li>
+            <li class="list-group-item list-group-item-info"><span className='wrong' data-bs-toggle="tooltip" title="You lose 2 points per wrong answer">Wrong</span></li>
+            <li class="list-group-item list-group-item-primary">{results.wrong}</li>
+            <li class="list-group-item list-group-item-info"><span className='missed' data-bs-toggle="tooltip" title="You lose no points for missed answers">Missed</span></li>
+            <li class="list-group-item list-group-item-primary">{results.missed}</li>
+            <li class="list-group-item list-group-item-info">Total Points:</li>
+            <li class="list-group-item list-group-item-primary">{results.points} out of {results.correct + results.missed}</li>
+            <li class="list-group-item list-group-item-dark">
+                <button className='btn btn-dark' onClick={() => { getDataTxt(filename); } }>Restart the quiz</button>
+            </li>
+        </ul>
+        {data.map((item,index) =>
+            <div key={`item${index}`} className='qadiv'>
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col'>
+                            <span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className='col'>
+                            <h3>Guesses</h3>
+                            {item.guesses && item.guesses.map((guess,guessindex) =>
+                                <p className='guess' key={`item${index}guess${guessindex}`}>{guessindex+1}: {guess}
+                                <span className={item.answers.indexOf(guess) < 0 ? 'wrong' : 'correct'}/>
+                                </p>)}
+                        </div>
+                        <div className='col'>
+                            <h3>Answers</h3>
+                            {item.answers && item.answers.map((answer,answerindex) =>
+                                <p className='answer' key={`item${index}answer${answerindex}`}>{answerindex+1}: {answer}
+                                <span className={item.guesses.indexOf(answer) < 0 ? 'missed' : 'correct'}/>
+                                </p>)}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )}
+    </div>;
+    return ( <div>
+        {done ? QuizDone : QuizInProgress}
     </div>);
 }
 

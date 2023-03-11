@@ -14,6 +14,7 @@ const InputWord = ({handleSubmit, questionIndex, question}) => {
 
     async function mysubmit(event) {
         event.preventDefault();
+        setMyword('');
         handleSubmit(questionIndex, myword);
     }
 

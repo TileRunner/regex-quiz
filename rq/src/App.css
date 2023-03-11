@@ -12,15 +12,17 @@
   text-align: center;
 }
 .answer {
-  margin-left: 10px;
+  margin-left: 1px;
+  width: max-content;
 }
-.wrong {
-  margin-left: 10px;
-  color: red;
+.correct::after {
+  content: ' ❤️';
 }
-.missed {
-  margin-left: 10px;
-  color: red;
+.wrong::after {
+  content: ' 🤥';
+}
+.missed::after {
+  content: ' 🙈';
 }
 table, th, td {
   border: 1px solid blue;
@@ -43,7 +45,10 @@ table, th, td {
   width: fit-content;
 }
 .qadiv {
+  margin-top: 1vh;
   background-color: maroon;
   color: whitesmoke;
-  width: 50%;
+  width: fit-content;
+  border: 13px solid burlywood;
+  border-radius: 15px;
 }
