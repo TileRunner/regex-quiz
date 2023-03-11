@@ -71,7 +71,17 @@
         "level":3
     },{
         "filename":"said.txt",
-        "desc":"Enough said",
+        "desc":"Enough said, yeld the zeda",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"clepe.txt",
+        "desc":"He clept calling my name",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"alternates.txt",
+        "desc":"Know your alternatives",
         "lexicon":"NWL2020",
         "level":4
     },{
