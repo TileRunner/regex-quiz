@@ -1,42 +1,50 @@
 AMBAR.{1,3}
+:AMBAR&1 -3 letters
 	AMBARI
 	AMBARIES
 	AMBARIS
 	AMBARY
 
 C.C.B.L.
+:C&Any letter&C&Any letter&B&Any letter&L&Any letter
 	COCKBILL
 	COCOBOLA
 	COCOBOLO
 
 P.C.S.N
+:P&Any letter&C&Any letter&S&Any letter&N
 	POCOSEN
 	POCOSIN
 	POCOSON
 
 C.L[AEIOU][CS]H.?
+:C&Any letter&L&Any vowel&C|S&H&Any letter|Nothing
 	CALASH
 	CALECHE
 	CALICHE
 
 PUG[AG]R(EE|Y)
+:PUG&A|G&R&EE|Y
 	PUGAREE
 	PUGGREE
 	PUGGRY
 
 VIRTUOS.
+:VIRTUOS&Any letter
 	VIRTUOSA
 	VIRTUOSE
 	VIRTUOSI
 	VIRTUOSO
 
 CO?URTE?SE?Y
+:C&O|Nothing&URT&E|Nothing&S&E|Nothing&Y
 	COURTESY
 	CURTESY
 	CURTSEY
 	CURTSY
 
 (F|PH).L.BEG
+:F|PH&Any letter&L&Any letter&BEG
 	FILIBEG
 	PHILABEG
 	PHILIBEG

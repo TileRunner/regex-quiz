@@ -1,4 +1,5 @@
 (G|J)ING?K?G?O(E?S)?
+:G|J&IN&G|Nothing&K|Nothing&G|Nothing&O&ES|S|Nothing
 	GINGKO
 	GINGKOES
 	GINGKOS
@@ -11,12 +12,14 @@
 	JINGOES
 
 (G|J)INGALL?
+:G|J&INGA&L&L|Nothing
 	GINGAL
 	GINGALL
 	JINGAL
 	JINGALL
 
 GING(E|I)LL?(I|E?Y)S?
+:GING&E|I&L&L|Nothing&I|EY|Y&S|Nothing
 	GINGELEY
 	GINGELEYS
 	GINGELI

@@ -1,4 +1,5 @@
-[AKMR]{5,8}
+[MARK]{5,8}
+:5 - 8 letter words using only M, A, R, or K
 	KARMA
 	MAKAR
 	MAMMA

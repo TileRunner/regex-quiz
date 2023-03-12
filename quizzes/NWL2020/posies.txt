@@ -1,4 +1,5 @@
 PO(G|K|S)(IE|E?Y)S?
+:PO&G|K|S&IE|EY|Y&S|Nothing
 	POGEY
 	POGEYS
 	POGIES
@@ -12,6 +13,7 @@ PO(G|K|S)(IE|E?Y)S?
 	POSY
 
 STO.(IE|E?Y)
+:STO&Any letter&IE|EY|Y
 	STOGEY
 	STONEY
 	STOREY

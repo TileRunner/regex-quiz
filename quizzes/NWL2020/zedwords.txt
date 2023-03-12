@@ -1,4 +1,5 @@
 ZAFF.?R.?S?
+:ZAFF&Any letter|Nothing&R&Any letter|Nothing&S|Nothing
 	ZAFFARS
 	ZAFFERS
 	ZAFFIRS
@@ -9,6 +10,7 @@ ZAFF.?R.?S?
 	ZAFFRE
 
 ZING.(N|R).S?
+:ZING&Any letter&N|R&Any letter&S|Nothing
 	ZINGANI
 	ZINGANO
 	ZINGARA

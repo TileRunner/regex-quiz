@@ -1,4 +1,5 @@
 DH?(OO|OU|U)RR?AH?S?
+:D&H|Nothing&OO|OU|U&R&R|Nothing&A&H|Nothing&S|Nothing
 	DHOORA
 	DHOORAS
 	DHOURRA
@@ -15,6 +16,7 @@ DH?(OO|OU|U)RR?AH?S?
 	DURRAS
 
 DH?(OO?|U)(L|T)(IE?|EE?Y?|Y)
+:D&H|Nothing&O|OO|U&L|T&I|IE|E|EE|EY|Y
 	DHOLE
 	DHOOLY
 	DHOOTI
@@ -29,4 +31,3 @@ DH?(OO?|U)(L|T)(IE?|EE?Y?|Y)
 	DOTY
 	DULY
 	DUTY
-

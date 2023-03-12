@@ -1,4 +1,5 @@
 [SCRAM]{7,8}
+:7 - 8 letter words using only S, C, R, A, or M
 	ASRAMAS
 	CARACARA
 	CARCASS
