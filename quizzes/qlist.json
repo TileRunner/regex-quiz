@@ -46,9 +46,14 @@
         "level":2
     },{
         "filename":"scram.txt",
-        "desc":"Scram bingoes",
+        "desc":"Scram!",
         "lexicon":"NWL2020",
         "level":2
+    },{
+        "filename":"milliare.txt",
+        "desc":"Milly are you ok?",
+        "lexicon":"NWL2020",
+        "level":3
     },{
         "filename":"wwords.txt",
         "desc":"W words",

@@ -1,8 +1,10 @@
 ABLUT...?
+:ABLUT&Any two letters&Any letter|Nothing
 	ABLUTED
 	ABLUTION
 
 V(IRT|ERT|END)UE?.?
+:V&IRT|ERT|END&U&E|Nothing&Any letter|Nothing
 	VENDUE
 	VENDUES
 	VERTU
