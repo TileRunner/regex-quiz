@@ -52,3 +52,14 @@ table, th, td {
   border: 13px solid burlywood;
   border-radius: 15px;
 }
+.pictogramdiv {
+  margin-top: 1vh;
+  padding: 2vh;
+  background-color: slategray;
+}
+.pictogramdiv::before {
+  content: 'Pictogram of possible answers:';
+}
+.pictogramdiv > div > div > div {
+  border: 1px solid black;
+}

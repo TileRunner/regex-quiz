@@ -23,29 +23,38 @@ const TakeQuiz=({filename}) => {
         })
         .then(function(mytext) {
             let tabpattern = /\t/; // tab character search
-            let question = "";
+            let letterpattern = /[A-Z]/; // any letter
+            let question = ""; // the regular expression (that is the question)
+            let pictogram = ""; // pictogram (optional) used to show the possible answers in a grid
             let answers = [];
             let quiz = []; // array of {question, answers[], guesses[]}
             let lines = mytext.split(/\r?\n/); // split file into array of lines
             lines.forEach(line => {
-                if (line.length > 1 && line.search(tabpattern) < 0) {
-                // new question
-                if (question.length) {
-                    // finish previous question
-                    answers.sort();
-                    quiz.push({question: question, answers: answers, guesses: []}); // no guesses yet
-                    answers = [];
-                }
-                question = line;
-                } else if (line.length > 1 && line.search(tabpattern) === 0) {
-                // answer
-                let answer = line.substring(1);
-                answers.push(answer);
+                if (line.search(letterpattern) > -1) {
+                    // Has letters; must be a question, a pictogram, or an answer
+                    if (line.search(tabpattern) === 0) {
+                        // answer (starts with tab, followed by answer)
+                        let answer = line.substring(1);
+                        answers.push(answer);
+                    } else if (line.startsWith(":")) {
+                        // pictogram (starts with colon, followed by pictogram)
+                        pictogram = line.substring(1);
+                    } else {
+                        // new question (does not start with tab or colon)
+                        if (question.length) {
+                            // finish previous question
+                            answers.sort();
+                            quiz.push({question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
+                            answers = [];
+                            pictogram = "";
+                        }
+                        question = line;
+                    }
                 }
             });
             // finish previous question
             answers.sort();
-            quiz.push({question: question, answers: answers, guesses: []}); // no guesses yet
+            quiz.push({question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
             setData(quiz);
             setCurrentIndex(0);
             setDone(false);
@@ -122,7 +131,9 @@ const TakeQuiz=({filename}) => {
                     <InputWord key={`item${index}guessinput`}
                         handleSubmit={submitGuess}
                         questionIndex={index}
-                        question={item.question}/>
+                        question={item.question}
+                        pictogram={item.pictogram}
+                        />
                     <div>
                         {item.guesses && item.guesses.map((guess,guessindex) =>
                             <span className='guess' key={`item${index}guess${guessindex}`}>

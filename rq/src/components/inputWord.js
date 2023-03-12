@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
-const InputWord = ({handleSubmit, questionIndex, question}) => {
+const InputWord = ({handleSubmit, questionIndex, question, pictogram}) => {
     const [myword, setMyword] = useState('');
     const [showHelp, setShowHelp] = useState(false);
     const handleShowHelp = () => setShowHelp(true);
@@ -96,6 +96,19 @@ const InputWord = ({handleSubmit, questionIndex, question}) => {
             <Button variant="info" onClick={handleShowHelp}>Help</Button>
         </InputGroup>
     </Form>
+    {pictogram && pictogram.length && <div className='pictogramdiv'>
+        <div className='row'>
+            {pictogram.split("&").map((x,xi) =>
+                <div className='col' key={`xi${xi}`}>
+                    {x.split("|").map((y,yi) =>
+                        <div className='row' key={`yi${yi}`}>
+                            {y}
+                        </div>
+                    )}
+                </div>
+            )}
+        </div>
+    </div>}
     </div>);
 }
 

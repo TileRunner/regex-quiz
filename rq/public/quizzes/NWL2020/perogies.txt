@@ -21,6 +21,7 @@ PIRO(G|Q).?.?.?
 	PIROQUES
 
 PYRO(G|H)..?.?
+:PYRO&G|H&Any letter&Any letter|Nothing&Any letter|Nothing
 	PYROGEN
 	PYROGENS
 	PYROGIES
@@ -29,6 +30,7 @@ PYRO(G|H)..?.?
 	PYROHY
 
 PIRO(J|S|Z)H?(KI|OK)S?
+:PIRO&J|S|Z&H|Nothing&KI|OK&S|Nothing
 	PIROJKI
 	PIROSHKI
 	PIROZHKI
