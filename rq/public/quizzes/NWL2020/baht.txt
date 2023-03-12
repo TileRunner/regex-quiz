@@ -1,4 +1,5 @@
 B(H.|.H)[LRT]
+:B&H then any letter|Any letter then H&L|R|T
 	BAHT
 	BHUT
 	BUHL

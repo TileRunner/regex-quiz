@@ -1,4 +1,5 @@
 W.DM..?LL?
+:W&Any letter&DM&Any letter&Any letter|Nothing&L&L|Nothing
 	WADMAAL
 	WADMAL
 	WADMEL
@@ -6,6 +7,7 @@ W.DM..?LL?
 	WADMOLL
 
 W.RE?G.L.
+:W&Any letter&R&E|Nothing&G&Any letter&L&Any letter
 	WEREGILD
 	WERGELD
 	WERGELT

@@ -1,4 +1,5 @@
 [AHLVW]{5,8}
+:5 - 8 letter words using only A, H, L, V, or W
 	HALAL
 	HALALA
 	HALALAH
@@ -16,6 +17,7 @@
 	WALLAH
 
 .?HALL?OTH?S?
+:Any letter|Nothing&HAL&L|Nothing&OT&H|Nothing&S|Nothing
 	CHALLOT
 	CHALLOTH
 	CHALOT

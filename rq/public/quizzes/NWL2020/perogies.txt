@@ -1,4 +1,5 @@
 PEROG..?.?
+:PEROG&1 - 3 more letters
 	PEROGI
 	PEROGIE
 	PEROGIES
@@ -6,10 +7,12 @@ PEROG..?.?
 	PEROGY
 
 PIEROG..?.?
+:PIEROG&1 - 3 more letters
 	PIEROGI
 	PIEROGIES
 
 PIRO(G|Q).?.?.?
+:PIRO&G|Q&0 - 3 more letters
 	PIROG
 	PIROGEN
 	PIROGHI
@@ -21,7 +24,7 @@ PIRO(G|Q).?.?.?
 	PIROQUES
 
 PYRO(G|H)..?.?
-:PYRO&G|H&Any letter&Any letter|Nothing&Any letter|Nothing
+:PYRO&G|H&1 - 3 more letters
 	PYROGEN
 	PYROGENS
 	PYROGIES

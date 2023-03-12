@@ -1,4 +1,5 @@
 QUIN(I|O)NA?E?S?
+:QUIN&I|O&N&A|Nothing&E|Nothing&S|Nothing
 	QUININ
 	QUININA
 	QUININAS
@@ -9,6 +10,7 @@ QUIN(I|O)NA?E?S?
 	QUINONES
 
 QUINI?E?O?LL?A?S?
+:QUIN&I|Nothing&E|Nothing&O|Nothing&L&L|Nothing&A|Nothing&S|Nothing
 	QUINELA
 	QUINELAS
 	QUINELLA
