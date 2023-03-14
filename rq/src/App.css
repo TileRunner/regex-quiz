@@ -63,3 +63,51 @@ table, th, td {
 .pictogramdiv > div > div > div {
   border: 1px solid black;
 }
+.checkboxes {
+  width: fit-content;
+  margin-left: 3vw;
+  /* margin: auto; */
+}
+/* optionsCheckbox:
+  Main code taken from https://medium.com/claritydesignsystem/pure-css-accessible-checkboxes-and-radios-buttons-54063e759bb3
+  When checked use <div className="optionsCheckbox On" onClick={some code to toggle whether checked}><label>Some text</label></div> 
+  When unchecked use  <div className="optionsCheckbox" onClick={some code to toggle whether checked}><label>Some text</label></div> 
+*/
+.optionsCheckbox {
+  line-height: 24px;
+  font-size: calc(6px + 1vw);
+  margin-bottom: 1vw; /* Make room for font so rows do not overlap */
+  box-sizing: border-box;
+}
+.optionsCheckbox label {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  /* 16px of the checkbox and 6px between it and text*/
+  padding-left: 22px;
+}
+.optionsCheckbox label::before,
+.optionsCheckbox label::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+}
+/* The box */
+.optionsCheckbox label::before {
+  height: 16px;
+  width: 16px;
+  border: 1px solid blue;
+  left: 0px;
+  top: 3px;
+}
+/* The check mark (<div className="optionsCheckbox On">) */
+.optionsCheckbox.On label::after {
+  height: 5px;
+  width: 9px;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  transform: rotate(-45deg);
+  left: 4px;
+  top: 7px;
+  color: blue;
+}

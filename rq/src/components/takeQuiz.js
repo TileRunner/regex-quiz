@@ -7,6 +7,7 @@ const TakeQuiz=({filename}) => {
     const [done, setDone] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(-1);
     const [results, setResults] = useState({correct: 0, wrong: 0, missed: 0, points: 0});
+    const [autoclear, setAutoclear] = useState(true); // Whether to blank out guess input box after submit
 
     // Get the data from a text file in the public folder
     const getDataTxt=(quizpath)=>{
@@ -66,12 +67,23 @@ const TakeQuiz=({filename}) => {
         getDataTxt(filename);
     },[filename])
 
-    async function submitGuess(questionIndex, guess) {
+    function submitGuess(questionIndex, guess) {
         let guesses = data[questionIndex].guesses;
         let testword = guess.toUpperCase();
         if (testword && guesses.indexOf(testword) < 0) {
             let newdata = JSON.parse(JSON.stringify(data));
             newdata[questionIndex].guesses.push(testword);
+            newdata[questionIndex].guesses.sort();
+            setData(newdata);
+        }
+    }
+
+    function removeGuess(questionIndex, guess) {
+        let guesses = data[questionIndex].guesses;
+        let testword = guess.toUpperCase();
+        if (testword && guesses.indexOf(testword) > -1) {
+            let newdata = JSON.parse(JSON.stringify(data));
+            newdata[questionIndex].guesses.splice(newdata[questionIndex].guesses.indexOf(testword),1);
             newdata[questionIndex].guesses.sort();
             setData(newdata);
         }
@@ -127,12 +139,19 @@ const TakeQuiz=({filename}) => {
                     </li>
                 </ul>
                 <div className='guessdiv'>
-                    <h3>Enter your guesses below:</h3>
+                    <div className='checkboxes'>
+                        <div className={autoclear ? 'optionsCheckbox On' : 'optionsCheckbox'}
+                            onClick={() => {setAutoclear(!autoclear)}}>
+                            <label>Auto clear input after submit</label>
+                        </div>
+                    </div>
                     <InputWord key={`item${index}guessinput`}
                         handleSubmit={submitGuess}
+                        handleRemoveGuess={removeGuess}
                         questionIndex={index}
                         question={item.question}
                         pictogram={item.pictogram}
+                        autoclear={autoclear}
                         />
                     <div>
                         {item.guesses && item.guesses.map((guess,guessindex) =>
