@@ -14,6 +14,7 @@
 .answer {
   margin-left: 1px;
   width: max-content;
+  height: 6px;
 }
 .correct::after {
   content: ' ❤️';
@@ -33,6 +34,15 @@ table, th, td {
 .guessdiv {
   margin-top: 1vh;
   width: 35%;
+}
+.guess {
+  height: 6px;
+}
+.numlabel {
+  font-family: 'Courier New', Courier, monospace;
+  display: inline-block;
+  width: 25px;
+  text-align: right;
 }
 .resultsdiv {
   margin-top: 1vh;

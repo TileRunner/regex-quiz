@@ -14,6 +14,11 @@ const InputWord = ({handleSubmit, handleRemoveGuess, questionIndex, question, pi
 
     async function mysubmit(event) {
         event.preventDefault();
+        var re = new RegExp("^" + question + "$", "g");
+        if (!re.test(myword.toUpperCase())) {
+            alert(`${myword.toUpperCase()} does not fully match regular expression ${question}`);
+            return;
+        }
         if (autoclear) {
             setMyword('');
         }

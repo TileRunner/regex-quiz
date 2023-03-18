@@ -153,13 +153,13 @@ const TakeQuiz=({filename}) => {
                         pictogram={item.pictogram}
                         autoclear={autoclear}
                         />
-                    <div>
-                        {item.guesses && item.guesses.map((guess,guessindex) =>
-                            <span className='guess' key={`item${index}guess${guessindex}`}>
-                                <span>{guessindex+1}:&nbsp;{guess},&nbsp;</span>
-                            </span>
+                    {item.guesses && item.guesses.length > 0 && <div className='qadiv'>
+                        {item.guesses.map((guess,guessindex) =>
+                            <p className='guess' key={`item${index}guess${guessindex}`}>
+                                <span className='numlabel'>{guessindex+1}</span>: {guess}
+                            </p>
                         )}
-                    </div>
+                    </div>}
                 </div>
             </div>}
         </div>)}
@@ -191,15 +191,17 @@ const TakeQuiz=({filename}) => {
                         <div className='col'>
                             <h3>Guesses</h3>
                             {item.guesses && item.guesses.map((guess,guessindex) =>
-                                <p className='guess' key={`item${index}guess${guessindex}`}>{guessindex+1}: {guess}
-                                <span className={item.answers.indexOf(guess) < 0 ? 'wrong' : 'correct'}/>
+                                <p className='guess' key={`item${index}guess${guessindex}`}>
+                                    <span className='numlabel'>{guessindex+1}</span>: {guess}
+                                    <span className={item.answers.indexOf(guess) < 0 ? 'wrong' : 'correct'}/>
                                 </p>)}
                         </div>
                         <div className='col'>
                             <h3>Answers</h3>
                             {item.answers && item.answers.map((answer,answerindex) =>
-                                <p className='answer' key={`item${index}answer${answerindex}`}>{answerindex+1}: {answer}
-                                <span className={item.guesses.indexOf(answer) < 0 ? 'missed' : 'correct'}/>
+                                <p className='answer' key={`item${index}answer${answerindex}`}>
+                                    <span className='numlabel'>{answerindex+1}</span>: {answer}
+                                    <span className={item.guesses.indexOf(answer) < 0 ? 'missed' : 'correct'}/>
                                 </p>)}
                         </div>
                     </div>
