@@ -108,3 +108,43 @@ SC?H?MU(CK|TCH)Y?
 	SHMUCKY
 	SMUTCH
 	SMUTCHY
+
+SH.MM?.SH?
+:SH&Any letter&M&M|Nothing&Any letter&S&H|Nothing
+	SHAMAS
+	SHAMES
+	SHAMMAS
+	SHAMMASH
+	SHAMMES
+	SHAMMOS
+	SHAMOS
+	SHAMUS
+
+.A[NR]{1,2}.K.N
+:Any letter&N|R&N|R|Nothing&Any letter&K&Any letter&N
+	CANAKIN
+	CANIKIN
+	CANNIKIN
+	LARRIKIN
+	MANAKIN
+	MANIKIN
+	MANNIKIN
+	PANNIKIN
+
+M.DR.S.?H?
+:M&Any letter&DR&Any letter&S&Any letter|Nothing&H|Nothing
+	MADRAS
+	MADRASA
+	MADRASAH
+	MADRES
+	MEDRESE
+	MIDRASH
+	MUDRAS
+
+SU(CC|KK).T?H?
+:SU&CC|KK&Any letter&T|Nothing&H|Nothing
+	SUCCAH
+	SUCCOTH
+	SUKKAH
+	SUKKOT
+	SUKKOTH

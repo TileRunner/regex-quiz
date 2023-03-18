@@ -8,6 +8,7 @@ const TakeQuiz=({filename}) => {
     const [currentIndex, setCurrentIndex] = useState(-1);
     const [results, setResults] = useState({correct: 0, wrong: 0, missed: 0, points: 0});
     const [autoclear, setAutoclear] = useState(true); // Whether to blank out guess input box after submit
+    const [skipped, setSkipped] = useState([]); // ids of questions user wants to skip
 
     // Get the data from a text file in the public folder
     const getDataTxt=(quizpath)=>{
@@ -30,6 +31,7 @@ const TakeQuiz=({filename}) => {
             let answers = [];
             let quiz = []; // array of {question, answers[], guesses[]}
             let lines = mytext.split(/\r?\n/); // split file into array of lines
+            let nextid=1; // make an identifier
             lines.forEach(line => {
                 if (line.search(letterpattern) > -1) {
                     // Has letters; must be a question, a pictogram, or an answer
@@ -45,7 +47,8 @@ const TakeQuiz=({filename}) => {
                         if (question.length) {
                             // finish previous question
                             answers.sort();
-                            quiz.push({question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
+                            quiz.push({id: nextid, question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
+                            nextid++;
                             answers = [];
                             pictogram = "";
                         }
@@ -55,7 +58,7 @@ const TakeQuiz=({filename}) => {
             });
             // finish previous question
             answers.sort();
-            quiz.push({question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
+            quiz.push({id: nextid, question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
             setData(quiz);
             setCurrentIndex(0);
             setDone(false);
@@ -95,30 +98,50 @@ const TakeQuiz=({filename}) => {
         let missed = 0;
         let points = 0;
         data.forEach((item) => {
-            item.guesses.forEach((guess) => {
-            if (item.answers.indexOf(guess) < 0) {
-                wrong++;
-                points = points - 2;
-            } else {
-                correct++;
-                points++;
+            if (skipped.indexOf(item.id) < 0) {
+                item.guesses.forEach((guess) => {
+                    if (item.answers.indexOf(guess) < 0) {
+                        wrong++;
+                        points = points - 2;
+                    } else {
+                        correct++;
+                        points++;
+                    }
+                });
+                item.answers.forEach((answer) => {
+                if (item.guesses.indexOf(answer) < 0) {
+                    missed++;
+                }
+                });
             }
-            });
-            item.answers.forEach((answer) => {
-            if (item.guesses.indexOf(answer) < 0) {
-                missed++;
-            }
-            });
         });
         setResults({correct: correct, wrong: wrong, missed: missed, points: points});
         setDone(true);
     }
 
+    function markAsSkipped(skipid) {
+        let newskipped = JSON.parse(JSON.stringify(skipped));
+        newskipped.push(skipid);
+        setSkipped(newskipped);
+    }
+    function markAsUnSkipped(skipid) {
+        let newskipped = JSON.parse(JSON.stringify(skipped));
+        newskipped.splice(skipped.indexOf(skipid),1);
+        setSkipped(newskipped);
+    }
+
     const QuizInProgress = <div>
         {data && data.length && data.map((item,index) =>
-            <div key={`item${index}`}>
+            <div key={`item${item.id}`}>
             {index === currentIndex && <div className='questiondiv'>
                 <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item list-group-item-danger">
+                        {skipped.indexOf(item.id) < 0 ?
+                            <button className='btn btn-dark' onClick={()=>markAsSkipped(item.id)}>Skip</button>
+                        :
+                            <button className='btn btn-dark' onClick={()=>markAsUnSkipped(item.id)}>Un-Skip</button>
+                        }
+                    </li>
                     <li class="list-group-item list-group-item-secondary">
                         {currentIndex === 0 ?
                             <button className='btn btn-dark' disabled>Prev</button>
@@ -126,7 +149,6 @@ const TakeQuiz=({filename}) => {
                             <button className='btn btn-dark' active onClick={() => setCurrentIndex(currentIndex-1)}>Prev</button>
                         }
                     </li>
-                    <li class="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></li>
                     <li class="list-group-item list-group-item-secondary">
                         {currentIndex + 1 === data.length ?
                             <button className='btn btn-dark' disabled>Next</button>
@@ -134,6 +156,7 @@ const TakeQuiz=({filename}) => {
                             <button className='btn btn-dark' onClick={() => setCurrentIndex(currentIndex+1)}>Next</button>
                         }
                     </li>
+                    <li class="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></li>
                     <li class="list-group-item list-group-item-dark">
                         <button className='btn btn-success' onClick={() => {finishQuiz();}}>Lock in your guesses</button>
                     </li>
@@ -185,9 +208,10 @@ const TakeQuiz=({filename}) => {
                     <div className='row'>
                         <div className='col'>
                             <span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span>
+                            {skipped.indexOf(item.id) > -1 && <span> Skipped</span>}
                         </div>
                     </div>
-                    <div className='row'>
+                    {skipped.indexOf(item.id) < 0 && <div className='row'>
                         <div className='col'>
                             <h3>Guesses</h3>
                             {item.guesses && item.guesses.map((guess,guessindex) =>
@@ -204,7 +228,7 @@ const TakeQuiz=({filename}) => {
                                     <span className={item.guesses.indexOf(answer) < 0 ? 'missed' : 'correct'}/>
                                 </p>)}
                         </div>
-                    </div>
+                    </div>}
                 </div>
             </div>
         )}
