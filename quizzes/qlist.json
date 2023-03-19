@@ -5,6 +5,11 @@
         "lexicon":"NWL2020",
         "level":1
     },{
+        "filename":"reorer.txt",
+        "desc":"RE prefix, ER suffix, or both",
+        "lexicon":"NWL2020",
+        "level":2
+    },{
         "filename":"ganef.txt",
         "desc":"Ganef galore",
         "lexicon":"NWL2020",
