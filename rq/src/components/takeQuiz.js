@@ -123,6 +123,9 @@ const TakeQuiz=({filename}) => {
         let newskipped = JSON.parse(JSON.stringify(skipped));
         newskipped.push(skipid);
         setSkipped(newskipped);
+        if (currentIndex + 1 < data.length) {
+            setCurrentIndex(currentIndex+1);
+        }
     }
     function markAsUnSkipped(skipid) {
         let newskipped = JSON.parse(JSON.stringify(skipped));

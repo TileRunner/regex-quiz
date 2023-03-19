@@ -76,6 +76,11 @@ const InputWord = ({handleSubmit, handleRemoveGuess, questionIndex, question, pi
                         <td>One of the letters inside the square brackets appears next</td>
                         <td>C[AOU]B is matched by CAB, COB, and CUB</td>
                     </tr>}
+                    {question.indexOf('[^') > -1 && <tr>
+                        <td>[^ABC]</td>
+                        <td>Any letter other than the letters inside the square brackets appears next</td>
+                        <td>C[^A]B is matched by COB and CUB but not CAB</td>
+                    </tr>}
                     {question.indexOf('|') > -1 && <tr>
                         <td>(A|B|C)</td>
                         <td>The next sequence of letters is one of the pipe delimited values</td>
