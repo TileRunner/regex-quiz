@@ -192,49 +192,80 @@ const TakeQuiz=({filename}) => {
     </div>;
 
     const QuizDone = <div className='resultsdiv'>
-        <ul class="list-group list-group-horizontal">
-            <li class="list-group-item list-group-item-info"><span className='correct' data-bs-toggle="tooltip" title="You gain 1 point per correct answer">Correct</span></li>
-            <li class="list-group-item list-group-item-primary">{results.correct}</li>
-            <li class="list-group-item list-group-item-info"><span className='wrong' data-bs-toggle="tooltip" title="You lose 2 points per wrong answer">Wrong</span></li>
-            <li class="list-group-item list-group-item-primary">{results.wrong}</li>
-            <li class="list-group-item list-group-item-info"><span className='missed' data-bs-toggle="tooltip" title="You lose no points for missed answers">Missed</span></li>
-            <li class="list-group-item list-group-item-primary">{results.missed}</li>
-            <li class="list-group-item list-group-item-info">Total Points:</li>
-            <li class="list-group-item list-group-item-primary">{results.points} out of {results.correct + results.missed}</li>
-            <li class="list-group-item list-group-item-dark">
-                <button className='btn btn-dark' onClick={() => { getDataTxt(filename); } }>Restart the quiz</button>
-            </li>
-        </ul>
-        {data.map((item,index) =>
-            <div key={`item${index}`} className='qadiv'>
-                <div className='container-fluid'>
-                    <div className='row'>
-                        <div className='col'>
-                            <span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span>
-                            {skipped.indexOf(item.id) > -1 && <span> Skipped</span>}
-                        </div>
-                    </div>
-                    {skipped.indexOf(item.id) < 0 && <div className='row'>
-                        <div className='col'>
-                            <h3>Guesses</h3>
-                            {item.guesses && item.guesses.map((guess,guessindex) =>
-                                <p className='guess' key={`item${index}guess${guessindex}`}>
-                                    <span className='numlabel'>{guessindex+1}</span>: {guess}
-                                    <span className={item.answers.indexOf(guess) < 0 ? 'wrong' : 'correct'}/>
-                                </p>)}
-                        </div>
-                        <div className='col'>
-                            <h3>Answers</h3>
-                            {item.answers && item.answers.map((answer,answerindex) =>
-                                <p className='answer' key={`item${index}answer${answerindex}`}>
-                                    <span className='numlabel'>{answerindex+1}</span>: {answer}
-                                    <span className={item.guesses.indexOf(answer) < 0 ? 'missed' : 'correct'}/>
-                                </p>)}
-                        </div>
-                    </div>}
-                </div>
-            </div>
-        )}
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        {data.filter(q => skipped.indexOf(q.id) < 0).map((item,index) =>
+                            <div key={`item${item.id}`} className='qadiv'>
+                                <div className='container-fluid'>
+                                    <div className='row'>
+                                        <div className='col'>
+                                            <span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span>
+                                            {skipped.indexOf(item.id) > -1 && <span> Skipped</span>}
+                                        </div>
+                                    </div>
+                                    {skipped.indexOf(item.id) < 0 && <div className='row'>
+                                        <div className='col'>
+                                            <h3>Guesses</h3>
+                                            {item.guesses && item.guesses.map((guess,guessindex) =>
+                                                <p className='guess' key={`item${index}guess${guessindex}`}>
+                                                    <span className='numlabel'>{guessindex+1}</span>: {guess}
+                                                    <span className={item.answers.indexOf(guess) < 0 ? 'wrong' : 'correct'}/>
+                                                </p>)}
+                                        </div>
+                                        <div className='col'>
+                                            <h3>Answers</h3>
+                                            {item.answers && item.answers.map((answer,answerindex) =>
+                                                <p className='answer' key={`item${index}answer${answerindex}`}>
+                                                    <span className='numlabel'>{answerindex+1}</span>: {answer}
+                                                    <span className={item.guesses.indexOf(answer) < 0 ? 'missed' : 'correct'}/>
+                                                </p>)}
+                                        </div>
+                                    </div>}
+                                </div>
+                            </div>
+                        )}
+                    </td>
+                    <td className='overallresults'>
+                        <table className='qadiv'>
+                            <thead>
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Count</th>
+                                    <th>Points</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span className='correct' data-bs-toggle="tooltip" title="You gain 1 point per correct answer">Correct</span></td>
+                                    <td>{results.correct}</td>
+                                    <td>{results.correct}</td>
+                                </tr>
+                                <tr>
+                                    <td><span className='wrong' data-bs-toggle="tooltip" title="You lose 2 points per wrong answer">Wrong</span></td>
+                                    <td>{results.wrong}</td>
+                                    <td>{results.wrong*-2}</td>
+                                </tr>
+                                <tr>
+                                    <td><span className='missed' data-bs-toggle="tooltip" title="You lose no points for missed answers">Missed</span></td>
+                                    <td>{results.missed}</td>
+                                </tr>
+                                <tr>
+                                    <td colSpan={2}>Total Points:</td>
+                                    <td>{results.points}</td>
+                                </tr>
+                                <tr>
+                                    <td colSpan={2}>Possible Points:</td>
+                                    <td>{results.correct + results.missed}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button className='btn btn-dark' onClick={() => { getDataTxt(filename); } }>Restart the quiz</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>;
     return ( <div>
         {done ? QuizDone : QuizInProgress}

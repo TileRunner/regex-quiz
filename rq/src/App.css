@@ -11,6 +11,19 @@
   color: whitesmoke;
   text-align: center;
 }
+.overallresults {
+  vertical-align: top;
+  padding-top: 10px;
+}
+.overallresults * td, th {
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  min-width: 100px;
+  padding: 5px;
+}
+.overallresults > button {
+  margin-top: 10px;
+}
 .answer {
   margin-left: 1px;
   width: max-content;
@@ -24,9 +37,6 @@
 }
 .missed::after {
   content: ' 🙈';
-}
-table, th, td {
-  border: 1px solid blue;
 }
 .questiondiv {
   margin-top: 1vh;
@@ -60,7 +70,6 @@ table, th, td {
   color: whitesmoke;
   width: fit-content;
   border: 13px solid burlywood;
-  border-radius: 15px;
 }
 .pictogramdiv {
   margin-top: 1vh;
