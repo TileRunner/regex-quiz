@@ -80,11 +80,6 @@
         "lexicon":"NWL2020",
         "level":3
     },{
-        "filename":"ForRicker.txt",
-        "desc":"Requested by Ricker",
-        "lexicon":"NWL2020",
-        "level":3
-    },{
         "filename":"said.txt",
         "desc":"Enough said, yeld the zeda",
         "lexicon":"NWL2020",
@@ -124,5 +119,15 @@
         "desc":"H words, mostly",
         "lexicon":"NWL2020",
         "level":4
+    },{
+        "filename":"ForCarl.txt",
+        "desc":"Requested by Carl",
+        "lexicon":"NWL2020",
+        "level":5
+    },{
+        "filename":"ForRicker.txt",
+        "desc":"Requested by Ricker",
+        "lexicon":"NWL2020",
+        "level":5
     }
 ]
