@@ -11,4 +11,7 @@
     ,{
         "level":4,"desc":"Complex expressions"
     }
+    ,{
+        "level":5,"desc":"Special requests"
+    }
 ]
