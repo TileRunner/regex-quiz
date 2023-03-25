@@ -1,5 +1,7 @@
 import '../App.css';
+import './takeQuiz.css';
 import {useState, useEffect} from 'react';
+import loadQuiz from '../functions/loadQuiz';
 import InputWord from './inputWord';
 
 const TakeQuiz=({filename}) => {
@@ -10,64 +12,33 @@ const TakeQuiz=({filename}) => {
     const [autoclear, setAutoclear] = useState(true); // Whether to blank out guess input box after submit
     const [skipped, setSkipped] = useState([]); // ids of questions user wants to skip
 
-    // Get the data from a text file in the public folder
-    const getDataTxt=(quizpath)=>{
-        fetch(quizpath
-        ,{
-            headers : {
-            'Content-Type': 'application/text',
-            'Accept': 'application/text'
-            }
-        }
-        )
-        .then(function(response){
-            return response.text();
-        })
-        .then(function(mytext) {
-            let tabpattern = /\t/; // tab character search
-            let letterpattern = /[A-Z]/; // any letter
-            let question = ""; // the regular expression (that is the question)
-            let pictogram = ""; // pictogram (optional) used to show the possible answers in a grid
-            let answers = [];
-            let quiz = []; // array of {question, answers[], guesses[]}
-            let lines = mytext.split(/\r?\n/); // split file into array of lines
-            let nextid=1; // make an identifier
-            lines.forEach(line => {
-                if (line.search(letterpattern) > -1) {
-                    // Has letters; must be a question, a pictogram, or an answer
-                    if (line.search(tabpattern) === 0) {
-                        // answer (starts with tab, followed by answer)
-                        let answer = line.substring(1);
-                        answers.push(answer);
-                    } else if (line.startsWith(":")) {
-                        // pictogram (starts with colon, followed by pictogram)
-                        pictogram = line.substring(1);
-                    } else {
-                        // new question (does not start with tab or colon)
-                        if (question.length) {
-                            // finish previous question
-                            answers.sort();
-                            quiz.push({id: nextid, question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
-                            nextid++;
-                            answers = [];
-                            pictogram = "";
-                        }
-                        question = line;
-                    }
-                }
+
+    function restartTheQuiz(clearGuesses) {
+        // Quiz restart
+        if (clearGuesses) {
+            let newdata = JSON.parse(JSON.stringify(data));
+            newdata.forEach((item) => {
+                item.guesses=[];
             });
-            // finish previous question
-            answers.sort();
-            quiz.push({id: nextid, question: question, pictogram: pictogram, answers: answers, guesses: []}); // no guesses yet
-            setData(quiz);
-            setCurrentIndex(0);
-            setDone(false);
-            setResults({correct: 0, wrong: 0, missed: 0, points: 0});
-        });
+            setData(newdata);    
+        }
+        setCurrentIndex(0);
+        setDone(false);
+        setResults({correct: 0, wrong: 0, missed: 0, points: 0});
     }
 
     useEffect(()=>{
-        getDataTxt(filename);
+        // Get the data from a text file in the public folder
+        function getDataTxt() {
+            function takeLoadedQuiz(quiz) {
+                setData(quiz);
+                setCurrentIndex(0);
+                setDone(false);
+                setResults({correct: 0, wrong: 0, missed: 0, points: 0});
+            }
+            loadQuiz(filename, takeLoadedQuiz);
+        }
+        getDataTxt();
     },[filename])
 
     function submitGuess(questionIndex, guess) {
@@ -137,15 +108,15 @@ const TakeQuiz=({filename}) => {
         {data && data.length && data.map((item,index) =>
             <div key={`item${item.id}`}>
             {index === currentIndex && <div className='questiondiv'>
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item list-group-item-danger">
+                <ul className="list-group list-group-horizontal">
+                    <li className="list-group-item list-group-item-danger">
                         {skipped.indexOf(item.id) < 0 ?
                             <button className='btn btn-dark' onClick={()=>markAsSkipped(item.id)}>Skip</button>
                         :
                             <button className='btn btn-dark' onClick={()=>markAsUnSkipped(item.id)}>Un-Skip</button>
                         }
                     </li>
-                    <li class="list-group-item list-group-item-secondary">
+                    <li className="list-group-item list-group-item-secondary">
                         {currentIndex === 0 ?
                             <button className='btn btn-dark' disabled>Prev</button>
                         :
@@ -159,8 +130,8 @@ const TakeQuiz=({filename}) => {
                             <button className='btn btn-dark' onClick={() => setCurrentIndex(currentIndex+1)}>Next</button>
                         }
                     </li>
-                    <li class="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></li>
-                    <li class="list-group-item list-group-item-dark">
+                    <li className="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></li>
+                    <li className="list-group-item list-group-item-dark">
                         <button className='btn btn-success' onClick={() => {finishQuiz();}}>Lock in your guesses</button>
                     </li>
                 </ul>
@@ -261,7 +232,22 @@ const TakeQuiz=({filename}) => {
                                 </tr>
                             </tbody>
                         </table>
-                        <button className='btn btn-dark' onClick={() => { getDataTxt(filename); } }>Restart the quiz</button>
+                        <ul className="list-group list-group-horizontal">
+                            <li className='list-group-item list-group-item-secondary'>
+                                <button
+                                 className='btn btn-dark'
+                                 onClick={() => { restartTheQuiz(true); } }
+                                 data-bs-toggle="tooltip" title="This clears your guesses"
+                                 >Restart quiz</button>
+                            </li>
+                            <li className='list-group-item list-group-item-secondary'>
+                                <button
+                                 className='btn btn-dark'
+                                 onClick={() => { restartTheQuiz(false); } }
+                                 data-bs-toggle="tooltip" title="This keeps your guesses"
+                                 >Resume quiz</button>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
             </tbody>

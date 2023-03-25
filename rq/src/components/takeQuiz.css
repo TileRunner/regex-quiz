@@ -1,0 +1,42 @@
+.qadiv {
+    margin-top: 1vh;
+    background-color: maroon;
+    color: whitesmoke;
+    width: fit-content;
+    border: 13px solid burlywood;
+}
+.questiondiv {
+    margin-top: 1vh;
+}
+.rexlabel {
+    font-size: x-large;
+    padding-left: 2px;
+    background-color: rgb(200, 260, 250);
+    color: black;
+}
+.rex {
+    font-size: x-large;
+    margin-left: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    text-align: center;
+}
+.overallresults {
+    vertical-align: top;
+    padding-top: 10px;
+}
+.overallresults * td {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    min-width: 100px;
+    padding: 5px;
+}
+.overallresults * th {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    min-width: 100px;
+    padding: 5px;
+}
+.overallresults > button {
+    margin-top: 10px;
+}
