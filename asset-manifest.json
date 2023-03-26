@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/regex-quiz/static/css/main.312d5b91.css",
-    "main.js": "/regex-quiz/static/js/main.3f6a111e.js",
+    "main.js": "/regex-quiz/static/js/main.20ceb8f4.js",
     "static/js/787.3bc9c568.chunk.js": "/regex-quiz/static/js/787.3bc9c568.chunk.js",
     "index.html": "/regex-quiz/index.html",
     "main.312d5b91.css.map": "/regex-quiz/static/css/main.312d5b91.css.map",
-    "main.3f6a111e.js.map": "/regex-quiz/static/js/main.3f6a111e.js.map",
+    "main.20ceb8f4.js.map": "/regex-quiz/static/js/main.20ceb8f4.js.map",
     "787.3bc9c568.chunk.js.map": "/regex-quiz/static/js/787.3bc9c568.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.312d5b91.css",
-    "static/js/main.3f6a111e.js"
+    "static/js/main.20ceb8f4.js"
   ]
 }
