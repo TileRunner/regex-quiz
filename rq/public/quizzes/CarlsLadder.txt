@@ -92,6 +92,13 @@ Y.RM.LK.
 	SHIKARI
 	SHIVAREE
 
+CH.{1,2}(RT|TR).{1,3}M
+:CH&1 - 2 letters&RT|TR&1 - 3 letters&M
+	CHARTISM
+	CHATROOM
+	CHETRUM
+	CHHERTUM
+
 MI(K|TS)V.*
 :MI&K|TS&V&Any letters
 	MIKVA

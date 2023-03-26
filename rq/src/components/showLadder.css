@@ -1,36 +1,35 @@
 .ladder {
     border-left: 10px solid brown;
     border-right: 10px solid brown;
-    width: 200px;
+    min-width: 100px;
+    width: fit-content;
     background-color: bisque;
     margin-left: 20px;
     padding-top: 10px;
 }
-.rungGood {
-    height: 50px;
+.rung {
+    min-height: 30px;
+    margin: auto;
+    text-align: center;
+}
+.good {
     border-top: 10px solid green;
 }
-.rungGood::after {
+.good::after {
     content: 'Yes!';
-    margin-left: 70px;
 }
-.rungBad {
-    height: 50px;
+.bad {
     border-top: 10px solid red;
 }
-.rungBad::after {
+.bad::after {
     content: 'Aarrghh!!!';
-    margin-left: 50px;
 }
-.rungTBD {
-    height: 50px;
+.tbd {
     border-top: 10px solid brown;
 }
-.rungPerfect {
-    height: 50px;
+.perfect {
     border-top: 10px solid green;
 }
-.rungPerfect::after {
-    content: 'Yes! Yes! Success!';
-    margin-left: 30px;
+.perfect::after {
+    content: 'Success!';
 }

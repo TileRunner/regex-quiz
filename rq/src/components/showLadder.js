@@ -5,11 +5,11 @@ const ShowLadder = ({data, currentIndex, done}) => {
         let i = data.length - 1 - index; // Easier to think with i increasing as currentIndex increases
         let item = data[i];
         if (i < currentIndex) {
-            return 'rungGood';
+            return 'rung good';
         }
         if (i === currentIndex) {
             if (!done) {
-                return 'rungTBD';
+                return 'rung tbd';
             }
             // Check for errors
             let errors = false;
@@ -24,11 +24,11 @@ const ShowLadder = ({data, currentIndex, done}) => {
                 }
             });
             if (errors) {
-                return 'rungBad';
+                return 'rung bad';
             }
-            return 'rungPerfect';
+            return 'rung perfect';
         }
-        return 'rungTBD';
+        return 'rung tbd';
     }
     return (<div className="ladder">
         {data.map((_item, index) =>
