@@ -1,8 +1,9 @@
 import './showLadder.css';
 
 const ShowLadder = ({data, currentIndex, done}) => {
-    function rungClass(item,index) {
+    function rungClass(index) {
         let i = data.length - 1 - index; // Easier to think with i increasing as currentIndex increases
+        let item = data[i];
         if (i < currentIndex) {
             return 'rungGood';
         }
@@ -30,9 +31,9 @@ const ShowLadder = ({data, currentIndex, done}) => {
         return 'rungTBD';
     }
     return (<div className="ladder">
-        {data.map((item, index) =>
+        {data.map((_item, index) =>
             <div key={`rung${index}`}
-             className={`${rungClass(item,index)}`}/>
+             className={`${rungClass(index)}`}/>
         )}
     </div>);
 }
