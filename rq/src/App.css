@@ -14,7 +14,7 @@
 }
 .guessdiv {
   margin-top: 1vh;
-  width: 35%;
+  min-width: 500px;
 }
 .guess {
   height: 6px;

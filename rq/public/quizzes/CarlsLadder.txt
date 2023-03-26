@@ -1,0 +1,19 @@
+H.T
+:H&Any letter&T
+	HAT
+	HET
+	HIT
+	HOT
+	HUT
+
+SH{1,3}
+:S&H 1 - 3 times
+	SH
+	SHH
+	SHHH
+
+C[AEIOU]B
+:C&Any vowel&B
+	CAB
+	COB
+	CUB

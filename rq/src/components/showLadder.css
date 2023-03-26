@@ -1,0 +1,36 @@
+.ladder {
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    width: 200px;
+    background-color: bisque;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.rungGood {
+    height: 50px;
+    border-top: 10px solid green;
+}
+.rungGood::after {
+    content: 'Yes!';
+    margin-left: 70px;
+}
+.rungBad {
+    height: 50px;
+    border-top: 10px solid red;
+}
+.rungBad::after {
+    content: 'Aarrghh!!!';
+    margin-left: 50px;
+}
+.rungTBD {
+    height: 50px;
+    border-top: 10px solid brown;
+}
+.rungPerfect {
+    height: 50px;
+    border-top: 10px solid green;
+}
+.rungPerfect::after {
+    content: 'Yes! Yes! Success!';
+    margin-left: 30px;
+}
