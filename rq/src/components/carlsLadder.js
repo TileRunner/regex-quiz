@@ -34,7 +34,7 @@ const CarlsLadder=() => {
                 setDone(false);
                 setResults({correct: 0, wrong: 0, missed: 0, points: 0});
             }
-            loadQuiz('quizzes/CarlsLadder.txt', takeLoadedQuiz);
+            loadQuiz('ladders/NWL2020/CarlsLadder.txt', takeLoadedQuiz);
         }
         getDataTxt();
     },[])
