@@ -1,0 +1,23 @@
+[
+    {
+        "filename":"minefield1.txt",
+        "desc":"Minefield #1",
+        "lexicon":"NWL2020"
+    },{
+        "filename":"minefield2.txt",
+        "desc":"Minefield #2",
+        "lexicon":"NWL2020"
+    },{
+        "filename":"minefield3.txt",
+        "desc":"Minefield #3",
+        "lexicon":"NWL2020"
+    },{
+        "filename":"minefield4.txt",
+        "desc":"Minefield #4",
+        "lexicon":"NWL2020"
+    },{
+        "filename":"minefield5.txt",
+        "desc":"Minefield #5",
+        "lexicon":"NWL2020"
+    }
+]
