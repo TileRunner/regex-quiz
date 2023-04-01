@@ -3,6 +3,7 @@ import ShowMinefieldList from './showMinefieldList';
 import WalkMinefield from './walkMinefield';
 
 const Minefield=({mlist, mindex, setMindex, mdesc, setMdesc}) => {
+
     return (<div className='minefield'>
         {mindex > -1 &&
             <ul className="list-group list-group-horizontal">

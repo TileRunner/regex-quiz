@@ -19,5 +19,9 @@
         "filename":"minefield5.txt",
         "desc":"Minefield #5",
         "lexicon":"NWL2020"
+    },{
+        "filename":"minefield6.txt",
+        "desc":"Minefield #6",
+        "lexicon":"NWL2020"
     }
 ]
