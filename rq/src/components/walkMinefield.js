@@ -2,6 +2,9 @@ import './walkMinefield.css';
 import { useState, useEffect } from "react";
 import loadMinefield from '../functions/loadMinefield';
 
+const RESULT_GOOD = "❤️❤️ SUCCESS! ❤️❤️";
+const RESULT_BAD = "💥💥 KABOOM!! 💥💥";
+
 const WalkMinefield = ({filename}) => {
     const [data, setData] = useState([]);
     const [done, setDone] = useState(false);
@@ -27,7 +30,11 @@ const WalkMinefield = ({filename}) => {
             return "btn btn-success wordButton heart";
         }
         if (done && !data[index].valid) {
-            return "btn btn-danger wordButton";
+            if (result === RESULT_BAD) {
+                return "btn btn-danger wordButton";
+            } else {
+                return "btn btn-danger wordButton explosion";
+            }
         }
         return "btn btn-warning wordButton";
     }
@@ -47,9 +54,9 @@ const WalkMinefield = ({filename}) => {
         if (!newdata[index].valid || numclicked + numclicked === data.length) {
             setDone(true);
             if (!newdata[index].valid) {
-                setResult("💥💥 KABOOM!! 💥💥");
+                setResult(RESULT_BAD);
             } else {
-                setResult("❤️❤️ SUCCESS! ❤️❤️");
+                setResult(RESULT_GOOD);
             }
         }
         setData(newdata);

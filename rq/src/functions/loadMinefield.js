@@ -17,15 +17,20 @@ function loadMinefield(minefieldPath, takeLoadedMinefield) {
             lines.forEach(line => {
                 if (line.indexOf(',') > -1) {
                     let splitline = line.split(',');
-                    minefield.push({id: nextid, word: splitline[0], valid: true, clicked: false});
-                    nextid++;
-                    minefield.push({id: nextid, word: splitline[1], valid: false, clicked: false});
-                    nextid++;
+                    // Randomize which appears first but keep the two together
+                    if (Math.random() <= 0.5) {
+                        minefield.push({id: nextid, word: splitline[0], valid: true, clicked: false});
+                        nextid++;
+                        minefield.push({id: nextid, word: splitline[1], valid: false, clicked: false});
+                        nextid++;    
+                    } else {
+                        minefield.push({id: nextid, word: splitline[1], valid: false, clicked: false});
+                        nextid++;
+                        minefield.push({id: nextid, word: splitline[0], valid: true, clicked: false});
+                        nextid++;
+                    }
                 }
             });
-            // randomize the array
-            minefield.sort(() => Math.random() - 0.5);
-
             // give caller the minefield
             takeLoadedMinefield(minefield);
         });
