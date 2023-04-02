@@ -5,14 +5,13 @@
     border-radius: 15px;
     width: 170px;
 }
-.explosion::before {
+.explosion::before, .explosion::after {
     content: "💥";
     background-color: black;
 }
-.explosion::after {
-    content: "💥";
-    background-color: black;
-}
-.heart::after {
+.heart::before, .heart::after {
     content: "❤️";
+}
+.defused::before, .defused::after {
+    content: "💣";
 }

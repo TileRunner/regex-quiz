@@ -33,7 +33,7 @@ const WalkMinefield = ({filename}) => {
             if (result === RESULT_BAD) {
                 return "btn btn-danger wordButton";
             } else {
-                return "btn btn-danger wordButton explosion";
+                return "btn btn-danger wordButton defused";
             }
         }
         return "btn btn-warning wordButton";
