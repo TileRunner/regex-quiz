@@ -1,0 +1,25 @@
+[
+    {
+        "filename":"Easy.txt",
+        "desc":"Relatively easy ladder",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"Czars.txt",
+        "desc":"Czars",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"CarlsLadder.txt",
+        "desc":"Carl's Ladder",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"ChrisLadder.txt",
+        "desc":"Christopher's Ladder",
+        "lexicon":"NWL2020"
+    }
+]
