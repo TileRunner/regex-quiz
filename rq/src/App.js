@@ -2,18 +2,18 @@ import './App.css';
 import {useState, useEffect} from 'react';
 import ShowBreadcrumbs from './components/showBreadcrumbs';
 import setFromJsonFile from './functions/setFromJsonFile';
-import CarlsLadder from './components/carlsLadder';
-import Minefield from './components/minefield';
+import Ladder from './components/ladders/ladder';
+import Minefield from './components/minefields/minefield';
 import ShowQuizLevelList from './components/showQuizLevelList';
 import ShowQuizList from './components/showQuizList';
 import TakeQuiz from './components/takeQuiz';
 
-const MODE_REGULAR = 'Regular';
-const MODE_LADDER = 'Carl\'s Ladder';
+const MODE_REGEX = 'Regex Quizzes';
+const MODE_LADDER = 'Ladders';
 const MODE_MINEFIELD = 'Minefields';
 
 function App() {
-  const [mode, setMode] = useState(MODE_REGULAR);
+  const [mode, setMode] = useState(MODE_REGEX);
   const [llist, setLlist] = useState([]);
   const [lindex, setLindex] = useState(-1);
   const [ldesc, setLdesc] = useState('No level selected.');
@@ -33,7 +33,7 @@ function App() {
   useEffect(()=>{
     getQuizzes();
   },[])
-  const ShowRegularMode = <div>
+  const ShowRegexMode = <div>
     {lindex > -1 &&
       <ShowBreadcrumbs lindex={lindex} ldesc={ldesc} setLindex={setLindex} setQindex={setQindex} qindex={qindex} qdesc={qdesc} />}
     {llist && llist.length && lindex < 0 &&
@@ -49,9 +49,9 @@ function App() {
       <header>
           <div className='d-flex bg-info text-black'>
             <div className='p-2 bg-primary'>Quiz Mode Selected: {mode}</div>
-            {mode !== MODE_REGULAR &&
+            {mode !== MODE_REGEX &&
                 <div className='p-2 bg-primary'>
-                  <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_REGULAR) }}>Switch to {MODE_REGULAR}</button>
+                  <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_REGEX) }}>Switch to {MODE_REGEX}</button>
                 </div>
             }
             {mode !== MODE_LADDER &&
@@ -65,8 +65,8 @@ function App() {
                 </div>
             }
           </div>
-        {mode === MODE_REGULAR && ShowRegularMode}
-        {mode === MODE_LADDER && <CarlsLadder/>}
+        {mode === MODE_REGEX && ShowRegexMode}
+        {mode === MODE_LADDER && <Ladder/>}
         {mode === MODE_MINEFIELD && <Minefield mlist={mlist} mindex={mindex} setMindex={setMindex} mdesc={mdesc} setMdesc={setMdesc} />}
       </header>
     </div>

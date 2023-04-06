@@ -1,0 +1,47 @@
+.showladder {
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    min-width: 150px;
+    width: fit-content;
+    background-color: bisque;
+    margin-left: 20px;
+    padding-top: 10px;
+    background-image: url('../../../public/Wall.jpg');
+    background-size: 200px;
+    background-repeat: repeat;
+}
+.rung {
+    min-height: 30px;
+    margin: auto;
+    text-align: center;
+}
+.good {
+    border-top: 10px solid green;
+}
+.good::after {
+    content: 'Yes!';
+    background-color: black;
+    color: whitesmoke;
+    font-size: larger;
+}
+.bad {
+    border-top: 10px solid red;
+}
+.bad::after {
+    content: 'Aarrghh!!!';
+    background-color: black;
+    color: red;
+    font-size: larger;
+}
+.tbd {
+    border-top: 10px solid brown;
+}
+.perfect {
+    border-top: 10px solid green;
+}
+.perfect::after {
+    content: 'Success!';
+    background-color: black;
+    color: whitesmoke;
+    font-size: larger;
+}

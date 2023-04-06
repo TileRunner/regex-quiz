@@ -73,7 +73,7 @@
 .optionsCheckbox label::before {
   height: 16px;
   width: 16px;
-  border: 1px solid blue;
+  border: 1px solid whitesmoke;
   left: 0px;
   top: 3px;
 }
@@ -86,5 +86,5 @@
   transform: rotate(-45deg);
   left: 4px;
   top: 7px;
-  color: blue;
+  color: whitesmoke;
 }
