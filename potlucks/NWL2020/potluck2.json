@@ -1,0 +1,8 @@
+[
+    {"word":"GOGGLING","valid":true}
+    ,{"word":"GLOGG","valid":true}
+    ,{"word":"GLOGGING","valid":false}
+    ,{"word":"HOSTLERS","valid":true}
+    ,{"word":"HOLSTERS","valid":true}
+    ,{"word":"ROTHLESS","valid":false}
+]
