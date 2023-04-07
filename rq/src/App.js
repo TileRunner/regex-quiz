@@ -7,10 +7,12 @@ import Minefield from './components/minefields/minefield';
 import ShowQuizLevelList from './components/showQuizLevelList';
 import ShowQuizList from './components/showQuizList';
 import TakeQuiz from './components/takeQuiz';
+import Potluck from './components/potlucks/potluck';
 
 const MODE_REGEX = 'Regex Quizzes';
 const MODE_LADDER = 'Ladders';
 const MODE_MINEFIELD = 'Minefields';
+const MODE_POTLUCK = 'Potlucks';
 
 function App() {
   const [mode, setMode] = useState(MODE_REGEX);
@@ -64,10 +66,16 @@ function App() {
                   <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_MINEFIELD) }}>Switch to {MODE_MINEFIELD}</button>
                 </div>
             }
+            {mode !== MODE_POTLUCK &&
+                <div className='p-2 bg-primary'>
+                  <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_POTLUCK) }}>Switch to {MODE_POTLUCK}</button>
+                </div>
+            }
           </div>
         {mode === MODE_REGEX && ShowRegexMode}
         {mode === MODE_LADDER && <Ladder/>}
         {mode === MODE_MINEFIELD && <Minefield mlist={mlist} mindex={mindex} setMindex={setMindex} mdesc={mdesc} setMdesc={setMdesc} />}
+        {mode === MODE_POTLUCK && <Potluck/>}
       </header>
     </div>
   );
