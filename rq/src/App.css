@@ -18,6 +18,7 @@
 }
 .guess {
   height: 6px;
+  width: max-content;
 }
 .numlabel {
   font-family: 'Courier New', Courier, monospace;
