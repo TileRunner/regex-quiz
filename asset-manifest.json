@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/regex-quiz/static/css/main.794cd36d.css",
-    "main.js": "/regex-quiz/static/js/main.ebdc6e29.js",
+    "main.js": "/regex-quiz/static/js/main.2c47bb16.js",
     "static/js/787.3bc9c568.chunk.js": "/regex-quiz/static/js/787.3bc9c568.chunk.js",
     "static/media/Wall.jpg": "/regex-quiz/static/media/Wall.47add20fa95f0bdaa7f3.jpg",
     "index.html": "/regex-quiz/index.html",
     "main.794cd36d.css.map": "/regex-quiz/static/css/main.794cd36d.css.map",
-    "main.ebdc6e29.js.map": "/regex-quiz/static/js/main.ebdc6e29.js.map",
+    "main.2c47bb16.js.map": "/regex-quiz/static/js/main.2c47bb16.js.map",
     "787.3bc9c568.chunk.js.map": "/regex-quiz/static/js/787.3bc9c568.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.794cd36d.css",
-    "static/js/main.ebdc6e29.js"
+    "static/js/main.2c47bb16.js"
   ]
 }
