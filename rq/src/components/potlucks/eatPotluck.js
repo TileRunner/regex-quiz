@@ -67,29 +67,29 @@ const EatPotluck = ({filename}) => {
 
     return (<div>
         <h1>Click on the <span className="valid"/> for valid words, and the <span className='invalid'/> for invalid words</h1>
-        {currentIndex > -1 && data.map((item,index) => <div key={index}>
+        {currentIndex > -1 && <div className='d-inline-flex flex-wrap'>{data.map((item,index) => <div key={index}>
             {(index < currentIndex || (index === currentIndex && done)) && <div key={`clicked${index}`} className='showWord clicked'>
-                {data[index].valid && <span className='valid'/>}
-                <span className='word'>{data[index].word}</span>
-                {!data[index].valid && <span className='invalid'/>}
+                {item.valid && <span className='valid'/>}
+                <span className='word'>{item.word}</span>
+                {!item.valid && <span className='invalid'/>}
             </div>}
-            {!done && index === currentIndex && <div key={`unclicked${index}`} className='showWord unclicked'>
+            {!done && index === currentIndex && <span key={`unclicked${index}`} className='showWord unclicked'>
                 <button
                 onClick={() => { handleWordClick(index, true); } }
                 >
                     <span className='valid'/>
                 </button>
-                <span className='word'>{data[index].word}</span>
+                <span className='word'>{item.word}</span>
                 <button
                 onClick={() => { handleWordClick(index, false); } }
                 >
                     <span className='invalid'/>
                 </button>
-            </div>}
-        </div>)}
+            </span>}
+        </div>)}</div>}
         {result && <div>
             <h1>{result}</h1>
-            <button className='btn btn-dark' onClick={() => {resetPotluck();}}>Play Again</button>
+            <button className='btn btn-dark' onClick={() => {resetPotluck();}}>Dine Again</button>
         </div>}
         </div>);
 }

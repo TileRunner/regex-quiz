@@ -1,4 +1,34 @@
 [
-    {"word":"EMERSED","valid":true}
-    ,{"word":"DEEMERS","valid":false}
+    {"word":"CORTICES","valid":true}
+    ,{"word":"CEROTICS","valid":false}
+    ,{"word":"CHARE","valid":true}
+    ,{"word":"REACH","valid":true}
+    ,{"word":"ACHER","valid":false}
+    ,{"word":"PALMISTS","valid":true}
+    ,{"word":"PSALMIST","valid":true}
+    ,{"word":"INTREPID","valid":true}
+    ,{"word":"DIPTERIN","valid":false}
+    ,{"word":"MIRTHS","valid":true}
+    ,{"word":"THIRMS","valid":false}
+    ,{"word":"CAPITOLS","valid":true}
+    ,{"word":"COALPITS","valid":true}
+    ,{"word":"OPTICALS","valid":false}
+    ,{"word":"TOPICALS","valid":true}
+    ,{"word":"OUTKICK","valid":true}
+    ,{"word":"KICKOUT","valid":false}
+    ,{"word":"COSMISM","valid":true}
+    ,{"word":"COMMISS","valid":false}
+    ,{"word":"FANTASM","valid":true}
+    ,{"word":"FASTMAN","valid":false}
+    ,{"word":"FOLKIES","valid":true}
+    ,{"word":"FOLKSIE","valid":false}
+    ,{"word":"MISSIES","valid":true}
+    ,{"word":"SEISISM","valid":false}
+    ,{"word":"HANDSEWN","valid":true}
+    ,{"word":"SHWANNED","valid":false}
+    ,{"word":"PYROLAS","valid":true}
+    ,{"word":"PYLORAS","valid":false}
+    ,{"word":"DEEPENS","valid":true}
+    ,{"word":"SNEEPED","valid":false}
+    ,{"word":"SPEENED","valid":false}
 ]
