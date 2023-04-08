@@ -1,4 +1,5 @@
 import './App.css';
+import {isMobile} from 'react-device-detect';
 import {useState, useEffect} from 'react';
 import ShowBreadcrumbs from './components/showBreadcrumbs';
 import setFromJsonFile from './functions/setFromJsonFile';
@@ -15,7 +16,7 @@ const MODE_MINEFIELD = 'Minefields';
 const MODE_POTLUCK = 'Potlucks';
 
 function App() {
-  const [mode, setMode] = useState(MODE_REGEX);
+  const [mode, setMode] = useState(isMobile ? MODE_MINEFIELD : MODE_REGEX);
   const [llist, setLlist] = useState([]);
   const [lindex, setLindex] = useState(-1);
   const [ldesc, setLdesc] = useState('No level selected.');
@@ -27,8 +28,10 @@ function App() {
   const [mdesc, setMdesc] = useState('No minefield selected');
 
   const getQuizzes=()=>{
-    setFromJsonFile('quizzes/qlist.json', setQlist, true);
-    setFromJsonFile('quizzes/llist.json', setLlist, false);
+    if (!isMobile) {
+      setFromJsonFile('quizzes/qlist.json', setQlist, true);
+      setFromJsonFile('quizzes/llist.json', setLlist, false);
+    }
     setFromJsonFile('minefields/mlist.json', setMlist, true);
   }
 
@@ -51,12 +54,12 @@ function App() {
       <header>
           <div className='d-flex bg-info text-black'>
             <div className='p-2 bg-primary'>Quiz Mode Selected: {mode}</div>
-            {mode !== MODE_REGEX &&
+            {mode !== MODE_REGEX && !isMobile &&
                 <div className='p-2 bg-primary'>
                   <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_REGEX) }}>Switch to {MODE_REGEX}</button>
                 </div>
             }
-            {mode !== MODE_LADDER &&
+            {mode !== MODE_LADDER && !isMobile &&
                 <div className='p-2 bg-primary'>
                   <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_LADDER) }}>Switch to {MODE_LADDER}</button>
                 </div>

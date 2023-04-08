@@ -1,5 +1,6 @@
 import './eatPotluck.css';
 import { useState, useEffect } from "react";
+import {isMobile} from 'react-device-detect';
 import setFromJsonFile from '../../functions/setFromJsonFile';
 
 
@@ -73,7 +74,7 @@ const EatPotluck = ({filename}) => {
                 <span className='word'>{item.word}</span>
                 {!item.valid && <span className='invalid'/>}
             </div>}
-            {!done && index === currentIndex && <div className='current'>
+            {!done && index === currentIndex && <div className={isMobile ? 'currentMobile' : 'current'}>
                 <div>
                     <span key={`unclicked${index}`} className='showWord unclicked'>
                     <button onClick={() => { handleWordClick(index, true); } } >
