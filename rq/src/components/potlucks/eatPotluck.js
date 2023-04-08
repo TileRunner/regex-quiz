@@ -68,24 +68,24 @@ const EatPotluck = ({filename}) => {
 
     return (<div>
         <h1>Click on the <span className="valid"/> for valid words, and the <span className='invalid'/> for invalid words</h1>
+        {!done && currentIndex > -1 && <div className={isMobile ? 'currentMobile' : 'current'}>
+            <div>
+                <span className='showWord unclicked'>
+                <button onClick={() => { handleWordClick(currentIndex, true); } } >
+                    <span className='valid'/>
+                </button>
+                <span className='word'>{data[currentIndex].word}</span>
+                <button onClick={() => { handleWordClick(currentIndex, false); } } >
+                    <span className='invalid'/>
+                </button>
+                </span>
+            </div>
+        </div>}
         {currentIndex > -1 && <div className='d-inline-flex flex-wrap'>{data.map((item,index) => <div key={index}>
             {(index < currentIndex || (index === currentIndex && done)) && <div key={`clicked${index}`} className='showWord clicked'>
                 {item.valid && <span className='valid'/>}
                 <span className='word'>{item.word}</span>
                 {!item.valid && <span className='invalid'/>}
-            </div>}
-            {!done && index === currentIndex && <div className={isMobile ? 'currentMobile' : 'current'}>
-                <div>
-                    <span key={`unclicked${index}`} className='showWord unclicked'>
-                    <button onClick={() => { handleWordClick(index, true); } } >
-                        <span className='valid'/>
-                    </button>
-                    <span className='word'>{item.word}</span>
-                    <button onClick={() => { handleWordClick(index, false); } } >
-                        <span className='invalid'/>
-                    </button>
-                    </span>
-                </div>
             </div>}
         </div>)}</div>}
         {result && <div>
