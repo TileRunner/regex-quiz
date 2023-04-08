@@ -73,19 +73,19 @@ const EatPotluck = ({filename}) => {
                 <span className='word'>{item.word}</span>
                 {!item.valid && <span className='invalid'/>}
             </div>}
-            {!done && index === currentIndex && <span key={`unclicked${index}`} className='showWord unclicked'>
-                <button
-                onClick={() => { handleWordClick(index, true); } }
-                >
-                    <span className='valid'/>
-                </button>
-                <span className='word'>{item.word}</span>
-                <button
-                onClick={() => { handleWordClick(index, false); } }
-                >
-                    <span className='invalid'/>
-                </button>
-            </span>}
+            {!done && index === currentIndex && <div className='current'>
+                <div>
+                    <span key={`unclicked${index}`} className='showWord unclicked'>
+                    <button onClick={() => { handleWordClick(index, true); } } >
+                        <span className='valid'/>
+                    </button>
+                    <span className='word'>{item.word}</span>
+                    <button onClick={() => { handleWordClick(index, false); } } >
+                        <span className='invalid'/>
+                    </button>
+                    </span>
+                </div>
+            </div>}
         </div>)}</div>}
         {result && <div>
             <h1>{result}</h1>

@@ -11,9 +11,15 @@
     width: fit-content;
     margin: 5px;
 }
+.current {
+    font-size: 20vh;
+    background-color: blue;
+    border: 2px solid greenyellow;
+    border-radius: 15px;   
+}
 .unclicked {
     border: 2px solid greenyellow;
-    border-radius: 15px;
+    border-radius: 15px;   
 }
 .clicked {
     border: 2px solid black;
@@ -27,7 +33,7 @@
 .showWord > button {
     padding: 5px;
     margin: 5px;
-    border: 3px solid blue;
+    border: 13px solid black;
     border-radius: 50%;
     background-color: lightblue;
 }

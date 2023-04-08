@@ -1,5 +1,26 @@
 [
-    {"word":"CORTICES","valid":true}
+    {"word":"SOLUBLES","valid":true}
+    ,{"word":"ELLIPSES","valid":true}
+    ,{"word":"PILELESS","valid":true}
+    ,{"word":"PELLISSE","valid":false}
+    ,{"word":"COPERS","valid":true}
+    ,{"word":"CORPSE","valid":true}
+    ,{"word":"SCOPER","valid":false}
+    ,{"word":"CORNET","valid":true}
+    ,{"word":"CRETON","valid":false}
+    ,{"word":"ARHATS","valid":true}
+    ,{"word":"SHARAT","valid":false}
+    ,{"word":"GERBERAS","valid":true}
+    ,{"word":"BERGERAS","valid":false}
+    ,{"word":"MITERER","valid":true}
+    ,{"word":"TRIREME","valid":true}
+    ,{"word":"BALLMEN","valid":false}
+    ,{"word":"BELLMAN","valid":true}
+    ,{"word":"CHOPINS","valid":true}
+    ,{"word":"PHONICS","valid":true}
+    ,{"word":"LUNGANS","valid":true}
+    ,{"word":"LANGUNS","valid":false}
+    ,{"word":"CORTICES","valid":true}
     ,{"word":"CEROTICS","valid":false}
     ,{"word":"CHARE","valid":true}
     ,{"word":"REACH","valid":true}
