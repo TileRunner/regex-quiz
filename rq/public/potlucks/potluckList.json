@@ -1,4 +1,5 @@
 [
-    { "filename":"potluck1.json", "desc":"Potluck #1", "lexicon":"NWL2020" }
-    , { "filename":"potluck2.json", "desc":"Potluck #2", "lexicon":"NWL2020" }
+    { "filename":"jan1.json", "desc":"Chris's Jan errs #1", "lexicon":"NWL2020" }
+    , { "filename":"jan2.json", "desc":"Chris's Jan errs #2", "lexicon":"NWL2020" }
+    , { "filename":"jan3.json", "desc":"Chris's Jan errs #3", "lexicon":"NWL2020" }
 ]
