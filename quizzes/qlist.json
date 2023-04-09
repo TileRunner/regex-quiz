@@ -95,6 +95,11 @@
         "lexicon":"NWL2020",
         "level":4
     },{
+        "filename":"finicky.txt",
+        "desc":"Finicky foundation",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
         "filename":"cousins.txt",
         "desc":"Simular setts",
         "lexicon":"NWL2020",

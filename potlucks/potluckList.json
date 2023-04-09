@@ -1,7 +1,11 @@
 [
-    { "filename":"jan1.json", "desc":"Chris's Jan errs #1", "lexicon":"NWL2020" }
-    , { "filename":"jan2.json", "desc":"Chris's Jan errs #2", "lexicon":"NWL2020" }
-    , { "filename":"jan3.json", "desc":"Chris's Jan errs #3", "lexicon":"NWL2020" }
-    , { "filename":"jan4.json", "desc":"Chris's Jan errs #4", "lexicon":"NWL2020" }
-    , { "filename":"jan5.json", "desc":"Chris's Jan errs #5", "lexicon":"NWL2020" }
+    { "desc":"Chris's January 2023 errors", "lexicon":"NWL2020", "set": [
+        { "filename":"jan1.json", "desc":"Chris's Jan errs #1", "lexicon":"NWL2020" }
+        , { "filename":"jan2.json", "desc":"Chris's Jan errs #2", "lexicon":"NWL2020" }
+        , { "filename":"jan3.json", "desc":"Chris's Jan errs #3", "lexicon":"NWL2020" }
+        , { "filename":"jan4.json", "desc":"Chris's Jan errs #4", "lexicon":"NWL2020" }
+        , { "filename":"jan5.json", "desc":"Chris's Jan errs #5", "lexicon":"NWL2020" }
+        , { "filename":"jan6.json", "desc":"Chris's Jan errs #6", "lexicon":"NWL2020" }
+        , { "filename":"jan7.json", "desc":"Chris's Jan errs #7", "lexicon":"NWL2020" }
+    ]}
 ]
