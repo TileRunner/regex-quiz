@@ -15,7 +15,8 @@
     font-size: 10vw;
     background-color: blue;
     border: 2px solid greenyellow;
-    border-radius: 15px;   
+    border-radius: 15px;
+    display: inline-block;
 }
 .currentMobile {
     font-size: larger;
@@ -24,8 +25,7 @@
     border-radius: 15px;   
 }
 .unclicked {
-    border: 2px solid greenyellow;
-    border-radius: 15px;   
+    vertical-align: top;
 }
 .clicked {
     border: 2px solid black;

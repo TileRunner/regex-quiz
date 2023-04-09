@@ -22,12 +22,11 @@ const ShowPotluckList=({potluckList, setPotluckLexicon, setPotluckFile, setPotlu
                     Dropdown
                   </button>
                   <ul className='dropdown-menu'>
-                    {p.set.map((p2) => <div className=''>
+                    {p.set.map((p2) =>
                       <li key={p2.filename}>
-                        <span>{p2.desc}</span>
-                        <button className='btn btn-primary' onClick={() => { setPotluckLexicon(p.lexicon); setPotluckFile(p2.filename); setPotluckDesc(p2.desc); } }>Select</button>
+                        <button className='btn btn-primary dropdown-item' onClick={() => { setPotluckLexicon(p.lexicon); setPotluckFile(p2.filename); setPotluckDesc(p2.desc); } }>{p2.desc}</button>
                       </li>
-                    </div>)}
+                    )}
                   </ul>
                 </div>
               </td>
