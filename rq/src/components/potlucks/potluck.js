@@ -6,7 +6,8 @@ import setFromJsonFile from '../../functions/setFromJsonFile';
 
 const Potluck=() => {
     const [potluckList, setPotluckList] = useState([]);
-    const [potluckIndex, setPotluckIndex] = useState(-1);
+    const [potluckLexicon, setPotluckLexicon] = useState('');
+    const [potluckFile, setPotluckFile] = useState('');
     const [potluckDesc, setPotluckDesc] = useState('Potluck not selected');
     const getPotluckList=()=>{
         setFromJsonFile('potlucks/potluckList.json', setPotluckList, true);
@@ -17,19 +18,19 @@ const Potluck=() => {
     },[])
     
     return (<div className='potluck'>
-        {potluckIndex > -1 &&
+        {potluckFile &&
             <ul className="list-group list-group-horizontal">
                 <li className="list-group-item list-group-item-info">{potluckDesc}</li>
                 <li className="list-group-item list-group-item-info">
-                    <button className='btn btn-dark' onClick={() => { setPotluckIndex(-1); } }>Quit this potluck</button>
+                    <button className='btn btn-dark' onClick={() => { setPotluckLexicon(''); setPotluckFile(''); } }>Quit this potluck</button>
                 </li>
             </ul>
         }
-        {potluckList && potluckList.length && potluckIndex < 0 &&
-            <ShowPotluckList potluckList={potluckList} setPotluckIndex={setPotluckIndex} setPotluckDesc={setPotluckDesc} />
+        {potluckList && potluckList.length && !potluckFile &&
+            <ShowPotluckList potluckList={potluckList} setPotluckLexicon={setPotluckLexicon} setPotluckFile={setPotluckFile} setPotluckDesc={setPotluckDesc} />
         }
-        {potluckIndex > -1 &&
-            <EatPotluck filename={`potlucks/${potluckList[potluckIndex].lexicon}/${potluckList[potluckIndex].filename}`}/>
+        {potluckLexicon && potluckFile &&
+            <EatPotluck filename={`potlucks/${potluckLexicon}/${potluckFile}`}/>
         }
     </div>);
 }

@@ -1,6 +1,6 @@
 import './showPotluckList.css';
 
-const ShowPotluckList=({potluckList, setPotluckIndex, setPotluckDesc}) => {
+const ShowPotluckList=({potluckList, setPotluckLexicon, setPotluckFile, setPotluckDesc}) => {
     return <div className='potluckListDiv'>
       <h1>Potluck List</h1>
       <table className='table table-striped table-bordered table-hover table-dark'>
@@ -15,7 +15,25 @@ const ShowPotluckList=({potluckList, setPotluckIndex, setPotluckDesc}) => {
           {potluckList.map((p) => <tr key={`potluckListItem${p.id}`}>
             <td>{p.desc}</td>
             <td>{p.lexicon}</td>
-            <td><button className='btn btn-primary' onClick={() => { setPotluckIndex(p.id); setPotluckDesc(p.desc); } }>Select</button></td>
+            {p.set ?
+              <td>
+                <div className='dropdown'>
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                    Dropdown
+                  </button>
+                  <ul className='dropdown-menu'>
+                    {p.set.map((p2) => <div className=''>
+                      <li key={p2.filename}>
+                        <span>{p2.desc}</span>
+                        <button className='btn btn-primary' onClick={() => { setPotluckLexicon(p.lexicon); setPotluckFile(p2.filename); setPotluckDesc(p2.desc); } }>Select</button>
+                      </li>
+                    </div>)}
+                  </ul>
+                </div>
+              </td>
+            :
+              <td><button className='btn btn-primary' onClick={() => { setPotluckLexicon(p.lexicon); setPotluckFile(p.filename); setPotluckDesc(p.desc); } }>Select</button></td>
+            }
           </tr>
           )}
         </tbody>
