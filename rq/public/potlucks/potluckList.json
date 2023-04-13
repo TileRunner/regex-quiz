@@ -10,5 +10,7 @@
     ]}
     ,{ "desc":"Chris's February 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"feb1.json", "desc":"Chris's Feb errs #1"}
+        , { "filename":"feb2.json", "desc":"Chris's Feb errs #2" }
+        , { "filename":"feb3.json", "desc":"Chris's Feb errs #3" }
     ]}
 ]
