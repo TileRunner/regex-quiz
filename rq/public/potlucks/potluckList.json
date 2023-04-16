@@ -19,5 +19,7 @@
     ,{ "desc":"Chris's March 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"mar1.json", "desc":"Chris's Mar errs #1"}
         ,{ "filename":"mar2.json", "desc":"Chris's Mar errs #2"}
+        ,{ "filename":"mar3.json", "desc":"Chris's Mar errs #3"}
+        ,{ "filename":"mar4.json", "desc":"Chris's Mar errs #4"}
     ]}
 ]
