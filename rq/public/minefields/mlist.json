@@ -23,5 +23,9 @@
         "filename":"minefield6.txt",
         "desc":"Minefield #6",
         "lexicon":"NWL2020"
+    },{
+        "filename":"MoonTheBeagle.txt",
+        "desc":"From MoonTheBeagle",
+        "lexicon":"NWL2020"
     }
 ]
