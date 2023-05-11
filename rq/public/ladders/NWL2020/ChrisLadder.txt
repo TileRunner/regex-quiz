@@ -29,7 +29,7 @@ Y.RM.LK.
 	VULTURE
 
 (C|S)H.[KV].R(I|EE)
-:C|S&H&Any letter&R&I|EE
+:C|S&H&Any letter&K|V&Any letter&R&I|EE
 	CHIVAREE
 	CHIVARI
 	SHIKAREE
