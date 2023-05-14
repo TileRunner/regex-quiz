@@ -29,5 +29,6 @@
     ]}
     ,{ "desc":"Chris's April 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"apr1.json", "desc":"Chris's Apr errs #1"}
+        ,{ "filename":"apr2.json", "desc":"Chris's Apr errs #2"}
     ]}
 ]
