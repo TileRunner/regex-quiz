@@ -25,7 +25,11 @@
         "lexicon":"NWL2020"
     },{
         "filename":"MoonTheBeagle.txt",
-        "desc":"From MoonTheBeagle",
+        "desc":"From MoonTheBeagle, Set 1",
+        "lexicon":"NWL2020"
+    },{
+        "filename":"MoonTheBeagle2.txt",
+        "desc":"From MoonTheBeagle, Set 2",
         "lexicon":"NWL2020"
     }
 ]
