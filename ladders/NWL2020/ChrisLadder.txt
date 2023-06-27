@@ -36,6 +36,13 @@ Y.RM.LK.
 	SHIKARI
 	SHIVAREE
 
+(C|K)ARY.T..
+:C|K&ARY&Any letter&T&Any two letters
+	CARYATIC
+	CARYATID
+	CARYOTIN
+	KARYOTIN
+
 MI(K|TS)V.*
 :MI&K|TS&V&Any letters
 	MIKVA

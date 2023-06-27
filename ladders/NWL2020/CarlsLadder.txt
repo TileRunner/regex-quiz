@@ -29,7 +29,7 @@ TERR..
 	TERRIT
 	TERROR
 
-CH.{1,2}(RT|TR).{1,3}M
+CH.{1,2}(RT|TR).{1,2}M
 :CH&1 - 2 letters&RT|TR&1 - 3 letters&M
 	CHARTISM
 	CHATROOM
