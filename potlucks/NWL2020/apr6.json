@@ -1,0 +1,33 @@
+[
+    {"word":"TIDIEST","valid":true}
+    ,{"word":"DITTIES","valid":true}
+    ,{"word":"DIETIST","valid":false}
+    ,{"word":"BABUS","valid":true}
+    ,{"word":"BUBAS","valid":false}
+    ,{"word":"STURGEON","valid":true}
+    ,{"word":"TONGUERS","valid":false}
+    ,{"word":"INCEPTED","valid":true}
+    ,{"word":"PECTINED","valid":false}
+    ,{"word":"DERANGER","valid":true}
+    ,{"word":"GARDENER","valid":true}
+    ,{"word":"GARNERED","valid":true}
+    ,{"word":"GANDERER","valid":false}
+    ,{"word":"APHASIC","valid":true}
+    ,{"word":"CAPHIAS","valid":false}
+    ,{"word":"BARLOW","valid":true}
+    ,{"word":"LOWBAR","valid":false}
+    ,{"word":"CALLALOO","valid":true}
+    ,{"word":"CALALLOO","valid":false}
+    ,{"word":"OSMOTIC","valid":true}
+    ,{"word":"SOMOTIC","valid":false}
+    ,{"word":"TALLITOT","valid":true}
+    ,{"word":"TOTALLIT","valid":false}
+    ,{"word":"DECAGRAM","valid":true}
+    ,{"word":"CARDGAME","valid":false}
+    ,{"word":"TRIPHASE","valid":true}
+    ,{"word":"HARPIEST","valid":false}
+    ,{"word":"CONTESSA","valid":true}
+    ,{"word":"CANTOSES","valid":false}
+    ,{"word":"CLONKIER","valid":true}
+    ,{"word":"CORNLIKE","valid":false}
+]
