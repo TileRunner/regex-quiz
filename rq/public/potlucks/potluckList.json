@@ -35,4 +35,7 @@
         ,{ "filename":"apr5.json", "desc":"Chris's Apr errs #5"}
         ,{ "filename":"apr6.json", "desc":"Chris's Apr errs #6"}
     ]}
+    ,{ "desc":"Chris's May 2023 errors", "lexicon":"NWL2020", "set": [
+        { "filename":"may1.json", "desc":"Chris's May errs #1"}
+    ]}
 ]
