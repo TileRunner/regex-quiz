@@ -37,5 +37,6 @@
     ]}
     ,{ "desc":"Chris's May 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"may1.json", "desc":"Chris's May errs #1"}
+        ,{ "filename":"may2.json", "desc":"Chris's May errs #2"}
     ]}
 ]
