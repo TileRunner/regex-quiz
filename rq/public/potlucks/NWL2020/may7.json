@@ -1,0 +1,30 @@
+[
+    {"word":"NONEMPTY","valid":true}
+    ,{"word":"PENTONYM","valid":false}
+    ,{"word":"SURVEIL","valid":true}
+    ,{"word":"RIVULES","valid":false}
+    ,{"word":"SEAWANS","valid":true}
+    ,{"word":"WEASANS","valid":false}
+    ,{"word":"DOGLEG","valid":true}
+    ,{"word":"LOGGED","valid":true}
+    ,{"word":"DOGGLE","valid":false}
+    ,{"word":"SHAWING","valid":true}
+    ,{"word":"WASHING","valid":true}
+    ,{"word":"HAWSING","valid":false}
+    ,{"word":"PANDOOR","valid":true}
+    ,{"word":"PADRONO","valid":false}
+    ,{"word":"ISOBUTYL","valid":true}
+    ,{"word":"LUBOSITY","valid":false}
+    ,{"word":"IRONIST","valid":true}
+    ,{"word":"ROTINIS","valid":true}
+    ,{"word":"ROSTINI","valid":false}
+    ,{"word":"DISUNITE","valid":true}
+    ,{"word":"NUDITIES","valid":true}
+    ,{"word":"UNTIDIES","valid":true}
+    ,{"word":"INDUSITE","valid":false}
+    ,{"word":"ORINASAL","valid":true}
+    ,{"word":"SOLARIAN","valid":false}
+    ,{"word":"ROADBED","valid":true}
+    ,{"word":"BOARDED","valid":true}
+    ,{"word":"DEBOARD","valid":false}
+]
