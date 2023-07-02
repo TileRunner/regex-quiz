@@ -44,4 +44,11 @@
         ,{ "filename":"may6.json", "desc":"Chris's May errs #6"}
         ,{ "filename":"may7.json", "desc":"Chris's May errs #7"}
     ]}
+    ,{ "desc":"Chris's Jun 2023 errors", "lexicon":"NWL2020", "set": [
+        { "filename":"jun1.json", "desc":"Chris's Jun errs #1"}
+        ,{ "filename":"jun2.json", "desc":"Chris's Jun errs #2"}
+        ,{ "filename":"jun3.json", "desc":"Chris's Jun errs #3"}
+        ,{ "filename":"jun4.json", "desc":"Chris's Jun errs #4"}
+        ,{ "filename":"jun5.json", "desc":"Chris's Jun errs #5"}
+    ]}
 ]
