@@ -38,4 +38,24 @@
     ,{"word":"SECANT","valid":true}
     ,{"word":"STANCE","valid":true}
     ,{"word":"SECTAN","valid":false}
+    ,{"word":"DININGS","valid":true}
+    ,{"word":"INDIGNS","valid":false}
+    ,{"word":"KICKABLE","valid":true}
+    ,{"word":"BACKLIKE","valid":false}
+    ,{"word":"DYADICS","valid":true}
+    ,{"word":"DYACIDS","valid":false}
+    ,{"word":"COLLIDE","valid":true}
+    ,{"word":"COLLIED","valid":true}
+    ,{"word":"CELLOID","valid":false}
+    ,{"word":"PANTALET","valid":true}
+    ,{"word":"PATENTAL","valid":false}
+    ,{"word":"NARCISM","valid":true}
+    ,{"word":"CARMINS","valid":false}
+    ,{"word":"VALISE","valid":true}
+    ,{"word":"SILVAE","valid":true}
+    ,{"word":"SLAVIE","valid":false}
+    ,{"word":"ETYMON","valid":true}
+    ,{"word":"ETONYM","valid":false}
+    ,{"word":"FOCUSERS","valid":true}
+    ,{"word":"FOCUSSER","valid":false}
 ]
