@@ -1,0 +1,12 @@
+[
+    {"word":"DOSSER","valid":true}
+    ,{"word":"DOSERS","valid":true}
+    ,{"word":"RESODS","valid":true}
+    ,{"word":"DORSES","valid":false}
+    ,{"word":"POTHERS","valid":true}
+    ,{"word":"THORPES","valid":true}
+    ,{"word":"STROPHE","valid":true}
+    ,{"word":"TOPHERS","valid":false}
+    ,{"word":"SPAGYRIC","valid":true}
+    ,{"word":"SPYRAGIC","valid":false}
+]
