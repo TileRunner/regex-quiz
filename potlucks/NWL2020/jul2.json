@@ -9,4 +9,13 @@
     ,{"word":"TOPHERS","valid":false}
     ,{"word":"SPAGYRIC","valid":true}
     ,{"word":"SPYRAGIC","valid":false}
+    ,{"word":"SHERIFF","valid":true}
+    ,{"word":"SHIFFER","valid":false}
+    ,{"word":"MAINSAIL","valid":true}
+    ,{"word":"ANIMALIS","valid":false}
+    ,{"word":"SOMITIC","valid":true}
+    ,{"word":"MIOTICS","valid":true}
+    ,{"word":"OSMITIC","valid":false}
+    ,{"word":"CENACLES","valid":true}
+    ,{"word":"CALCENES","valid":false}
 ]
