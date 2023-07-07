@@ -18,4 +18,8 @@
     ,{"word":"OSMITIC","valid":false}
     ,{"word":"CENACLES","valid":true}
     ,{"word":"CALCENES","valid":false}
+    ,{"word":"PLUVIALS","valid":true}
+    ,{"word":"PAVILLUS","valid":false}
+    ,{"word":"OPERABLE","valid":true}
+    ,{"word":"ROPEABLE","valid":false}
 ]
