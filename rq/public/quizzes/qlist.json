@@ -95,6 +95,36 @@
         "lexicon":"NWL2020",
         "level":4
     },{
+        "filename":"alternates2.txt",
+        "desc":"Know your alternatives #2",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"alternates3.txt",
+        "desc":"Know your alternatives #3",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"alternates4.txt",
+        "desc":"Know your alternatives #4",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"alternates5.txt",
+        "desc":"Know your alternatives #5",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"alternates6.txt",
+        "desc":"Know your alternatives #6",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
+        "filename":"alternates7.txt",
+        "desc":"Know your alternatives #7",
+        "lexicon":"NWL2020",
+        "level":4
+    },{
         "filename":"finicky.txt",
         "desc":"Finicky foundation",
         "lexicon":"NWL2020",
