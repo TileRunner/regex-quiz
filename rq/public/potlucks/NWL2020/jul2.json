@@ -22,4 +22,17 @@
     ,{"word":"PAVILLUS","valid":false}
     ,{"word":"OPERABLE","valid":true}
     ,{"word":"ROPEABLE","valid":false}
+    ,{"word":"CRONISH","valid":true}
+    ,{"word":"CORNISH","valid":false}
+    ,{"word":"ANECDOTE","valid":true}
+    ,{"word":"CATENODE","valid":false}
+    ,{"word":"PATROON","valid":true}
+    ,{"word":"PRONOTA","valid":true}
+    ,{"word":"PRONATO","valid":false}
+    ,{"word":"UNCLOG","valid":true}
+    ,{"word":"GLUCON","valid":false}
+    ,{"word":"UNBUSTED","valid":true}
+    ,{"word":"SUBTUNED","valid":false}
+    ,{"word":"ARCTICS","valid":true}
+    ,{"word":"CARSTIC","valid":false}
 ]
