@@ -35,4 +35,21 @@
     ,{"word":"SUBTUNED","valid":false}
     ,{"word":"ARCTICS","valid":true}
     ,{"word":"CARSTIC","valid":false}
+    ,{"word":"BOBSTAYS","valid":true}
+    ,{"word":"BATSBOYS","valid":false}
+    ,{"word":"KENOTRON","valid":true}
+    ,{"word":"NONTOKER","valid":false}
+    ,{"word":"OMOPHAGY","valid":true}
+    ,{"word":"OPHOGAMY","valid":false}
+    ,{"word":"ENCLAVED","valid":true}
+    ,{"word":"VALENCED","valid":false}
+    ,{"word":"PREORAL","valid":true}
+    ,{"word":"PERORAL","valid":true}
+    ,{"word":"PAROLER","valid":false}
+    ,{"word":"TOPCROSS","valid":true}
+    ,{"word":"CROSSTOP","valid":false}
+    ,{"word":"ZANZAS","valid":true}
+    ,{"word":"ZAZANS","valid":false}
+    ,{"word":"PYLORUS","valid":true}
+    ,{"word":"PULSORY","valid":false}
 ]
