@@ -52,4 +52,9 @@
     ,{"word":"ZAZANS","valid":false}
     ,{"word":"PYLORUS","valid":true}
     ,{"word":"PULSORY","valid":false}
+    ,{"word":"IMPORTS","valid":true}
+    ,{"word":"TROPISM","valid":true}
+    ,{"word":"PROTISM","valid":false}
+    ,{"word":"OMITTERS","valid":true}
+    ,{"word":"TRITOMES","valid":false}
 ]
