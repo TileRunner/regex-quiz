@@ -1,0 +1,8 @@
+[
+    {"word":"WOODRUSH","valid":true}
+    ,{"word":"RUSHWOOD","valid":false}
+    ,{"word":"GOODNESS","valid":true}
+    ,{"word":"SNOODGES","valid":false}
+    ,{"word":"PALMLIKE","valid":true}
+    ,{"word":"LAMPLIKE","valid":false}
+]

@@ -54,5 +54,6 @@
     ,{ "desc":"Chris's Jul 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"jul1.json", "desc":"Chris's Jul errs #1"}
         ,{ "filename":"jul2.json", "desc":"Chris's Jul errs #2"}
+        ,{ "filename":"jul3.json", "desc":"Chris's Jul errs #3"}
     ]}
 ]
