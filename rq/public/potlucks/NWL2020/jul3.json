@@ -5,4 +5,16 @@
     ,{"word":"SNOODGES","valid":false}
     ,{"word":"PALMLIKE","valid":true}
     ,{"word":"LAMPLIKE","valid":false}
+    ,{"word":"MAREMME","valid":true}
+    ,{"word":"MAMMERE","valid":false}
+    ,{"word":"APPARELS","valid":true}
+    ,{"word":"APPALERS","valid":false}
+    ,{"word":"TAKERS","valid":true}
+    ,{"word":"STRAKE","valid":true}
+    ,{"word":"STREAK","valid":true}
+    ,{"word":"SKATER","valid":true}
+    ,{"word":"STAKER","valid":true}
+    ,{"word":"TASKER","valid":false}
+    ,{"word":"MELANISM","valid":true}
+    ,{"word":"MELAMINS","valid":false}
 ]
