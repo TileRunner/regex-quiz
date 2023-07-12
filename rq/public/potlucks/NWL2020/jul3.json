@@ -17,4 +17,13 @@
     ,{"word":"TASKER","valid":false}
     ,{"word":"MELANISM","valid":true}
     ,{"word":"MELAMINS","valid":false}
+    ,{"word":"ANTLERS","valid":true}
+    ,{"word":"RENTALS","valid":true}
+    ,{"word":"SALTERN","valid":true}
+    ,{"word":"STERNAL","valid":true}
+    ,{"word":"SLANTER","valid":false}
+    ,{"word":"BECALMS","valid":true}
+    ,{"word":"SCAMBLE","valid":false}
+    ,{"word":"BUTYRALS","valid":true}
+    ,{"word":"RUSTABLY","valid":false}
 ]
