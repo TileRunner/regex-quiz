@@ -26,4 +26,10 @@
     ,{"word":"SCAMBLE","valid":false}
     ,{"word":"BUTYRALS","valid":true}
     ,{"word":"RUSTABLY","valid":false}
+    ,{"word":"PIECER","valid":true}
+    ,{"word":"PIERCE","valid":true}
+    ,{"word":"RECIPE","valid":true}
+    ,{"word":"PRECIE","valid":false}
+    ,{"word":"ROGATION","valid":true}
+    ,{"word":"RIGATOON","valid":false}
 ]
