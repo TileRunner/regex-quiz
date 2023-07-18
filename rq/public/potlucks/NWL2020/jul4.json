@@ -1,0 +1,6 @@
+[
+    {"word":"VICARATE","valid":true}
+    ,{"word":"VARICATE","valid":false}
+    ,{"word":"PERIPTER","valid":true}
+    ,{"word":"PERIPERT","valid":false}
+]
