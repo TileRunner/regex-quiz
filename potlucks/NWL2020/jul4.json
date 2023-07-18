@@ -1,0 +1,13 @@
+[
+    {"word":"VICARATE","valid":true}
+    ,{"word":"VARICATE","valid":false}
+    ,{"word":"PERIPTER","valid":true}
+    ,{"word":"PERIPERT","valid":false}
+    ,{"word":"CALISAYA","valid":true}
+    ,{"word":"ACYLASIA","valid":false}
+    ,{"word":"ACRASIN","valid":true}
+    ,{"word":"SARCINA","valid":true}
+    ,{"word":"ARNICAS","valid":true}
+    ,{"word":"CARINAS","valid":true}
+    ,{"word":"ACARINS","valid":false}
+]
