@@ -10,4 +10,54 @@
     ,{"word":"ARNICAS","valid":true}
     ,{"word":"CARINAS","valid":true}
     ,{"word":"ACARINS","valid":false}
+    ,{"word":"MESMERIC","valid":true}
+    ,{"word":"MERESMIC","valid":false}
+    ,{"word":"ALTHEA","valid":true}
+    ,{"word":"HAETAL","valid":false}
+    ,{"word":"TOASTY","valid":true}
+    ,{"word":"TATSOY","valid":false}
+    ,{"word":"REDENIES","valid":true}
+    ,{"word":"NEREIDES","valid":true}
+    ,{"word":"SERENIDE","valid":false}
+    ,{"word":"NIMIOUS","valid":true}
+    ,{"word":"IONIUMS","valid":true}
+    ,{"word":"MINIOUS","valid":false}
+    ,{"word":"COCOYAMS","valid":true}
+    ,{"word":"COCOMAYS","valid":false}
+    ,{"word":"SACCULES","valid":true}
+    ,{"word":"CALCUSES","valid":false}
+    ,{"word":"BHAKTIS","valid":true}
+    ,{"word":"BHATIKS","valid":false}
+    ,{"word":"MANTISES","valid":true}
+    ,{"word":"MATINESS","valid":true}
+    ,{"word":"STASIMEN","valid":false}
+    ,{"word":"ORATURES","valid":true}
+    ,{"word":"OUTREARS","valid":false}
+    ,{"word":"WALLOP","valid":true}
+    ,{"word":"PALLOW","valid":false}
+    ,{"word":"CEORL","valid":true}
+    ,{"word":"CREOL","valid":false}
+    ,{"word":"ANSATZES","valid":true}
+    ,{"word":"STANZAES","valid":false}
+    ,{"word":"POLYNYI","valid":true}
+    ,{"word":"POLIYNY","valid":false}
+    ,{"word":"REPOLLED","valid":true}
+    ,{"word":"PREDELLO","valid":false}
+    ,{"word":"GLEAMIER","valid":true}
+    ,{"word":"REMEGIAL","valid":false}
+    ,{"word":"ANIMALIC","valid":true}
+    ,{"word":"AMINICAL","valid":false}
+    ,{"word":"ANUSES","valid":true}
+    ,{"word":"USNEAS","valid":true}
+    ,{"word":"UNASES","valid":false}
+    ,{"word":"ROCKABLE","valid":true}
+    ,{"word":"CORKABLE","valid":false}
+    ,{"word":"NEURAXON","valid":true}
+    ,{"word":"RONNEAUX","valid":false}
+    ,{"word":"UNBRAKE","valid":true}
+    ,{"word":"UNBREAK","valid":false}
+    ,{"word":"OSMOSE","valid":true}
+    ,{"word":"MOOSES","valid":false}
+    ,{"word":"ESOPHAGI","valid":true}
+    ,{"word":"ISOPHAGE","valid":false}
 ]
