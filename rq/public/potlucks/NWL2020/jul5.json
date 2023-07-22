@@ -1,0 +1,25 @@
+[
+    {"word":"OSMOSE","valid":true}
+    ,{"word":"MOOSES","valid":false}
+    ,{"word":"ESOPHAGI","valid":true}
+    ,{"word":"ISOPHAGE","valid":false}
+    ,{"word":"UNRIMED","valid":true}
+    ,{"word":"UNMIRED","valid":false}
+    ,{"word":"NIGELLA","valid":true}
+    ,{"word":"GALLEIN","valid":true}
+    ,{"word":"NILLAGE","valid":false}
+    ,{"word":"DELPHIC","valid":true}
+    ,{"word":"PILCHED","valid":false}
+    ,{"word":"VESTIGE","valid":true}
+    ,{"word":"GESTIVE","valid":false}
+    ,{"word":"SARDANA","valid":true}
+    ,{"word":"ANSARDA","valid":false}
+    ,{"word":"MASES","valid":true}
+    ,{"word":"MASSE","valid":true}
+    ,{"word":"SEAMS","valid":true}
+    ,{"word":"MESAS","valid":true}
+    ,{"word":"SAMES","valid":false}
+    ,{"word":"SISTERLY","valid":true}
+    ,{"word":"STYLISER","valid":true}
+    ,{"word":"TRESSILY","valid":false}
+]

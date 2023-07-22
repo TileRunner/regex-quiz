@@ -56,8 +56,4 @@
     ,{"word":"RONNEAUX","valid":false}
     ,{"word":"UNBRAKE","valid":true}
     ,{"word":"UNBREAK","valid":false}
-    ,{"word":"OSMOSE","valid":true}
-    ,{"word":"MOOSES","valid":false}
-    ,{"word":"ESOPHAGI","valid":true}
-    ,{"word":"ISOPHAGE","valid":false}
 ]
