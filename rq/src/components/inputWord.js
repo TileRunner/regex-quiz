@@ -3,6 +3,8 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Modal from 'react-bootstrap/Modal';
+import Table from 'react-bootstrap/Table';
+
 import { useState } from 'react';
 const InputWord = ({handleSubmit, handleRemoveGuess, questionIndex, question, pictogram, autoclear}) => {
     const [myword, setMyword] = useState('');
@@ -57,7 +59,7 @@ const InputWord = ({handleSubmit, handleRemoveGuess, questionIndex, question, pi
         <Offcanvas.Body>
             <p>Enter all valid words that match the regular expression <span className='rex'>{question}</span></p>
             <p>The guide below shows how this regular expression works.</p>
-            <table>
+            <Table striped bordered hover>
                 <thead>
                     <tr>
                         <th>Syntax</th>
@@ -69,35 +71,35 @@ const InputWord = ({handleSubmit, handleRemoveGuess, questionIndex, question, pi
                     {question.indexOf('?') > -1 && <tr>
                         <td>?</td>
                         <td>The previous item is optional</td>
-                        <td>CAR?T is matched by CAT and CART</td>
+                        <td><span className='rex'>CAR?T</span> is matched by CAT and CART</td>
                     </tr>}
                     {question.indexOf('[') > -1 && <tr>
                         <td>[ABC]</td>
                         <td>One of the letters inside the square brackets appears next</td>
-                        <td>C[AOU]B is matched by CAB, COB, and CUB</td>
+                        <td><span className='rex'>C[AOU]B</span> is matched by CAB, COB, and CUB</td>
                     </tr>}
                     {question.indexOf('[^') > -1 && <tr>
                         <td>[^ABC]</td>
                         <td>Any letter other than the letters inside the square brackets appears next</td>
-                        <td>C[^A]B is matched by COB and CUB but not CAB</td>
+                        <td><span className='rex'>C[^A]B</span> is matched by COB and CUB but not CAB</td>
                     </tr>}
                     {question.indexOf('|') > -1 && <tr>
                         <td>(A|B|C)</td>
                         <td>The next sequence of letters is one of the pipe delimited values</td>
-                        <td>C(A|O|UR)B is matched by CAB, COB, and CURB</td>
+                        <td><span className='rex'>C(A|O|UR)B</span> is matched by CAB, COB, and CURB</td>
                     </tr>}
                     {question.indexOf('.') > -1 && <tr>
                         <td>.</td>
                         <td>Any letter</td>
-                        <td>The valid answers for C.B would be CAB, COB, and CUB.</td>
+                        <td>The valid answers for <span className='rex'>C.B</span> would be CAB, COB, and CUB.</td>
                     </tr>}
                     {question.indexOf('{') > -1 && <tr>
                         <td>&#123;x,y&#125;</td>
                         <td>The previous item occurs x to y times</td>
-                        <td>HM&#123;1,3&#125; is matched by HM, HMM, and HMMM</td>
+                        <td><span className='rex'>HM&#123;1,3&#125;</span> is matched by HM, HMM, and HMMM</td>
                     </tr>}
                 </tbody>
-            </table>
+            </Table>
         </Offcanvas.Body>
     </Offcanvas>
     <Form onSubmit={mysubmit}>

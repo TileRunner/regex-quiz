@@ -62,13 +62,12 @@ const WalkMinefield = ({filename}) => {
         setData(newdata);
     }
     function resetMinefield() {
-        let newdata = JSON.parse(JSON.stringify(data));
-        newdata.forEach(element => {
-            element.clicked = false;
-        });
-        setData(newdata);
-        setDone(false);
-        setResult("");
+        function takeLoadedMinefield(minefield) {
+            setData(minefield);
+            setDone(false);
+            setResult("");
+        }
+        loadMinefield(filename, takeLoadedMinefield);
     }
 
     return (<div>

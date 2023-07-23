@@ -13,6 +13,7 @@ function loadMinefield(minefieldPath, takeLoadedMinefield) {
         .then(function(mytext) {
             let minefield = []; // array of {id: number, word: 'good or bad word', value: bool, clicked: false}
             let lines = mytext.split(/\r?\n/); // split file into array of lines
+            randomize(lines); // so user gets a different order each load
             let nextid=1; // make an identifier
             lines.forEach(line => {
                 if (line.indexOf(',') > -1) {
@@ -36,4 +37,22 @@ function loadMinefield(minefieldPath, takeLoadedMinefield) {
         });
 
 }
+
+function randomize(values) {
+    let index = values.length,
+      randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (index !== 0) {
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * index);
+      index--;
+  
+      // And swap it with the current element.
+      [values[index], values[randomIndex]] = [values[randomIndex], values[index]];
+    }
+  
+    return values;
+}
+  
 export default loadMinefield;

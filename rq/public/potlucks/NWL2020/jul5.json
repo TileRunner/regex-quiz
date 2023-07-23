@@ -22,4 +22,14 @@
     ,{"word":"SISTERLY","valid":true}
     ,{"word":"STYLISER","valid":true}
     ,{"word":"TRESSILY","valid":false}
+    ,{"word":"LIMULI","valid":true}
+    ,{"word":"ILLIUM","valid":false}
+    ,{"word":"TORCHERE","valid":true}
+    ,{"word":"TOCHERER","valid":false}
+    ,{"word":"HAVDALAH","valid":true}
+    ,{"word":"HALVADAH","valid":false}
+    ,{"word":"LAKEFILL","valid":true}
+    ,{"word":"FLEAKILL","valid":false}
+    ,{"word":"BERIMBAU","valid":true}
+    ,{"word":"BAUMBRIE","valid":false}
 ]
