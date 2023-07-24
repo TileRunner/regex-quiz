@@ -32,4 +32,10 @@
     ,{"word":"FLEAKILL","valid":false}
     ,{"word":"BERIMBAU","valid":true}
     ,{"word":"BAUMBRIE","valid":false}
+    ,{"word":"FUNCTORS","valid":true}
+    ,{"word":"UNCROFTS","valid":false}
+    ,{"word":"OVERLADE","valid":true}
+    ,{"word":"OVERDEAL","valid":false}
+    ,{"word":"SEEDSMAN","valid":true}
+    ,{"word":"DEMESNAS","valid":false}
 ]
