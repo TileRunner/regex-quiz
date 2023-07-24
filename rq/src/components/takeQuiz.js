@@ -14,6 +14,17 @@ const TakeQuiz=({filename}) => {
 
 
     function restartTheQuiz(clearGuesses) {
+        // Find first unskipped regex
+        let nextCurrentIndex = 0;
+        data.forEach((q,i) => {
+            if (skipped.indexOf(q.id) > -1 && i === nextCurrentIndex) {
+                nextCurrentIndex = i + 1;
+            }
+        });
+        // If all unskipped start at 0
+        if (nextCurrentIndex === data.length) {
+            nextCurrentIndex = 0;
+        }
         // Quiz restart
         if (clearGuesses) {
             let newdata = JSON.parse(JSON.stringify(data));
@@ -22,7 +33,8 @@ const TakeQuiz=({filename}) => {
             });
             setData(newdata);    
         }
-        setCurrentIndex(0);
+
+        setCurrentIndex(nextCurrentIndex);
         setDone(false);
         setResults({correct: 0, wrong: 0, missed: 0, points: 0});
     }
@@ -130,7 +142,7 @@ const TakeQuiz=({filename}) => {
                             <button className='btn btn-dark' onClick={() => setCurrentIndex(currentIndex+1)}>Next</button>
                         }
                     </li>
-                    <li className="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span></li>
+                    <li className="list-group-item list-group-item-primary"><span className='rexlabel'>Regex {item.id} of {data.length}:</span><span className='rex'>{item.question}</span></li>
                     <li className="list-group-item list-group-item-dark">
                         <button className='btn btn-success' onClick={() => {finishQuiz();}}>Lock in your guesses</button>
                     </li>
@@ -172,7 +184,7 @@ const TakeQuiz=({filename}) => {
                                 <div className='container-fluid'>
                                     <div className='row'>
                                         <div className='col'>
-                                            <span className='rexlabel'>Regex {index+1} of {data.length}:</span><span className='rex'>{item.question}</span>
+                                            <span className='rexlabel'>Regex {item.id}:</span><span className='rex'>{item.question}</span>
                                             {skipped.indexOf(item.id) > -1 && <span> Skipped</span>}
                                         </div>
                                     </div>

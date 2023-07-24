@@ -43,3 +43,11 @@
     border-radius: 50%;
     background-color: lightblue;
 }
+.showValidWords {
+    margin-left: 5px;
+    background-color: aqua;
+}
+.showValidWord {
+    padding: 5px;
+    word-wrap: normal;
+}

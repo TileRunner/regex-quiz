@@ -13,6 +13,7 @@ const EatPotluck = ({filename}) => {
     const [done, setDone] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(-1);
     const [result, setResult] = useState("");
+    const [valids, setValids] = useState("");
 
     useEffect(()=>{
         // Get the data from a json file in the public folder
@@ -22,6 +23,12 @@ const EatPotluck = ({filename}) => {
                 temp.sort(() => Math.random() - 0.5);
                 setData(temp);
                 setCurrentIndex(0);
+                let validslist = "";
+                temp.filter((item) => {return item.valid;}).sort((a,b) => {return a.word < b.word ? -1 : 1}).forEach((item) => {
+                    validslist = validslist + item.word + ", ";
+                });
+                validslist = validslist.substring(0,validslist.length - 2); // Remove last ", "
+                setValids(validslist);
             }
             setFromJsonFile(filename, tagData, true);
         }
@@ -60,6 +67,12 @@ const EatPotluck = ({filename}) => {
         newdata.forEach(element => {
             element.clicked = false;
         });
+        let validslist = "";
+        data.filter((item) => {return item.valid;}).sort((a,b) => {return a.word < b.word ? -1 : 1}).forEach((item) => {
+            validslist = validslist + item.word + ", ";
+        });
+        validslist = validslist.substring(0,validslist.length - 2); // Remove last ", "
+        setValids(validslist);
         setData(newdata);
         setDone(false);
         setResult("");
@@ -91,6 +104,10 @@ const EatPotluck = ({filename}) => {
         {result && <div>
             <h1>{result}</h1>
             <button className='btn btn-dark' onClick={() => {resetPotluck();}}>Dine Again</button>
+            <div className='showValidWords'>
+                <p>Valid Words:</p>
+                <p className='showValidWord'>{valids}</p>
+            </div>
         </div>}
         </div>);
 }
