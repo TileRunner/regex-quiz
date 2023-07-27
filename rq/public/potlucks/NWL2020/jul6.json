@@ -1,0 +1,25 @@
+[
+    {"word":"CANISTER","valid":true}
+    ,{"word":"SCANTIER","valid":true}
+    ,{"word":"TACRINES","valid":true}
+    ,{"word":"CERATINS","valid":true}
+    ,{"word":"CREATINS","valid":true}
+    ,{"word":"CISTERNA","valid":true}
+    ,{"word":"ANESTRIC","valid":false}
+    ,{"word":"PATHOGEN","valid":true}
+    ,{"word":"HEPTAGON","valid":true}
+    ,{"word":"HAPTOGEN","valid":false}
+    ,{"word":"FELUCCAS","valid":true}
+    ,{"word":"FECCULAS","valid":false}
+    ,{"word":"RESIDS","valid":true}
+    ,{"word":"SIDERS","valid":false}
+    ,{"word":"REEDBUCK","valid":true}
+    ,{"word":"DEERBUCK","valid":false}
+    ,{"word":"CACHACA","valid":true}
+    ,{"word":"CACACHA","valid":false}
+    ,{"word":"UPSTAGER","valid":true}
+    ,{"word":"PARGUETS","valid":false}
+    ,{"word":"RACISTS","valid":true}
+    ,{"word":"SACRIST","valid":true}
+    ,{"word":"CRISTAS","valid":false}
+]
