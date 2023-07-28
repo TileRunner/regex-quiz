@@ -38,4 +38,26 @@
     ,{"word":"OVERDEAL","valid":false}
     ,{"word":"SEEDSMAN","valid":true}
     ,{"word":"DEMESNAS","valid":false}
+    ,{"word":"DEPRIVE","valid":true}
+    ,{"word":"PREDIVE","valid":true}
+    ,{"word":"VIPERED","valid":false}
+    ,{"word":"BIRDLIME","valid":true}
+    ,{"word":"LIMEBIRD","valid":false}
+    ,{"word":"GLOMUS","valid":true}
+    ,{"word":"MOGULS","valid":true}
+    ,{"word":"GOLUMS","valid":false}
+    ,{"word":"REWORD","valid":true}
+    ,{"word":"WORDER","valid":false}
+    ,{"word":"STOVETOP","valid":true}
+    ,{"word":"POSTVOTE","valid":false}
+    ,{"word":"DEMIREPS","valid":true}
+    ,{"word":"IMPEDERS","valid":true}
+    ,{"word":"EPIDERMS","valid":true}
+    ,{"word":"PREMISED","valid":true}
+    ,{"word":"SIMPERED","valid":true}
+    ,{"word":"EMPRISED","valid":false}
+    ,{"word":"SUPERPRO","valid":true}
+    ,{"word":"PURPOSER","valid":false}
+    ,{"word":"MOCHILA","valid":true}
+    ,{"word":"OHMICAL","valid":false}
 ]
