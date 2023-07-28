@@ -22,4 +22,20 @@
     ,{"word":"RACISTS","valid":true}
     ,{"word":"SACRIST","valid":true}
     ,{"word":"CRISTAS","valid":false}
+    ,{"word":"LADINGS","valid":true}
+    ,{"word":"LIGANDS","valid":true}
+    ,{"word":"ALDINGS","valid":false}
+    ,{"word":"EARLOCKS","valid":true}
+    ,{"word":"CLOAKERS","valid":false}
+    ,{"word":"COINSURE","valid":true}
+    ,{"word":"INSOURCE","valid":true}
+    ,{"word":"NEUROSIC","valid":false}
+    ,{"word":"TORCHLIT","valid":true}
+    ,{"word":"TRICLOTH","valid":false}
+    ,{"word":"COCHLEA","valid":true}
+    ,{"word":"CALOCHE","valid":false}
+    ,{"word":"MOBOCRAT","valid":true}
+    ,{"word":"MACROBOT","valid":false}
+    ,{"word":"TUMMLERS","valid":true}
+    ,{"word":"TRUMMELS","valid":false}
 ]
