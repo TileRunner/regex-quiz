@@ -67,6 +67,7 @@ const EatPotluck = ({filename}) => {
         newdata.forEach(element => {
             element.clicked = false;
         });
+        newdata.sort(() => Math.random() - 0.5);
         let validslist = "";
         data.filter((item) => {return item.valid;}).sort((a,b) => {return a.word < b.word ? -1 : 1}).forEach((item) => {
             validslist = validslist + item.word + ", ";
