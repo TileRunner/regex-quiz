@@ -38,4 +38,11 @@
     ,{"word":"MACROBOT","valid":false}
     ,{"word":"TUMMLERS","valid":true}
     ,{"word":"TRUMMELS","valid":false}
+    ,{"word":"PUTS","valid":true}
+    ,{"word":"TUPS","valid":true}
+    ,{"word":"STUP","valid":false}
+    ,{"word":"HAMADA","valid":true}
+    ,{"word":"AMADHA","valid":false}
+    ,{"word":"LOCOISMS","valid":true}
+    ,{"word":"MISCOOLS","valid":false}
 ]
