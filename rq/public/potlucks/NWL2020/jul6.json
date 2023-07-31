@@ -45,4 +45,25 @@
     ,{"word":"AMADHA","valid":false}
     ,{"word":"LOCOISMS","valid":true}
     ,{"word":"MISCOOLS","valid":false}
+    ,{"word":"TIPSTOCK","valid":true}
+    ,{"word":"SPITTOCK","valid":false}
+    ,{"word":"SOLEUSES","valid":true}
+    ,{"word":"LESSEOUS","valid":false}
+    ,{"word":"ADEPTER","valid":true}
+    ,{"word":"PREDATE","valid":true}
+    ,{"word":"TAPERED","valid":true}
+    ,{"word":"RETAPED","valid":true}
+    ,{"word":"PATERED","valid":false}
+    ,{"word":"COLISEUM","valid":true}
+    ,{"word":"SOLECIUM","valid":false}
+    ,{"word":"DIURESES","valid":true}
+    ,{"word":"RESIDUES","valid":true}
+    ,{"word":"REISSUED","valid":true}
+    ,{"word":"SEISURED","valid":false}
+    ,{"word":"OUTSMELT","valid":true}
+    ,{"word":"OUTMELTS","valid":false}
+    ,{"word":"TECTONIC","valid":true}
+    ,{"word":"TONECTIC","valid":false}
+    ,{"word":"TERPINOL","valid":true}
+    ,{"word":"TOPLINER","valid":false}
 ]
