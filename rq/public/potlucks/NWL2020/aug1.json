@@ -1,0 +1,16 @@
+[
+    {"word":"WORKHOUR","valid":true}
+    ,{"word":"HOURWORK","valid":false}
+    ,{"word":"MILLIER","valid":true}
+    ,{"word":"MILLIRE","valid":false}
+    ,{"word":"MOBSTERS","valid":true}
+    ,{"word":"SOMBREST","valid":true}
+    ,{"word":"BESTORMS","valid":false}
+    ,{"word":"MUESLI","valid":true}
+    ,{"word":"MULIES","valid":true}
+    ,{"word":"ILEUMS","valid":false}
+    ,{"word":"FUMIER","valid":true}
+    ,{"word":"FERIUM","valid":false}
+    ,{"word":"ROSHIS","valid":true}
+    ,{"word":"SORISH","valid":false}
+]
