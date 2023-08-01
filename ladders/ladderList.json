@@ -22,4 +22,16 @@
         "desc":"Christopher's Ladder",
         "lexicon":"NWL2020"
     }
+    ,
+    {
+        "filename":"Kramer1.txt",
+        "desc":"Kramer's Ladder #1",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"Kramer2.txt",
+        "desc":"Kramer's Ladder #2",
+        "lexicon":"NWL2020"
+    }
 ]
