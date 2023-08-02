@@ -13,4 +13,14 @@
     ,{"word":"FERIUM","valid":false}
     ,{"word":"ROSHIS","valid":true}
     ,{"word":"SORISH","valid":false}
+    ,{"word":"COBLE","valid":true}
+    ,{"word":"BOCLE","valid":false}
+    ,{"word":"CASSATA","valid":true}
+    ,{"word":"CASATAS","valid":false}
+    ,{"word":"BALLONET","valid":true}
+    ,{"word":"BALLETON","valid":false}
+    ,{"word":"APHYLLY","valid":true}
+    ,{"word":"ALPHYLY","valid":false}
+    ,{"word":"LAWINGS","valid":true}
+    ,{"word":"WALINGS","valid":false}
 ]

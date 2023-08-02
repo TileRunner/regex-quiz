@@ -1,0 +1,31 @@
+AMPO?ULE?
+:AMP&O|Nothing&UL&E|Nothing
+	AMPOULE
+	AMPUL
+	AMPULE
+
+A[NX]O[NX](AL|IC)
+:A&N|X&O&N|X&AL|IC
+	ANOXIC
+	AXONAL
+	AXONIC
+
+(RE)?A(RR|TT)EST(ER)?
+:RE|Nothing&A&RR|TT&EST&ER|Nothing
+	ARREST
+	ARRESTER
+	ATTEST
+	ATTESTER
+	REARREST
+
+ASH?RAMA?
+:AS&H|Nothing&RAM&A|Nothing
+	ASHRAM
+	ASHRAMA
+	ASRAMA
+
+QU.H..?G
+:QU&Any letter&H&1 - 2 letters&G
+	QUAHAUG
+	QUAHOG
+	QUOHOG
