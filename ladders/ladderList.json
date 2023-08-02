@@ -34,4 +34,28 @@
         "desc":"Kramer's Ladder #2",
         "lexicon":"NWL2020"
     }
+    ,
+    {
+        "filename":"Kramer3.txt",
+        "desc":"Kramer's Ladder #3",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"Kramer4.txt",
+        "desc":"Kramer's Ladder #4",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"Kramer5.txt",
+        "desc":"Kramer's Ladder #5",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"Kramer6.txt",
+        "desc":"Kramer's Ladder #6",
+        "lexicon":"NWL2020"
+    }
 ]
