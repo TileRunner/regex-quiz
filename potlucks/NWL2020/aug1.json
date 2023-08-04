@@ -23,4 +23,17 @@
     ,{"word":"ALPHYLY","valid":false}
     ,{"word":"LAWINGS","valid":true}
     ,{"word":"WALINGS","valid":false}
+    ,{"word":"GILLNETS","valid":true}
+    ,{"word":"TELLINGS","valid":false}
+    ,{"word":"SMARTASS","valid":true}
+    ,{"word":"STRAMASS","valid":false}
+    ,{"word":"UMBRETTE","valid":true}
+    ,{"word":"BEMUTTER","valid":false}
+    ,{"word":"DOWNWASH","valid":true}
+    ,{"word":"WASHDOWN","valid":false}
+    ,{"word":"AGENDUM","valid":true}
+    ,{"word":"UNGAMED","valid":false}
+    ,{"word":"DENARI","valid":true}
+    ,{"word":"RAINED","valid":true}
+    ,{"word":"AIRNED","valid":false}
 ]
