@@ -36,4 +36,16 @@
     ,{"word":"DENARI","valid":true}
     ,{"word":"RAINED","valid":true}
     ,{"word":"AIRNED","valid":false}
+    ,{"word":"DILUVIAL","valid":true}
+    ,{"word":"DILLUVIA","valid":false}
+    ,{"word":"WITHIES","valid":true}
+    ,{"word":"WHITIES","valid":false}
+    ,{"word":"LYCOPOD","valid":true}
+    ,{"word":"POLYCOD","valid":false}
+    ,{"word":"HUSKERS","valid":true}
+    ,{"word":"KURSHES","valid":false}
+    ,{"word":"CHAUSSES","valid":true}
+    ,{"word":"CHASSEUS","valid":false}
+    ,{"word":"RAUNCH","valid":true}
+    ,{"word":"UNARCH","valid":false}
 ]
