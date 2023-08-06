@@ -1,0 +1,10 @@
+[
+    {"word":"DOWNFALL","valid":true}
+    ,{"word":"LANDFLOW","valid":false}
+    ,{"word":"PASTINGS","valid":true}
+    ,{"word":"SIGNPAST","valid":false}
+    ,{"word":"WESTERS","valid":true}
+    ,{"word":"STEWERS","valid":false}
+    ,{"word":"FRIEZES","valid":true}
+    ,{"word":"FRIZEES","valid":false}
+]
