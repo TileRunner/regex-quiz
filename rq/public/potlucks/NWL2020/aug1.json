@@ -48,4 +48,8 @@
     ,{"word":"CHASSEUS","valid":false}
     ,{"word":"RAUNCH","valid":true}
     ,{"word":"UNARCH","valid":false}
+    ,{"word":"TUNDRAS","valid":true}
+    ,{"word":"DURANTS","valid":false}
+    ,{"word":"LITMUSES","valid":true}
+    ,{"word":"STIMULES","valid":false}
 ]
