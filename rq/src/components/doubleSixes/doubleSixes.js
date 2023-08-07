@@ -9,7 +9,7 @@ const DoubleSixes=() => {
     const [doubleSixesIndex, setDoubleSixesIndex] = useState(-1);
     const [doubleSixesDesc, setDoubleSixesDesc] = useState('Item not selected');
     const getDoubleSixesList=()=>{
-        setFromJsonFile('doubleSixes/doubleSixesList.json', setDoubleSixesList, true);
+        setFromJsonFile('doublesixes/doubleSixesList.json', setDoubleSixesList, true);
     }
 
     useEffect(()=>{
@@ -29,7 +29,7 @@ const DoubleSixes=() => {
             <ShowDoubleSixesList doubleSixesList={doubleSixesList} setDoubleSixesIndex={setDoubleSixesIndex} setDoubleSixesDesc={setDoubleSixesDesc} />
         }
         {doubleSixesIndex > -1 &&
-            <SolveDoubleSixes filename={`doubleSixes/${doubleSixesList[doubleSixesIndex].lexicon}/${doubleSixesList[doubleSixesIndex].filename}`}/>
+            <SolveDoubleSixes filename={`doublesixes/${doubleSixesList[doubleSixesIndex].lexicon}/${doubleSixesList[doubleSixesIndex].filename}`}/>
         }
     </div>);
 }
