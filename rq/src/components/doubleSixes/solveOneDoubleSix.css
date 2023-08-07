@@ -1,0 +1,20 @@
+.solveOneDoubleSix {
+    background-color: blue;
+}
+.phrasediv {
+    margin-top: 1vh;
+}
+.solvephrase {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+}
+.wordSolved {
+    color: chartreuse;
+}
+.wordUnsolved {
+    color: blue;
+}
+.wordSolved, .wordUnsolved {
+    font-size: 3vw;
+    border: 3px solid black;
+}
