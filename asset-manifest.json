@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/regex-quiz/static/css/main.7cf2651d.css",
-    "main.js": "/regex-quiz/static/js/main.fabed5a5.js",
+    "main.css": "/regex-quiz/static/css/main.02e834d0.css",
+    "main.js": "/regex-quiz/static/js/main.1c5af100.js",
     "static/js/787.3bc9c568.chunk.js": "/regex-quiz/static/js/787.3bc9c568.chunk.js",
     "static/media/Wall.jpg": "/regex-quiz/static/media/Wall.47add20fa95f0bdaa7f3.jpg",
     "index.html": "/regex-quiz/index.html",
-    "main.7cf2651d.css.map": "/regex-quiz/static/css/main.7cf2651d.css.map",
-    "main.fabed5a5.js.map": "/regex-quiz/static/js/main.fabed5a5.js.map",
+    "main.02e834d0.css.map": "/regex-quiz/static/css/main.02e834d0.css.map",
+    "main.1c5af100.js.map": "/regex-quiz/static/js/main.1c5af100.js.map",
     "787.3bc9c568.chunk.js.map": "/regex-quiz/static/js/787.3bc9c568.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cf2651d.css",
-    "static/js/main.fabed5a5.js"
+    "static/css/main.02e834d0.css",
+    "static/js/main.1c5af100.js"
   ]
 }
