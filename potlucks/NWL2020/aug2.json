@@ -7,4 +7,11 @@
     ,{"word":"STEWERS","valid":false}
     ,{"word":"FRIEZES","valid":true}
     ,{"word":"FRIZEES","valid":false}
+    ,{"word":"HAMBONED","valid":true}
+    ,{"word":"HEBNOMAD","valid":false}
+    ,{"word":"NATIVIST","valid":true}
+    ,{"word":"VISITANT","valid":true}
+    ,{"word":"VITTIANS","valid":false}
+    ,{"word":"BIALY","valid":true}
+    ,{"word":"BAILY","valid":false}
 ]
