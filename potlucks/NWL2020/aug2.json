@@ -14,4 +14,10 @@
     ,{"word":"VITTIANS","valid":false}
     ,{"word":"BIALY","valid":true}
     ,{"word":"BAILY","valid":false}
+    ,{"word":"CURTALAX","valid":true}
+    ,{"word":"CURLATAX","valid":false}
+    ,{"word":"DEERYARD","valid":true}
+    ,{"word":"REEDYARD","valid":false}
+    ,{"word":"MYCOSIS","valid":true}
+    ,{"word":"CYMOSIS","valid":false}
 ]
