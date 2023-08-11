@@ -20,4 +20,21 @@
     ,{"word":"REEDYARD","valid":false}
     ,{"word":"MYCOSIS","valid":true}
     ,{"word":"CYMOSIS","valid":false}
+    ,{"word":"COREIGNS","valid":true}
+    ,{"word":"COSIGNER","valid":true}
+    ,{"word":"COGNISER","valid":false}
+    ,{"word":"SHAWLED","valid":true}
+    ,{"word":"WALSHED","valid":false}
+    ,{"word":"ICKERS","valid":true}
+    ,{"word":"SICKER","valid":true}
+    ,{"word":"CRIKES","valid":false}
+    ,{"word":"ENOLIC","valid":true}
+    ,{"word":"CINEOL","valid":true}
+    ,{"word":"NICOLE","valid":false}
+    ,{"word":"AIBLINS","valid":true}
+    ,{"word":"BASILIN","valid":false}
+    ,{"word":"OXERS","valid":true}
+    ,{"word":"XEROS","valid":false}
+    ,{"word":"CATHECTS","valid":true}
+    ,{"word":"CATCHETS","valid":false}
 ]

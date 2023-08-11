@@ -39,5 +39,9 @@
         "filename":"MoonTheBeagle4.txt",
         "desc":"From MoonTheBeagle, Set 4",
         "lexicon":"NWL2020"
+    },{
+        "filename":"MoonTheBeagle5.txt",
+        "desc":"From MoonTheBeagle, Set 5",
+        "lexicon":"NWL2020"
     }
 ]
