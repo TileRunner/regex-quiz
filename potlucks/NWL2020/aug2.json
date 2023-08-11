@@ -37,4 +37,8 @@
     ,{"word":"XEROS","valid":false}
     ,{"word":"CATHECTS","valid":true}
     ,{"word":"CATCHETS","valid":false}
+    ,{"word":"TOWARDLY","valid":true}
+    ,{"word":"LADYWORT","valid":false}
+    ,{"word":"TYPEBARS","valid":true}
+    ,{"word":"PRESBYTA","valid":false}
 ]
