@@ -19,7 +19,6 @@ const SolveDoubleSixes=({filename}) => {
     return(<div>
         {itemid < 0 ? <div>
             <h1>Goal: Rearrange the letters in the phrase into two six-letter words.</h1>
-            <h2>For now you can check the answers yourself. I haven't coded that far yet.</h2>
             <table className='table table-striped table-bordered table-hover table-dark'>
                 <thead>
                     <tr>
@@ -39,7 +38,7 @@ const SolveDoubleSixes=({filename}) => {
                 </tbody>
             </table>
         </div>
-        : <SolveOneDoubleSix data={data.filter(item => {return item.id === itemid})[0]} setItemid={setItemid}/>
+        : <SolveOneDoubleSix data={data.filter(item => {return item.id === itemid})[0]} setItemid={setItemid} currentId={itemid} maxId={data.length}/>
         }
     </div>)
 }

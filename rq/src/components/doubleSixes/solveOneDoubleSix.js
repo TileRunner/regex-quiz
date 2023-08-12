@@ -2,7 +2,7 @@ import './solveOneDoubleSix.css';
 import InputWordSimple from '../inputWordSimple';
 import { useState } from 'react';
 
-const SolveOneDoubleSix=({data, setItemid}) => {
+const SolveOneDoubleSix=({data, setItemid, currentId, maxId}) => {
     const [guesses, setGuesses] = useState([]);
     const [solved, setSolved] = useState(false);
     function handleSubmitWord(word) {
@@ -23,6 +23,7 @@ const SolveOneDoubleSix=({data, setItemid}) => {
         <div className='solveOneDoubleSix'>
             <h1>Goal: Rearrange the letters in the phrase into two six-letter words.</h1>
             <button onClick={() => {setItemid(-1);}}>Return to question list</button>
+            {currentId < maxId && <button onClick={() => {setItemid(currentId+1); setGuesses([]); setSolved(false);}}>Next question</button>}
             <div className='phrasediv'>
                 <span className='solvephrase'>{data.phrase}</span>
             </div>
