@@ -41,4 +41,11 @@
     ,{"word":"LADYWORT","valid":false}
     ,{"word":"TYPEBARS","valid":true}
     ,{"word":"PRESBYTA","valid":false}
+    ,{"word":"RIDENT","valid":true}
+    ,{"word":"TINDER","valid":true}
+    ,{"word":"TRINED","valid":true}
+    ,{"word":"DINTER","valid":false}
+    ,{"word":"CABALISM","valid":true}
+    ,{"word":"BALSAMIC","valid":true}
+    ,{"word":"CALIMBAS","valid":false}
 ]
