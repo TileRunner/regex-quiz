@@ -48,4 +48,9 @@
     ,{"word":"CABALISM","valid":true}
     ,{"word":"BALSAMIC","valid":true}
     ,{"word":"CALIMBAS","valid":false}
+    ,{"word":"SEAMANLY","valid":true}
+    ,{"word":"MYLAENAS","valid":false}
+    ,{"word":"GORSES","valid":true}
+    ,{"word":"OGRESS","valid":true}
+    ,{"word":"GROSSE","valid":false}
 ]
