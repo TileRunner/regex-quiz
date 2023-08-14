@@ -53,4 +53,8 @@
     ,{"word":"GORSES","valid":true}
     ,{"word":"OGRESS","valid":true}
     ,{"word":"GROSSE","valid":false}
+    ,{"word":"FLOATIER","valid":true}
+    ,{"word":"FETIOLAR","valid":false}
+    ,{"word":"HEADGATE","valid":true}
+    ,{"word":"GATEHEAD","valid":false}
 ]
