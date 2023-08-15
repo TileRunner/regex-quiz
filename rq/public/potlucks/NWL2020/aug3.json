@@ -1,5 +1,6 @@
 [
     {"word":"SETTLES","valid":true}
     ,{"word":"STETELS","valid":false}
-
+    ,{"word":"KAMOTIQ","valid":true}
+    ,{"word":"QAMOTIK","valid":false}
 ]
