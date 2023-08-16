@@ -3,4 +3,11 @@
     ,{"word":"STETELS","valid":false}
     ,{"word":"KAMOTIQ","valid":true}
     ,{"word":"QAMOTIK","valid":false}
+    ,{"word":"GAMMADIA","valid":true}
+    ,{"word":"MAMADIGA","valid":false}
+    ,{"word":"DECKEL","valid":true}
+    ,{"word":"DECKLE","valid":true}
+    ,{"word":"LECKED","valid":false}
+    ,{"word":"NUCLIDIC","valid":true}
+    ,{"word":"DULCINIC","valid":false}
 ]
