@@ -10,4 +10,25 @@
     ,{"word":"LECKED","valid":false}
     ,{"word":"NUCLIDIC","valid":true}
     ,{"word":"DULCINIC","valid":false}
+    ,{"word":"UNIALGAL","valid":true}
+    ,{"word":"ALINGUAL","valid":false}
+    ,{"word":"TAMBUR","valid":true}
+    ,{"word":"RUMBAT","valid":false}
+    ,{"word":"MERLES","valid":true}
+    ,{"word":"ELMERS","valid":false}
+    ,{"word":"CONSTRUE","valid":true}
+    ,{"word":"COUNTERS","valid":true}
+    ,{"word":"RECOUNTS","valid":true}
+    ,{"word":"TROUNCES","valid":true}
+    ,{"word":"CORNUTES","valid":false}
+    ,{"word":"SINGLET","valid":true}
+    ,{"word":"SNIGLET","valid":true}
+    ,{"word":"GLISTEN","valid":true}
+    ,{"word":"TINGLES","valid":true}
+    ,{"word":"GENTILS","valid":false}
+    ,{"word":"PROPYLON","valid":true}
+    ,{"word":"PROPONYL","valid":false}
+    ,{"word":"ESCARPED","valid":true}
+    ,{"word":"RESPACED","valid":true}
+    ,{"word":"RESCAPED","valid":false}
 ]
