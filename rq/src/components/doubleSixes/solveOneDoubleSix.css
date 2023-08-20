@@ -18,3 +18,10 @@
     font-size: 3vw;
     border: 3px solid black;
 }
+.showGuesses {
+    width: 90%;
+    word-wrap: normal;
+}
+.doubleSixesInputWordDiv {
+    padding: 0px 10px;
+}

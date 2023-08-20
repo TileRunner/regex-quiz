@@ -37,11 +37,11 @@ const SolveOneDoubleSix=({data, setItemid, currentId, maxId}) => {
                     )}
                 </tbody>
             </table>
-            <div>
+            <div className='doubleSixesInputWordDiv'>
                 <InputWordSimple handleSubmitWord={handleSubmitWord}/>
             </div>
             {solved && <h1>Solved!</h1>}
-            {!solved && <p>Guesses: {guesses.join(",")}</p>}
+            {!solved && <p className='showGuesses'>Guesses: {guesses.join(", ")}</p>}
         </div>
     )
 }
