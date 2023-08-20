@@ -31,4 +31,26 @@
     ,{"word":"ESCARPED","valid":true}
     ,{"word":"RESPACED","valid":true}
     ,{"word":"RESCAPED","valid":false}
+    ,{"word":"SLEEKIT","valid":true}
+    ,{"word":"KELTIES","valid":false}
+    ,{"word":"BABYDOLL","valid":true}
+    ,{"word":"BODYBALL","valid":false}
+    ,{"word":"PARAMENT","valid":true}
+    ,{"word":"TRAMPEAN","valid":false}
+    ,{"word":"AZOTEMIC","valid":true}
+    ,{"word":"METAZOIC","valid":true}
+    ,{"word":"COMATIZE","valid":false}
+    ,{"word":"SHEITAN","valid":true}
+    ,{"word":"STHENIA","valid":true}
+    ,{"word":"SHANTIE","valid":false}
+    ,{"word":"KHEDAS","valid":true}
+    ,{"word":"SHAKED","valid":false}
+    ,{"word":"ALNICOS","valid":true}
+    ,{"word":"OILCANS","valid":true}
+    ,{"word":"SONICAL","valid":false}
+    ,{"word":"PALLADIA","valid":true}
+    ,{"word":"PALADIAL","valid":false}
+    ,{"word":"PAROLES","valid":true}
+    ,{"word":"REPOSAL","valid":true}
+    ,{"word":"PELORAS","valid":false}
 ]
