@@ -53,4 +53,13 @@
     ,{"word":"PAROLES","valid":true}
     ,{"word":"REPOSAL","valid":true}
     ,{"word":"PELORAS","valid":false}
+    ,{"word":"CULPAE","valid":true}
+    ,{"word":"UPLACE","valid":false}
+    ,{"word":"HUMPIES","valid":true}
+    ,{"word":"EUPHISM","valid":false}
+    ,{"word":"DESANDED","valid":true}
+    ,{"word":"SADDENED","valid":true}
+    ,{"word":"DEADENDS","valid":false}
+    ,{"word":"BULLACES","valid":true}
+    ,{"word":"CUEBALLS","valid":false}
 ]

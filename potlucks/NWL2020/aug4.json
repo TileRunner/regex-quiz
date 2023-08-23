@@ -1,0 +1,26 @@
+[
+    {"word":"CATEGORY","valid":true}
+    ,{"word":"GREYCOAT","valid":false}
+    ,{"word":"SPELTERS","valid":true}
+    ,{"word":"PESTLERS","valid":false}
+    ,{"word":"CANIDS","valid":true}
+    ,{"word":"NICADS","valid":true}
+    ,{"word":"CNIDAS","valid":false}
+    ,{"word":"FEODARY","valid":true}
+    ,{"word":"FORAYED","valid":true}
+    ,{"word":"FEDOARY","valid":false}
+    ,{"word":"ARCADIAS","valid":true}
+    ,{"word":"ACARIDAS","valid":false}
+    ,{"word":"TERZETTI","valid":true}
+    ,{"word":"ZERTETTI","valid":false}
+    ,{"word":"VULPINE","valid":true}
+    ,{"word":"PULVINE","valid":false}
+    ,{"word":"SPIKELET","valid":true}
+    ,{"word":"STEPLIKE","valid":true}
+    ,{"word":"KELPIEST","valid":false}
+    ,{"word":"DAUTIE","valid":true}
+    ,{"word":"AUDITE","valid":false}
+    ,{"word":"UNCIVIL","valid":true}
+    ,{"word":"VINCULI","valid":false}
+
+]
