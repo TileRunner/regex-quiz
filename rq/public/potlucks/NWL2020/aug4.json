@@ -1,0 +1,43 @@
+[
+    {"word":"CATEGORY","valid":true}
+    ,{"word":"GREYCOAT","valid":false}
+    ,{"word":"SPELTERS","valid":true}
+    ,{"word":"PESTLERS","valid":false}
+    ,{"word":"CANIDS","valid":true}
+    ,{"word":"NICADS","valid":true}
+    ,{"word":"CNIDAS","valid":false}
+    ,{"word":"FEODARY","valid":true}
+    ,{"word":"FORAYED","valid":true}
+    ,{"word":"FEDOARY","valid":false}
+    ,{"word":"ARCADIAS","valid":true}
+    ,{"word":"ACARIDAS","valid":false}
+    ,{"word":"TERZETTI","valid":true}
+    ,{"word":"ZERTETTI","valid":false}
+    ,{"word":"VULPINE","valid":true}
+    ,{"word":"PULVINE","valid":false}
+    ,{"word":"SPIKELET","valid":true}
+    ,{"word":"STEPLIKE","valid":true}
+    ,{"word":"KELPIEST","valid":false}
+    ,{"word":"DAUTIE","valid":true}
+    ,{"word":"AUDITE","valid":false}
+    ,{"word":"UNCIVIL","valid":true}
+    ,{"word":"VINCULI","valid":false}
+    ,{"word":"MONOGENY","valid":true}
+    ,{"word":"MONOGYNE","valid":false}
+    ,{"word":"LASSOED","valid":true}
+    ,{"word":"ALDOSES","valid":true}
+    ,{"word":"SOLEADS","valid":false}
+    ,{"word":"SCIOLIST","valid":true}
+    ,{"word":"SOLICITS","valid":true}
+    ,{"word":"SOLICIST","valid":false}
+    ,{"word":"MEDIGAPS","valid":true}
+    ,{"word":"MISPAGED","valid":true}
+    ,{"word":"DEMIGAPS","valid":false}
+    ,{"word":"HEIRDOMS","valid":true}
+    ,{"word":"MIDSHORE","valid":true}
+    ,{"word":"MIDHORSE","valid":false}
+    ,{"word":"INKLESS","valid":true}
+    ,{"word":"KINLESS","valid":true}
+    ,{"word":"SILKENS","valid":false}
+
+]

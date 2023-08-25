@@ -11,6 +11,7 @@ import TakeQuiz from './components/takeQuiz';
 import Potluck from './components/potlucks/potluck';
 import DoubleSixes from './components/doubleSixes/doubleSixes';
 
+const MODE_HOME = 'Home';
 const MODE_REGEX = 'Regex Quizzes';
 const MODE_LADDER = 'Ladders';
 const MODE_MINEFIELD = 'Minefields';
@@ -18,7 +19,7 @@ const MODE_POTLUCK = 'Potlucks';
 const MODE_DOUBLESIXES = 'Double Sixes';
 
 function App() {
-  const [mode, setMode] = useState(isMobile ? MODE_MINEFIELD : MODE_REGEX);
+  const [mode, setMode] = useState(MODE_HOME);
   const [llist, setLlist] = useState([]);
   const [lindex, setLindex] = useState(-1);
   const [ldesc, setLdesc] = useState('No level selected.');
@@ -56,6 +57,11 @@ function App() {
       <header>
           <div className='d-flex bg-info text-black'>
             <div className='p-2 bg-primary'>Quiz Mode Selected: {mode}</div>
+            {mode !== MODE_HOME &&
+                <div className='p-2 bg-primary'>
+                  <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_HOME) }}>Home</button>
+                </div>
+            }
             {mode !== MODE_REGEX && !isMobile &&
                 <div className='p-2 bg-primary'>
                   <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_REGEX) }}>Switch to {MODE_REGEX}</button>
@@ -82,6 +88,10 @@ function App() {
                 </div>
             }
           </div>
+        {mode === MODE_HOME && <div>
+          <a href="http://www.scrabbleplayers.org"><img border="0" src="http://www.scrabbleplayers.org/pix/logo-only-160px.png" alt="[NASPA Logo]"/></a>
+          <span className='ackNASPA'>NWL20 used with permission from NASPA</span>
+        </div>}
         {mode === MODE_REGEX && ShowRegexMode}
         {mode === MODE_LADDER && <Ladder/>}
         {mode === MODE_MINEFIELD && <Minefield mlist={mlist} mindex={mindex} setMindex={setMindex} mdesc={mdesc} setMdesc={setMdesc} />}
