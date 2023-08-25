@@ -22,5 +22,22 @@
     ,{"word":"AUDITE","valid":false}
     ,{"word":"UNCIVIL","valid":true}
     ,{"word":"VINCULI","valid":false}
+    ,{"word":"MONOGENY","valid":true}
+    ,{"word":"MONOGYNE","valid":false}
+    ,{"word":"LASSOED","valid":true}
+    ,{"word":"ALDOSES","valid":true}
+    ,{"word":"SOLEADS","valid":false}
+    ,{"word":"SCIOLIST","valid":true}
+    ,{"word":"SOLICITS","valid":true}
+    ,{"word":"SOLICIST","valid":false}
+    ,{"word":"MEDIGAPS","valid":true}
+    ,{"word":"MISPAGED","valid":true}
+    ,{"word":"DEMIGAPS","valid":false}
+    ,{"word":"HEIRDOMS","valid":true}
+    ,{"word":"MIDSHORE","valid":true}
+    ,{"word":"MIDHORSE","valid":false}
+    ,{"word":"INKLESS","valid":true}
+    ,{"word":"KINLESS","valid":true}
+    ,{"word":"SILKENS","valid":false}
 
 ]
