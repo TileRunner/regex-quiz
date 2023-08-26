@@ -39,5 +39,11 @@
     ,{"word":"INKLESS","valid":true}
     ,{"word":"KINLESS","valid":true}
     ,{"word":"SILKENS","valid":false}
+    ,{"word":"RENTIER","valid":true}
+    ,{"word":"REINTER","valid":true}
+    ,{"word":"TERRINE","valid":true}
+    ,{"word":"INERTER","valid":false}
+    ,{"word":"CARABAOS","valid":true}
+    ,{"word":"ARABASCO","valid":false}
 
 ]
