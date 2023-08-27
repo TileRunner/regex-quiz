@@ -45,5 +45,24 @@
     ,{"word":"INERTER","valid":false}
     ,{"word":"CARABAOS","valid":true}
     ,{"word":"ARABASCO","valid":false}
+    ,{"word":"GLOATER","valid":true}
+    ,{"word":"LEGATOR","valid":true}
+    ,{"word":"GELATOR","valid":false}
+    ,{"word":"BRUME","valid":true}
+    ,{"word":"UMBER","valid":true}
+    ,{"word":"UMBRE","valid":false}
+    ,{"word":"OLLIED","valid":true}
+    ,{"word":"DOLLIE","valid":false}
+    ,{"word":"MATRICES","valid":true}
+    ,{"word":"MISTRACE","valid":true}
+    ,{"word":"SCIMETAR","valid":true}
+    ,{"word":"CERAMIST","valid":true}
+    ,{"word":"RACEMIST","valid":false}
+    ,{"word":"ETHOS","valid":true}
+    ,{"word":"SHOTE","valid":true}
+    ,{"word":"THOSE","valid":true}
+    ,{"word":"HOSTE","valid":false}
+    ,{"word":"ARMURES","valid":true}
+    ,{"word":"REMURAS","valid":false}
 
 ]
