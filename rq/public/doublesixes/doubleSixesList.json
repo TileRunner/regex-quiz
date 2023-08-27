@@ -4,4 +4,19 @@
         "desc":"Double-sixes from 12-letter words with one answer each.",
         "lexicon":"NWL2020"
     }
+    , {
+        "filename":"naspanews20230806.txt",
+        "desc":"Puzzle that appeared in NASPA news on Aug 6, 2023.",
+        "lexicon":"NWL2020"
+    }
+    , {
+        "filename":"naspanews20230810.txt",
+        "desc":"Puzzle that appeared in NASPA news on Aug 10, 2023.",
+        "lexicon":"NWL2020"
+    }
+    , {
+        "filename":"naspanews20230818.txt",
+        "desc":"Puzzle that appeared in NASPA news on Aug 18, 2023.",
+        "lexicon":"NWL2020"
+    }
 ]

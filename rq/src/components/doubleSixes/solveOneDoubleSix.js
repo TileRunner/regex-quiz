@@ -27,7 +27,7 @@ const SolveOneDoubleSix=({data, setItemid, currentId, maxId}) => {
             <div className='phrasediv'>
                 <span className='solvephrase'>{data.phrase}</span>
             </div>
-            <table className='table'>
+            <table className='table table-sm'>
                 <tbody>
                     {data.answers.map((answer,index) =>
                         <tr key={index}>

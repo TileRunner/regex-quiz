@@ -15,8 +15,7 @@
     color: blue;
 }
 .wordSolved, .wordUnsolved {
-    font-size: 3vw;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 .showGuesses {
     width: 90%;
