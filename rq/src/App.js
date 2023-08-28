@@ -24,7 +24,7 @@ const Home = <div>
   <div className='p-2 bg-secondary text-white'>
     <p>The original concept for this site was to use it for trivia contests at long tournaments.
       I wanted to use the Regular Expressions as the questions, and individuals or teams would
-      get one point per correct word, and lose one point per phony. The Regex Quizzes mode best reflects this original intention.
+      get one point per correct word, and lose two points per phony. The Regex Quizzes mode best reflects this original intention.
     </p>
     <p>
       The Ladders mode is the first offshoot. It is a more brutal format in that you have to reclimb the ladder
