@@ -1,0 +1,7 @@
+[
+    {"word":"GRUNTLES","valid":true}
+    ,{"word":"RUNGLETS","valid":false}
+    ,{"word":"ORGANIZE","valid":true}
+    ,{"word":"AGONIZER","valid":false}
+
+]

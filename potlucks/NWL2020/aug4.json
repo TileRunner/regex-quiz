@@ -64,5 +64,7 @@
     ,{"word":"HOSTE","valid":false}
     ,{"word":"ARMURES","valid":true}
     ,{"word":"REMURAS","valid":false}
-
+    ,{"word":"EATABLES","valid":true}
+    ,{"word":"TEASABLE","valid":true}
+    ,{"word":"SEATABLE","valid":false}
 ]
