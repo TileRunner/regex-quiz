@@ -3,5 +3,20 @@
     ,{"word":"RUNGLETS","valid":false}
     ,{"word":"ORGANIZE","valid":true}
     ,{"word":"AGONIZER","valid":false}
-
+    ,{"word":"SURCEASE","valid":true}
+    ,{"word":"EUCRASES","valid":false}
+    ,{"word":"CRUDEST","valid":true}
+    ,{"word":"CRUSTED","valid":true}
+    ,{"word":"REDUCTS","valid":false}
+    ,{"word":"SHOALEST","valid":true}
+    ,{"word":"OATHLESS","valid":false}
+    ,{"word":"BITRATES","valid":true}
+    ,{"word":"BIRETTAS","valid":true}
+    ,{"word":"BRATTIES","valid":false}
+    ,{"word":"CAMAILED","valid":true}
+    ,{"word":"CALAMIDE","valid":false}
+    ,{"word":"BATHYAL","valid":true}
+    ,{"word":"HATABLY","valid":false}
+    ,{"word":"IMMOTILE","valid":true}
+    ,{"word":"IMMOLITE","valid":false}
 ]
