@@ -1,0 +1,20 @@
+[
+    {"word":"SWINGLED","valid":true}
+    ,{"word":"WELDINGS","valid":false}
+    ,{"word":"MAGOT","valid":true}
+    ,{"word":"GAMOT","valid":false}
+    ,{"word":"SEADROME","valid":true}
+    ,{"word":"DARESOME","valid":false}
+    ,{"word":"CHAPLETS","valid":true}
+    ,{"word":"SPATCHEL","valid":false}
+    ,{"word":"PINETUM","valid":true}
+    ,{"word":"PENTIUM","valid":false}
+    ,{"word":"SPARLING","valid":true}
+    ,{"word":"SPRINGAL","valid":true}
+    ,{"word":"GRAPLINS","valid":true}
+    ,{"word":"PARLINGS","valid":false}
+    ,{"word":"SAWNEYS","valid":true}
+    ,{"word":"WAYNESS","valid":false}
+    ,{"word":"IDYLIST","valid":true}
+    ,{"word":"DITSILY","valid":false}
+]
