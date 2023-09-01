@@ -19,4 +19,10 @@
     ,{"word":"HATABLY","valid":false}
     ,{"word":"IMMOTILE","valid":true}
     ,{"word":"IMMOLITE","valid":false}
+    ,{"word":"SYNECTIC","valid":true}
+    ,{"word":"ENCYSTIC","valid":false}
+    ,{"word":"TISSULAR","valid":true}
+    ,{"word":"TISSURAL","valid":false}
+    ,{"word":"BARTERER","valid":true}
+    ,{"word":"BARRETER","valid":false}
 ]
