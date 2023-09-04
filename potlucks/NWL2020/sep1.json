@@ -27,4 +27,13 @@
     ,{"word":"DEFECARY","valid":false}
     ,{"word":"RUNDOWNS","valid":true}
     ,{"word":"UNDROWNS","valid":false}
+    ,{"word":"KITHS","valid":true}
+    ,{"word":"SHTIK","valid":true}
+    ,{"word":"KITSH","valid":false}
+    ,{"word":"PAPHIANS","valid":true}
+    ,{"word":"SAPPHIAN","valid":false}
+    ,{"word":"LIATRIS","valid":true}
+    ,{"word":"TRIALIS","valid":false}
+    ,{"word":"TALLAGED","valid":true}
+    ,{"word":"GALLATED","valid":false}
 ]
