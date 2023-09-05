@@ -142,6 +142,7 @@ const ClimbLadder=({filename}) => {
                         autoclear={autoclear}
                         />
                     {item.guesses && item.guesses.length > 0 && <div className='qadiv'>
+                        <p>Target: {item.answers.length} answers</p>
                         {item.guesses.map((guess,guessindex) =>
                             <p className='guess' key={`item${index}guess${guessindex}`}>
                                 <span className='numlabel'>{guessindex+1}</span>: {guess}
