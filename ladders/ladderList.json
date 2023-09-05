@@ -19,7 +19,13 @@
     ,
     {
         "filename":"ChrisLadder.txt",
-        "desc":"Christopher's Ladder",
+        "desc":"Christopher's Ladder #1",
+        "lexicon":"NWL2020"
+    }
+    ,
+    {
+        "filename":"ChrisLadder2.txt",
+        "desc":"Christopher's Ladder #2",
         "lexicon":"NWL2020"
     }
     ,
