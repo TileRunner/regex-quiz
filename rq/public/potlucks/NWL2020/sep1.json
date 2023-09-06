@@ -36,4 +36,6 @@
     ,{"word":"TRIALIS","valid":false}
     ,{"word":"TALLAGED","valid":true}
     ,{"word":"GALLATED","valid":false}
+    ,{"word":"URUS","valid":true}
+    ,{"word":"SURU","valid":false}
 ]
