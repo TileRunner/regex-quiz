@@ -38,4 +38,15 @@
     ,{"word":"GALLATED","valid":false}
     ,{"word":"URUS","valid":true}
     ,{"word":"SURU","valid":false}
+    ,{"word":"URAEUSES","valid":true}
+    ,{"word":"AUREUSES","valid":false}
+    ,{"word":"REDRYING","valid":true}
+    ,{"word":"GRINDERY","valid":true}
+    ,{"word":"DERRYING","valid":false}
+    ,{"word":"CINCHONA","valid":true}
+    ,{"word":"CONCHIAN","valid":false}
+    ,{"word":"LARDOON","valid":true}
+    ,{"word":"LADROON","valid":false}
+    ,{"word":"QUIETIST","valid":true}
+    ,{"word":"EQUITIST","valid":false}
 ]
