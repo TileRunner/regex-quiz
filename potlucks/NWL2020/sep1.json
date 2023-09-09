@@ -49,4 +49,8 @@
     ,{"word":"LADROON","valid":false}
     ,{"word":"QUIETIST","valid":true}
     ,{"word":"EQUITIST","valid":false}
+    ,{"word":"MYOSOTIS","valid":true}
+    ,{"word":"MYOTOSIS","valid":false}
+    ,{"word":"RETAUGHT","valid":true}
+    ,{"word":"TAUGHTER","valid":false}
 ]

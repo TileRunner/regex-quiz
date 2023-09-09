@@ -1,0 +1,7 @@
+[
+    {"word":"STILLER","valid":true}
+    ,{"word":"TILLERS","valid":true}
+    ,{"word":"RILLETS","valid":true}
+    ,{"word":"TRELLIS","valid":true}
+    ,{"word":"RETILLS","valid":false}
+]
