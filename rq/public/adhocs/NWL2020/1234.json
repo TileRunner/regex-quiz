@@ -1,0 +1,46 @@
+[
+    {
+        "question":"Anagram of TRREEESSSS",
+        "answers":["RESTRESSES"]
+    }
+    , {
+        "question":"Anagram of TRRPPPEEEE",
+        "answers":["PEPPERTREE"]
+    }
+    , {
+        "question":"Anagram of RNNSSSEEEE",
+        "answers":["SERENENESS"]
+    }
+    , {
+        "question":"Anagram of VLLSSSEEEE",
+        "answers":["SLEEVELESS"]
+    }
+    , {
+        "question":"Anagram of VNNSSSEEEE",
+        "answers":["EVENNESSES"]
+    }
+    , {
+        "question":"Anagram of KNNSSSEEEE",
+        "answers":["KEENNESSES"]
+    }
+    , {
+        "question":"Anagram of BMMRRREEEE",
+        "answers":["REMEMBERER"]
+    }
+    , {
+        "question":"Anagram of DIIEEESSSS",
+        "answers":["DISSEISEES"]
+    }
+    , {
+        "question":"Anagram of ERRUUUSSSS",
+        "answers":["SUSURRUSES"]
+    }
+    , {
+        "question":"Anagram of HAAEEEDDDD",
+        "answers":["DEADHEADED"]
+    }
+    , {
+        "question":"Anagram of ANNEEESSSS",
+        "answers":["SANENESSES"]
+    }
+]

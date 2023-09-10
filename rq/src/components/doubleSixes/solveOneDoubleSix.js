@@ -6,6 +6,10 @@ const SolveOneDoubleSix=({data, setItemid, currentId, maxId}) => {
     const [guesses, setGuesses] = useState([]);
     const [solved, setSolved] = useState(false);
     function handleSubmitWord(word) {
+        if (word.toUpperCase().trim().length !== 6) {
+            alert(`${word.toUpperCase().trim()} should be 6 letters long.`);
+            return;
+        }
         let newGuesses = [...guesses];
         if (newGuesses.indexOf(word) < 0) {
             newGuesses.push(word);

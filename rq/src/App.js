@@ -10,6 +10,7 @@ import ShowQuizList from './components/showQuizList';
 import TakeQuiz from './components/takeQuiz';
 import Potluck from './components/potlucks/potluck';
 import DoubleSixes from './components/doubleSixes/doubleSixes';
+import Adhoc from './components/adhocs/adhoc';
 
 const MODE_HOME = 'Home';
 const MODE_REGEX = 'Regex Quizzes';
@@ -17,6 +18,7 @@ const MODE_LADDER = 'Ladders';
 const MODE_MINEFIELD = 'Minefields';
 const MODE_POTLUCK = 'Potlucks';
 const MODE_DOUBLESIXES = 'Double Sixes';
+const MODE_ADHOC = 'Ad hoc quizzes';
 
 const Home = <div>
   <a href="http://www.scrabbleplayers.org"><img border="0" src="http://www.scrabbleplayers.org/pix/logo-only-160px.png" alt="[NASPA Logo]" /></a>
@@ -25,11 +27,13 @@ const Home = <div>
     <p>The original concept for this site was to use it for trivia contests at long tournaments.
       I wanted to use the Regular Expressions as the questions, and individuals or teams would
       get one point per correct word, and lose two points per phony. The Regex Quizzes mode best reflects this original intention.
+      {isMobile && <span>Not supported on mobile phones.</span>}
     </p>
     <p>
       The Ladders mode is the first offshoot. It is a more brutal format in that you have to reclimb the ladder
       from the bottom rung as soon as you make a mistake. The idea is to keep trying until you successfully
       climb the ladder, hopefully helping you cement the words as you go.
+      {isMobile && <span>Not supported on mobile phones.</span>}
     </p>
     <p>
       The Minefields idea is to help in the fight against plausible phonies.
@@ -47,6 +51,11 @@ const Home = <div>
     <p>
       The Double Six quizzes are challenging puzzles (for me at least), where you have to use the 12
       letters shown and split them into two six letter words.
+    </p>
+    <p>
+      The Ad hoc quizzes are for free format questions that do not fit the other quiz types.
+      You are shown the question and you type in the valid words to answer.
+      {isMobile && <span>Not supported on mobile phones.</span>}
     </p>
   </div>
   <div className='p-2 bg-danger text-white'>
@@ -126,6 +135,11 @@ function App() {
                   <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_DOUBLESIXES) }}>Switch to {MODE_DOUBLESIXES}</button>
                 </div>
             }
+            {mode !== MODE_ADHOC && !isMobile &&
+                <div className='p-2 bg-primary'>
+                  <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_ADHOC) }}>Switch to {MODE_ADHOC}</button>
+                </div>
+            }
           </div>
         {mode === MODE_HOME && Home}
         {mode === MODE_REGEX && ShowRegexMode}
@@ -133,6 +147,7 @@ function App() {
         {mode === MODE_MINEFIELD && <Minefield mlist={mlist} mindex={mindex} setMindex={setMindex} mdesc={mdesc} setMdesc={setMdesc} />}
         {mode === MODE_POTLUCK && <Potluck/>}
         {mode === MODE_DOUBLESIXES && <DoubleSixes/>}
+        {mode === MODE_ADHOC && <Adhoc/>}
       </header>
     </div>
   );

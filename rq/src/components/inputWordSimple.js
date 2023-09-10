@@ -8,10 +8,6 @@ const InputWordSimple = ({handleSubmitWord}) => {
 
     async function mysubmit(event) {
         event.preventDefault();
-        if (myword.toUpperCase().trim().length !== 6) {
-            alert(`${myword.toUpperCase().trim()} should be 6 letters long.`);
-            return;
-        }
         setMyword('');
         handleSubmitWord(myword.toUpperCase().trim());
     }

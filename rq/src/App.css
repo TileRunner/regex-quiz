@@ -94,3 +94,12 @@
   top: 7px;
   color: black;
 }
+.removeButton {
+  font-size: smaller;
+  margin-left: 5px;
+  border: none;
+}
+.removeButton::after {
+  content: "x";
+  vertical-align: top;
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "desc":"Random quizzes",
+        "lexicon":"NWL2020",
+        "set":[
+            {
+                "filename":"g1q1.json",
+                "desc":"Quiz #1."
+            }
+            , {
+                "filename":"g1q2.json",
+                "desc":"Quiz #2."
+            }
+        ]
+    }
+    , {
+        "desc":"Thematic quizzes",
+        "lexicon":"NWL2020",
+        "set":[
+            {
+                "filename":"SpecificConsonants.json",
+                "desc":"Words that have a specific set of consonants"
+            }
+            , {
+                "filename":"1234.json",
+                "desc":"Words with 1 quadrupled letter, one tripled letter, one doubled letter, and one other letter"
+            }
+        ]
+    }
+]

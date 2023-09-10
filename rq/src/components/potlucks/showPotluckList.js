@@ -18,7 +18,7 @@ const ShowPotluckList=({potluckList, setPotluckLexicon, setPotluckFile, setPotlu
             {p.set ?
               <td>
                 <div className='dropdown'>
-                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  <button type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
                     Dropdown
                   </button>
                   <ul className='dropdown-menu'>

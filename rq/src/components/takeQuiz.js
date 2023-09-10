@@ -135,7 +135,7 @@ const TakeQuiz=({filename}) => {
                             <button className='btn btn-dark' active onClick={() => setCurrentIndex(currentIndex-1)}>Prev</button>
                         }
                     </li>
-                    <li class="list-group-item list-group-item-secondary">
+                    <li className="list-group-item list-group-item-secondary">
                         {currentIndex + 1 === data.length ?
                             <button className='btn btn-dark' disabled>Next</button>
                         :
