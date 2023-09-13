@@ -22,6 +22,10 @@
                 "desc":"Words that have a specific set of consonants"
             }
             , {
+                "filename":"NESW.json",
+                "desc":"Extensions of NORTH, EAST, SOUTH, WEST"
+            }
+            , {
                 "filename":"1234.json",
                 "desc":"Words with 1 quadrupled letter, one tripled letter, one doubled letter, and one other letter"
             }

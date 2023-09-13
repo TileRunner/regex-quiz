@@ -4,4 +4,32 @@
     ,{"word":"RILLETS","valid":true}
     ,{"word":"TRELLIS","valid":true}
     ,{"word":"RETILLS","valid":false}
+    ,{"word":"MEROPIC","valid":true}
+    ,{"word":"PROEMIC","valid":false}
+    ,{"word":"ARCHES","valid":true}
+    ,{"word":"CHARES","valid":true}
+    ,{"word":"SEARCH","valid":true}
+    ,{"word":"ESCHAR","valid":true}
+    ,{"word":"CHASER","valid":true}
+    ,{"word":"CASHER","valid":false}
+    ,{"word":"PEPITAS","valid":true}
+    ,{"word":"PIPETAS","valid":false}
+    ,{"word":"APLANAT","valid":true}
+    ,{"word":"PLATANA","valid":false}
+    ,{"word":"NONGLARE","valid":true}
+    ,{"word":"NONREGAL","valid":false}
+    ,{"word":"AIRTRAMS","valid":true}
+    ,{"word":"TRIMARAS","valid":false}
+    ,{"word":"CAPROCKS","valid":true}
+    ,{"word":"CROPSACK","valid":false}
+    ,{"word":"SCOMBRID","valid":true}
+    ,{"word":"SCROMBID","valid":false}
+    ,{"word":"MANGABEY","valid":true}
+    ,{"word":"GAMBANEY","valid":false}
+    ,{"word":"VOIDANCE","valid":true}
+    ,{"word":"COINVADE","valid":false}
+    ,{"word":"RANKISH","valid":true}
+    ,{"word":"NARKISH","valid":false}
+    ,{"word":"COLUMEL","valid":true}
+    ,{"word":"OCELLUM","valid":false}
 ]
