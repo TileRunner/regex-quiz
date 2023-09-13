@@ -1,0 +1,22 @@
+[
+    {
+        "question":"Which cardinal direction take the ED back extension? Type the full word(s).",
+        "answers":["SOUTHED"]
+    }
+    , {
+        "question":"Which cardinal direction take the ING back extension? Type the full word(s).",
+        "answers":["EASTING","NORTHING","SOUTHING","WESTING"]
+    }
+    , {
+        "question":"Which cardinal direction take the INGS back extension? Type the full word(s).",
+        "answers":["EASTINGS","NORTHINGS","SOUTHINGS","WESTINGS"]
+    }
+    , {
+        "question":"Which cardinal direction take the ERNS back extension? Type the full word(s).",
+        "answers":["NORTHERNS","SOUTHERNS","WESTERNS"]
+    }
+    , {
+        "question":"Which cardinal direction(s) take the WARDLY back extension? Type the full word(s).",
+        "answers":["EASTWARDLY"]
+    }
+]
