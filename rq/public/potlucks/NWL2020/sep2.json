@@ -32,4 +32,17 @@
     ,{"word":"NARKISH","valid":false}
     ,{"word":"COLUMEL","valid":true}
     ,{"word":"OCELLUM","valid":false}
+    ,{"word":"SCARERS","valid":true}
+    ,{"word":"CRASSER","valid":true}
+    ,{"word":"CARRESS","valid":false}
+    ,{"word":"LARCHES","valid":true}
+    ,{"word":"CLASHER","valid":true}
+    ,{"word":"CHARLES","valid":false}
+    ,{"word":"LANITAL","valid":true}
+    ,{"word":"LATINAL","valid":false}
+    ,{"word":"PSAMMITE","valid":true}
+    ,{"word":"SPAMMITE","valid":false}
+    ,{"word":"HERNIAS","valid":true}
+    ,{"word":"NEARISH","valid":true}
+    ,{"word":"SHARNIE","valid":false}
 ]
