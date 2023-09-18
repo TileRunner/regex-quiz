@@ -1,0 +1,17 @@
+[
+    {"word":"AIRERS","valid":true}
+    ,{"word":"RAISER","valid":true}
+    ,{"word":"SIERRA","valid":true}
+    ,{"word":"ARISER","valid":false}
+    ,{"word":"WASTERY","valid":true}
+    ,{"word":"WASTREY","valid":false}
+    ,{"word":"GREENISH","valid":true}
+    ,{"word":"REHINGES","valid":true}
+    ,{"word":"SHEERING","valid":true}
+    ,{"word":"NEIGHERS","valid":false}
+    ,{"word":"MISAIM","valid":true}
+    ,{"word":"MIASMI","valid":false}
+    ,{"word":"SEMINOMA","valid":true}
+    ,{"word":"MONAMIES","valid":false}
+
+]
