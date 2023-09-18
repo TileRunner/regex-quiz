@@ -45,4 +45,22 @@
     ,{"word":"HERNIAS","valid":true}
     ,{"word":"NEARISH","valid":true}
     ,{"word":"SHARNIE","valid":false}
+    ,{"word":"CHOWDERS","valid":true}
+    ,{"word":"COWHERDS","valid":true}
+    ,{"word":"COWSHERD","valid":false}
+    ,{"word":"RESPOOLS","valid":true}
+    ,{"word":"SPOOLERS","valid":true}
+    ,{"word":"SLOOPERS","valid":false}
+    ,{"word":"BECOWARD","valid":true}
+    ,{"word":"COWBREAD","valid":false}
+    ,{"word":"HALOES","valid":true}
+    ,{"word":"HAOLES","valid":false}
+    ,{"word":"COURSER","valid":true}
+    ,{"word":"SCOURER","valid":true}
+    ,{"word":"SOURCER","valid":false}
+    ,{"word":"TENESMUS","valid":true}
+    ,{"word":"MUTENESS","valid":true}
+    ,{"word":"MENTUSES","valid":false}
+    ,{"word":"REOBJECT","valid":true}
+    ,{"word":"OBJECTER","valid":false}
 ]
