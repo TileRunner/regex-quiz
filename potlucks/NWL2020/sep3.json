@@ -13,5 +13,55 @@
     ,{"word":"MIASMI","valid":false}
     ,{"word":"SEMINOMA","valid":true}
     ,{"word":"MONAMIES","valid":false}
+    ,{"word":"OITICICA","valid":true}
+    ,{"word":"OICICITA","valid":false}
+    ,{"word":"SYNCOMS","valid":true}
+    ,{"word":"COMSYNS","valid":false}
+    ,{"word":"FUBSIER","valid":true}
+    ,{"word":"SUBFIRE","valid":false}
+    ,{"word":"DOORMAN","valid":true}
+    ,{"word":"MADRONO","valid":true}
+    ,{"word":"MADROON","valid":false}
+    ,{"word":"LINKAGES","valid":true}
+    ,{"word":"SNAGLIKE","valid":true}
+    ,{"word":"LEAKINGS","valid":false}
+    ,{"word":"SIAMESES","valid":true}
+    ,{"word":"MISEASES","valid":true}
+    ,{"word":"SESAMIES","valid":false}
+    ,{"word":"PARSLEYS","valid":true}
+    ,{"word":"SPARSELY","valid":true}
+    ,{"word":"SPLAYERS","valid":false}
+    ,{"word":"SPURGALL","valid":true}
+    ,{"word":"GALLSPUR","valid":false}
+    ,{"word":"TALESMEN","valid":true}
+    ,{"word":"TELEMANS","valid":false}
+    ,{"word":"COCAINS","valid":true}
+    ,{"word":"ASCONIC","valid":false}
+    ,{"word":"CALAMI","valid":true}
+    ,{"word":"CAMAIL","valid":true}
+    ,{"word":"AMICAL","valid":false}
+    ,{"word":"SHOOING","valid":true}
+    ,{"word":"GOONISH","valid":false}
+    ,{"word":"LOMEIN","valid":true}
+    ,{"word":"OILMEN","valid":true}
+    ,{"word":"MOLINE","valid":true}
+    ,{"word":"LOMINE","valid":false}
+    ,{"word":"SUBTRADE","valid":true}
+    ,{"word":"DAUBSTER","valid":false}
+    ,{"word":"VIVISECT","valid":true}
+    ,{"word":"VICTIVES","valid":false}
+    ,{"word":"DESIS","valid":true}
+    ,{"word":"SIDES","valid":true}
+    ,{"word":"DISES","valid":false}
+    ,{"word":"CLAVERS","valid":true}
+    ,{"word":"CARVELS","valid":true}
+    ,{"word":"SCRAVEL","valid":true}
+    ,{"word":"CALVERS","valid":false}
+    ,{"word":"PULPOUS","valid":true}
+    ,{"word":"POPULUS","valid":false}
+    ,{"word":"HIDROSES","valid":true}
+    ,{"word":"DISHORSE","valid":false}
+    ,{"word":"HALAKHIC","valid":true}
+    ,{"word":"HALACHIK","valid":false}
 
 ]
