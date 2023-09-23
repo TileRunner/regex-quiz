@@ -1,0 +1,9 @@
+[
+    {"word":"TIMIDEST","valid":true}
+    ,{"word":"DEMITIST","valid":false}
+    ,{"word":"MUTABLE","valid":true}
+    ,{"word":"ALBUMET","valid":false}
+    ,{"word":"TRUSSER","valid":true}
+    ,{"word":"RUSTERS","valid":false}
+
+]
