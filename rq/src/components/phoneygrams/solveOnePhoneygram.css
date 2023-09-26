@@ -1,0 +1,26 @@
+.solveOnePhoneygram {
+    background-color: blue;
+}
+.phrasediv {
+    margin-top: 1vh;
+}
+.solvephrase {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+}
+.wordSolved {
+    color: chartreuse;
+}
+.wordUnsolved {
+    color: blue;
+}
+.wordSolved, .wordUnsolved {
+    border: 1px solid black;
+}
+.showGuesses {
+    width: 90%;
+    word-wrap: normal;
+}
+.phoneygramsInputWordDiv {
+    padding: 0px 10px;
+}

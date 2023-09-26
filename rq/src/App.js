@@ -11,6 +11,7 @@ import TakeQuiz from './components/takeQuiz';
 import Potluck from './components/potlucks/potluck';
 import DoubleSixes from './components/doubleSixes/doubleSixes';
 import Adhoc from './components/adhocs/adhoc';
+import Phoneygrams from './components/phoneygrams/phoneygrams';
 
 const MODE_HOME = 'Home';
 const MODE_REGEX = 'Regex Quizzes';
@@ -19,6 +20,7 @@ const MODE_MINEFIELD = 'Minefields';
 const MODE_POTLUCK = 'Potlucks';
 const MODE_DOUBLESIXES = 'Double Sixes';
 const MODE_ADHOC = 'Ad hoc quizzes';
+const MODE_PHONEYGRAMS = 'Phoneygrams';
 
 const Home = <div>
   <a href="http://www.scrabbleplayers.org"><img border="0" src="http://www.scrabbleplayers.org/pix/logo-only-160px.png" alt="[NASPA Logo]" /></a>
@@ -55,6 +57,11 @@ const Home = <div>
     <p>
       The Ad hoc quizzes are for free format questions that do not fit the other quiz types.
       You are shown the question and you type in the valid words to answer.
+      {isMobile && <span>Not supported on mobile phones.</span>}
+    </p>
+    <p>
+      The Phoneygram quizzes are for plausible or obvious phoneys with valid anagrams.
+      You are shown the phoneygram and you type in the valid anagrams to answer.
       {isMobile && <span>Not supported on mobile phones.</span>}
     </p>
   </div>
@@ -140,6 +147,11 @@ function App() {
                   <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_ADHOC) }}>Switch to {MODE_ADHOC}</button>
                 </div>
             }
+            {mode !== MODE_PHONEYGRAMS &&
+                <div className='p-2 bg-primary'>
+                  <button className='btn btn-primary btn-dark' onClick={() => { setMode(MODE_PHONEYGRAMS) }}>Switch to {MODE_PHONEYGRAMS}</button>
+                </div>
+            }
           </div>
         {mode === MODE_HOME && Home}
         {mode === MODE_REGEX && ShowRegexMode}
@@ -148,6 +160,7 @@ function App() {
         {mode === MODE_POTLUCK && <Potluck/>}
         {mode === MODE_DOUBLESIXES && <DoubleSixes/>}
         {mode === MODE_ADHOC && <Adhoc/>}
+        {mode === MODE_PHONEYGRAMS && <Phoneygrams/>}
       </header>
     </div>
   );

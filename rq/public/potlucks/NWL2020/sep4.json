@@ -5,5 +5,32 @@
     ,{"word":"ALBUMET","valid":false}
     ,{"word":"TRUSSER","valid":true}
     ,{"word":"RUSTERS","valid":false}
+    ,{"word":"FLYTES","valid":true}
+    ,{"word":"FLYEST","valid":false}
+    ,{"word":"UNCOMIC","valid":true}
+    ,{"word":"CONICUM","valid":false}
+    ,{"word":"DEGERM","valid":true}
+    ,{"word":"MERGED","valid":true}
+    ,{"word":"GERMED","valid":false}
+    ,{"word":"DOGLEGS","valid":true}
+    ,{"word":"SLOGGED","valid":true}
+    ,{"word":"DOGGLES","valid":false}
+    ,{"word":"MISPRIZE","valid":true}
+    ,{"word":"IMPRIZES","valid":false}
+    ,{"word":"SYNCYTIA","valid":true}
+    ,{"word":"SYNTYCIA","valid":false}
+    ,{"word":"MERMAIDS","valid":true}
+    ,{"word":"MISARMED","valid":false}
+    ,{"word":"CLADISM","valid":true}
+    ,{"word":"MISCLAD","valid":false}
+    ,{"word":"EXHEDRA","valid":true}
+    ,{"word":"HEXEDRA","valid":false}
+    ,{"word":"SOMEWHEN","valid":true}
+    ,{"word":"WHENSOME","valid":false}
+    ,{"word":"CORELESS","valid":true}
+    ,{"word":"SCLEROSE","valid":true}
+    ,{"word":"RECLOSES","valid":false}
+    ,{"word":"LINCTUS","valid":true}
+    ,{"word":"INCULTS","valid":false}
 
 ]
