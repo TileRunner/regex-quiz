@@ -43,5 +43,9 @@
     ,{"word":"HOACTINS","valid":false}
     ,{"word":"NATHLESS","valid":true}
     ,{"word":"HANTLESS","valid":false}
+    ,{"word":"ACARUS","valid":true}
+    ,{"word":"ACURAS","valid":false}
+    ,{"word":"SLALOM","valid":true}
+    ,{"word":"MOLALS","valid":false}
 
 ]
