@@ -1,12 +1,22 @@
 .solveOnePhoneygram {
     background-color: blue;
 }
-.phrasediv {
+.phoneygramdiv {
     margin-top: 1vh;
 }
-.solvephrase {
+.solvephoneygram {
     font-family: 'Courier New', Courier, monospace;
     font-size: 5vw;
+}
+.solvephoneygram::after {
+    content: '*';
+    vertical-align: middle;
+}
+.phoneygramAnswerTable {
+    width: fit-content;
+    align-items: center;
+    display: inline;
+    font-size: 4vw;
 }
 .wordSolved {
     color: chartreuse;
@@ -15,12 +25,17 @@
     color: blue;
 }
 .wordSolved, .wordUnsolved {
-    border: 1px solid black;
+    border: 3px solid whitesmoke;
+    border-radius: 15px;
+    padding: 0 1vw;
 }
 .showGuesses {
     width: 90%;
     word-wrap: normal;
 }
 .phoneygramsInputWordDiv {
-    padding: 0px 10px;
+    padding: 10px 35vw;
+}
+.phoneygramsInputWordDiv::before {
+    content: '(Hit ENTER without text for next phoneygram)';
 }

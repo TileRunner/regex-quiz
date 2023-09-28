@@ -6,6 +6,10 @@ const SolveOnePhoneygram=({data, setItemid, currentId, maxId}) => {
     const [guesses, setGuesses] = useState([]);
     const [solved, setSolved] = useState(false);
     function handleSubmitWord(word) {
+        if (word === '') {
+            nextQuestion();
+            return;
+        }
         let newGuesses = [...guesses];
         if (newGuesses.indexOf(word) < 0) {
             newGuesses.push(word);
@@ -18,23 +22,28 @@ const SolveOnePhoneygram=({data, setItemid, currentId, maxId}) => {
         });
         setSolved(!unsolved);
     }
+    function nextQuestion() {
+        if (currentId < maxId) {
+            setItemid(currentId+1);
+            setGuesses([]);
+            setSolved(false);
+        }
+    }
     return(
         <div className='solveOnePhoneygram'>
             <h1>Goal: Enter the valid anagrams of the phoneygram.</h1>
             <button onClick={() => {setItemid(-1);}}>Return to phoneygram list</button>
-            {currentId < maxId && <button onClick={() => {setItemid(currentId+1); setGuesses([]); setSolved(false);}}>Next phoneygram</button>}
+            {currentId < maxId && <button onClick={() => {nextQuestion();}}>Next phoneygram</button>}
             <div className='phoneygramdiv'>
-                Phoneygram:<span className='solvephoneygram'> {data.phoneygram}</span>
+                <span className='solvephoneygram'> {data.phoneygram}</span>
             </div>
-            <table className='table table-sm'>
-                <tbody>
-                    {data.answers.map((answer,index) =>
-                        <tr key={index}>
-                            <td className={guesses.indexOf(answer) > -1 ? 'wordSolved' : 'wordUnsolved'}>{answer}</td>
-                        </tr>
-                    )}
-                </tbody>
-            </table>
+            <div className='phoneygramAnswerTable'>
+                {data.answers.map((answer,index) =>
+                    <div key={index}>
+                        <span className={guesses.indexOf(answer) > -1 ? 'wordSolved' : 'wordUnsolved'}>{answer}</span>
+                    </div>
+                )}
+            </div>
             <div className='phoneygramsInputWordDiv'>
                 <InputWordSimple handleSubmitWord={handleSubmitWord}/>
             </div>
