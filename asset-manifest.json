@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/regex-quiz/static/css/main.c4945969.css",
-    "main.js": "/regex-quiz/static/js/main.fe5a0f8a.js",
+    "main.css": "/regex-quiz/static/css/main.e709d1d7.css",
+    "main.js": "/regex-quiz/static/js/main.7fa2765c.js",
     "static/js/787.3bc9c568.chunk.js": "/regex-quiz/static/js/787.3bc9c568.chunk.js",
     "static/media/Wall.jpg": "/regex-quiz/static/media/Wall.47add20fa95f0bdaa7f3.jpg",
     "index.html": "/regex-quiz/index.html",
-    "main.c4945969.css.map": "/regex-quiz/static/css/main.c4945969.css.map",
-    "main.fe5a0f8a.js.map": "/regex-quiz/static/js/main.fe5a0f8a.js.map",
+    "main.e709d1d7.css.map": "/regex-quiz/static/css/main.e709d1d7.css.map",
+    "main.7fa2765c.js.map": "/regex-quiz/static/js/main.7fa2765c.js.map",
     "787.3bc9c568.chunk.js.map": "/regex-quiz/static/js/787.3bc9c568.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4945969.css",
-    "static/js/main.fe5a0f8a.js"
+    "static/css/main.e709d1d7.css",
+    "static/js/main.7fa2765c.js"
   ]
 }

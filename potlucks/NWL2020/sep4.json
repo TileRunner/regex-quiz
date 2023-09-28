@@ -32,5 +32,16 @@
     ,{"word":"RECLOSES","valid":false}
     ,{"word":"LINCTUS","valid":true}
     ,{"word":"INCULTS","valid":false}
+    ,{"word":"DULCET","valid":true}
+    ,{"word":"CUTLED","valid":false}
+    ,{"word":"COMITIES","valid":true}
+    ,{"word":"SEMIOTIC","valid":true}
+    ,{"word":"MEIOTICS","valid":false}
+    ,{"word":"NIGGARDS","valid":true}
+    ,{"word":"GRADINGS","valid":false}
+    ,{"word":"CHITOSAN","valid":true}
+    ,{"word":"HOACTINS","valid":false}
+    ,{"word":"NATHLESS","valid":true}
+    ,{"word":"HANTLESS","valid":false}
 
 ]
