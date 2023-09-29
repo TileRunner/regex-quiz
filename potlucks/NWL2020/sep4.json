@@ -47,5 +47,13 @@
     ,{"word":"ACURAS","valid":false}
     ,{"word":"SLALOM","valid":true}
     ,{"word":"MOLALS","valid":false}
+    ,{"word":"AWNLESS","valid":true}
+    ,{"word":"WANLESS","valid":false}
+    ,{"word":"ACCEPTOR","valid":true}
+    ,{"word":"ECTOCARP","valid":false}
+    ,{"word":"PEENS","valid":true}
+    ,{"word":"PENES","valid":true}
+    ,{"word":"NEEPS","valid":true}
+    ,{"word":"SNEEP","valid":false}
 
 ]
