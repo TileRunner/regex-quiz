@@ -1,0 +1,16 @@
+[
+    {"word":"STEARIC","valid":true}
+    ,{"word":"RACIEST","valid":true}
+    ,{"word":"CRISTAE","valid":true}
+    ,{"word":"ATRESIC","valid":true}
+    ,{"word":"ASTERIC","valid":false}
+    ,{"word":"NEURITIS","valid":true}
+    ,{"word":"UNITISER","valid":false}
+    ,{"word":"APRACTIC","valid":true}
+    ,{"word":"PRACTICA","valid":false}
+    ,{"word":"PIROGIES","valid":true}
+    ,{"word":"PIEROGIS","valid":false}
+    ,{"word":"RENEWERS","valid":true}
+    ,{"word":"RERENEWS","valid":false}
+
+]

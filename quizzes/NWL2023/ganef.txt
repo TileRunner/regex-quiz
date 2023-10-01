@@ -1,0 +1,10 @@
+G.N.(FF?|PH|V)
+:G&Any letter&N&Any letter&F|FF|PH|V
+	GANEF
+	GANEV
+	GANOF
+	GONEF
+	GONIF
+	GONIFF
+	GONOF
+	GONOPH

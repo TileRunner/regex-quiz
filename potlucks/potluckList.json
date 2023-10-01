@@ -71,5 +71,9 @@
         ,{ "filename":"sep2.json", "desc":"Chris's Sep errs #2"}
         ,{ "filename":"sep3.json", "desc":"Chris's Sep errs #3"}
         ,{ "filename":"sep4.json", "desc":"Chris's Sep errs #4"}
+        ,{ "filename":"sep5.json", "desc":"Chris's Sep errs #5"}
+    ]}
+    ,{ "desc":"Chris's Oct 2023 errors", "lexicon":"NWL2020", "set": [
+        { "filename":"oct1.json", "desc":"Chris's Oct errs #1"}
     ]}
 ]
