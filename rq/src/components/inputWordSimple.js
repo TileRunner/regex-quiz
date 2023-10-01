@@ -3,7 +3,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
 
 import { useState } from 'react';
-const InputWordSimple = ({handleSubmitWord}) => {
+const InputWordSimple = ({handleSubmitWord, blankForNext}) => {
     const [myword, setMyword] = useState('');
 
     async function mysubmit(event) {
@@ -22,7 +22,7 @@ const InputWordSimple = ({handleSubmitWord}) => {
             placeholder="Your word..."
             autoComplete='false'
             />
-            <Button variant="primary" type='submit'>Submit</Button>
+            <Button variant="primary" type='submit'>{blankForNext && myword.trim() === '' ? 'Next' : 'Submit'}</Button>
         </InputGroup>
     </Form>
     </div>);

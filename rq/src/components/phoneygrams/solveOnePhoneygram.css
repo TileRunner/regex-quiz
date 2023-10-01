@@ -34,8 +34,10 @@
     word-wrap: normal;
 }
 .phoneygramsInputWordDiv {
-    padding: 10px 35vw;
+    padding: 10px;
 }
-.phoneygramsInputWordDiv::before {
-    content: '(Hit ENTER without text for next phoneygram)';
+.phoneygramButton {
+    border-radius: 15%;
+    margin: 5px;
+    font-size: large;
 }

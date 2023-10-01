@@ -1,0 +1,21 @@
+SA[IY]{0,2}[EI]D
+:SA&II|IY|YI|YY|Nothing&E|I&D
+	SAID
+	SAIYID
+	SAYED
+	SAYID
+	SAYYID
+
+Y[AE].?[UL]DS?
+:Y&A|E&Any letter|Nothing&U|L&D&S|Nothing
+	YALD
+	YAUD
+	YAUDS
+	YAULD
+	YELD
+
+Z[AE]I?D[AY]
+:Z&A|E&I|Nothing&D&A|Y
+	ZAIDA
+	ZAIDY
+	ZEDA

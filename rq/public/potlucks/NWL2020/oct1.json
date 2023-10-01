@@ -1,0 +1,23 @@
+[
+    {"word":"MILINGS","valid":true}
+    ,{"word":"SLIMING","valid":true}
+    ,{"word":"SMILING","valid":true}
+    ,{"word":"LIMINGS","valid":false}
+    ,{"word":"BYLAW","valid":true}
+    ,{"word":"BLAWY","valid":false}
+    ,{"word":"ARRESTED","valid":true}
+    ,{"word":"RETREADS","valid":true}
+    ,{"word":"SERRATED","valid":true}
+    ,{"word":"TREADERS","valid":true}
+    ,{"word":"DREAREST","valid":true}
+    ,{"word":"RASTERED","valid":false}
+    ,{"word":"CHIS","valid":true}
+    ,{"word":"ICHS","valid":true}
+    ,{"word":"HICS","valid":false}
+    ,{"word":"RUBELS","valid":true}
+    ,{"word":"RUBLES","valid":true}
+    ,{"word":"LUBERS","valid":false}
+    ,{"word":"JAGGEDER","valid":true}
+    ,{"word":"JAGGERED","valid":false}
+
+]

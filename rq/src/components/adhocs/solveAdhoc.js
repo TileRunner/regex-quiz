@@ -82,7 +82,7 @@ const TakeAdhocQuiz=({filename}) => {
                 </ul>
                 <div className='guessdiv' key={index}>
                     <InputWordSimple
-                        handleSubmitWord={handleSubmitWord}
+                        handleSubmitWord={handleSubmitWord} blankForNext={false}
                         />
                     {item.guesses && item.guesses.length > 0 && <div className='qadiv'>
                         <div className='checkboxes'>

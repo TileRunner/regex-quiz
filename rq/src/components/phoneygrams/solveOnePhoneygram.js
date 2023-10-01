@@ -1,6 +1,7 @@
 import './solveOnePhoneygram.css';
 import InputWordSimple from '../inputWordSimple';
 import { useState } from 'react';
+import {isMobile} from 'react-device-detect';
 
 const SolveOnePhoneygram=({data, setItemid, currentId, maxId}) => {
     const [guesses, setGuesses] = useState([]);
@@ -11,11 +12,14 @@ const SolveOnePhoneygram=({data, setItemid, currentId, maxId}) => {
             return;
         }
         let newGuesses = [...guesses];
-        if (newGuesses.indexOf(word) < 0) {
-            newGuesses.push(word);
-            newGuesses.sort();
-            setGuesses(newGuesses);
-        }
+        let words = word.split(' ');
+        words.forEach((guess) => {
+            if (newGuesses.indexOf(guess) < 0) {
+                newGuesses.push(guess);
+            }
+        })
+        newGuesses.sort();
+        setGuesses(newGuesses);
         let unsolved = false;
         data.answers.forEach(element => {
             if (newGuesses.indexOf(element) < 0) {unsolved = true;}
@@ -31,9 +35,9 @@ const SolveOnePhoneygram=({data, setItemid, currentId, maxId}) => {
     }
     return(
         <div className='solveOnePhoneygram'>
-            <h1>Goal: Enter the valid anagrams of the phoneygram.</h1>
-            <button onClick={() => {setItemid(-1);}}>Return to phoneygram list</button>
-            {currentId < maxId && <button onClick={() => {nextQuestion();}}>Next phoneygram</button>}
+            {!isMobile && <h1>Goal: Enter the valid anagrams of the phoneygram.</h1>}
+            <button className='phoneygramButton' onClick={() => {setItemid(-1);}}>List</button>
+            {currentId < maxId && <button className='phoneygramButton' onClick={() => {nextQuestion();}}>Next</button>}
             <div className='phoneygramdiv'>
                 <span className='solvephoneygram'> {data.phoneygram}</span>
             </div>
@@ -45,7 +49,7 @@ const SolveOnePhoneygram=({data, setItemid, currentId, maxId}) => {
                 )}
             </div>
             <div className='phoneygramsInputWordDiv'>
-                <InputWordSimple handleSubmitWord={handleSubmitWord}/>
+                <InputWordSimple handleSubmitWord={handleSubmitWord} blankForNext={true}/>
             </div>
             {solved && <h1>Solved!</h1>}
             {!solved && <p className='showGuesses'>Guesses: {guesses.join(", ")}</p>}

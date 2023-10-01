@@ -175,4 +175,180 @@
         "lexicon":"NWL2020",
         "level":5
     }
+    ,{
+        "filename":"primer.txt",
+        "desc":"Beginner quiz to get used to how it works",
+        "lexicon":"NWL2023",
+        "level":1
+    },{
+        "filename":"reorer.txt",
+        "desc":"RE prefix, ER suffix, or both",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"ganef.txt",
+        "desc":"Ganef galore",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"kumis.txt",
+        "desc":"The musky kumys",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"cabala.txt",
+        "desc":"Cabala conundrum",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"sherif.txt",
+        "desc":"There's a new sherif in town",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"calpac.txt",
+        "desc":"Calorie pack",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"baht.txt",
+        "desc":"Take a baht",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"mark.txt",
+        "desc":"Mark my words",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"tomback.txt",
+        "desc":"I want my tom back",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"scram.txt",
+        "desc":"Scram!",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"yey.txt",
+        "desc":"Yey for me",
+        "lexicon":"NWL2023",
+        "level":2
+    },{
+        "filename":"milliare.txt",
+        "desc":"Milly are you ok?",
+        "lexicon":"NWL2023",
+        "level":3
+    },{
+        "filename":"wwords.txt",
+        "desc":"W words",
+        "lexicon":"NWL2023",
+        "level":3
+    },{
+        "filename":"galabias.txt",
+        "desc":"Galabia gotcha",
+        "lexicon":"NWL2023",
+        "level":3
+    },{
+        "filename":"ginkgos.txt",
+        "desc":"Bingo with jingo",
+        "lexicon":"NWL2023",
+        "level":3
+    },{
+        "filename":"zedwords.txt",
+        "desc":"Zed words",
+        "lexicon":"NWL2023",
+        "level":3
+    },{
+        "filename":"said.txt",
+        "desc":"Enough said, yeld the zeda",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"clepe.txt",
+        "desc":"He clept calling my name",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates.txt",
+        "desc":"Know your alternatives",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates2.txt",
+        "desc":"Know your alternatives #2",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates3.txt",
+        "desc":"Know your alternatives #3",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates4.txt",
+        "desc":"Know your alternatives #4",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates5.txt",
+        "desc":"Know your alternatives #5",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates6.txt",
+        "desc":"Know your alternatives #6",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"alternates7.txt",
+        "desc":"Know your alternatives #7",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"finicky.txt",
+        "desc":"Finicky foundation",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"cousins.txt",
+        "desc":"Simular setts",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"posies.txt",
+        "desc":"Pocket full of posies ... that's another story",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"perogies.txt",
+        "desc":"Perogi plus",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"durras.txt",
+        "desc":"Durra dungeon",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"qwords.txt",
+        "desc":"Q words",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"hwords.txt",
+        "desc":"H words, mostly",
+        "lexicon":"NWL2023",
+        "level":4
+    },{
+        "filename":"ForCarl.txt",
+        "desc":"Requested by Carl",
+        "lexicon":"NWL2023",
+        "level":5
+    },{
+        "filename":"ForRicker.txt",
+        "desc":"Requested by Ricker",
+        "lexicon":"NWL2023",
+        "level":5
+    }
 ]

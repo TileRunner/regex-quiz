@@ -24,7 +24,7 @@ const MODE_PHONEYGRAMS = 'Phoneygrams';
 
 const Home = <div>
   <a href="http://www.scrabbleplayers.org"><img border="0" src="http://www.scrabbleplayers.org/pix/logo-only-160px.png" alt="[NASPA Logo]" /></a>
-  <span className='ackNASPA'>NWL20 used with permission from NASPA</span>
+  <span className='ackNASPA'>NWL2020 AND NWL2023 used with permission from NASPA</span>
   <div className='p-2 bg-secondary text-white'>
     <p>The original concept for this site was to use it for trivia contests at long tournaments.
       I wanted to use the Regular Expressions as the questions, and individuals or teams would
@@ -62,7 +62,6 @@ const Home = <div>
     <p>
       The Phoneygram quizzes are for plausible or obvious phoneys with valid anagrams.
       You are shown the phoneygram and you type in the valid anagrams to answer.
-      {isMobile && <span>Not supported on mobile phones.</span>}
     </p>
   </div>
   <div className='p-2 bg-danger text-white'>
