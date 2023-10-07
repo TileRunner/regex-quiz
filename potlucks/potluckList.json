@@ -75,5 +75,6 @@
     ]}
     ,{ "desc":"Chris's Oct 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"oct1.json", "desc":"Chris's Oct errs #1"}
+        ,{ "filename":"oct2.json", "desc":"Chris's Oct errs #2"}
     ]}
 ]

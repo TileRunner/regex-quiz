@@ -19,5 +19,45 @@
     ,{"word":"LUBERS","valid":false}
     ,{"word":"JAGGEDER","valid":true}
     ,{"word":"JAGGERED","valid":false}
+    ,{"word":"THEIRS","valid":true}
+    ,{"word":"ITHERS","valid":false}
+    ,{"word":"SHERRIS","valid":true}
+    ,{"word":"SHIRRES","valid":false}
+    ,{"word":"BOWLINGS","valid":true}
+    ,{"word":"BLOWSING","valid":false}
+    ,{"word":"CONODONT","valid":true}
+    ,{"word":"ONCODONT","valid":false}
+    ,{"word":"KALAMS","valid":true}
+    ,{"word":"KAMALS","valid":false}
+    ,{"word":"MISCUING","valid":true}
+    ,{"word":"MUSICING","valid":false}
+    ,{"word":"XENOLITH","valid":true}
+    ,{"word":"NOTHELIX","valid":false}
+    ,{"word":"AMIDONE","valid":true}
+    ,{"word":"DOMAINE","valid":true}
+    ,{"word":"DIAMONE","valid":false}
+    ,{"word":"ASCARIS","valid":true}
+    ,{"word":"ACRASIS","valid":false}
+    ,{"word":"ISCHIA","valid":true}
+    ,{"word":"IASCHI","valid":false}
+    ,{"word":"CHOPINES","valid":true}
+    ,{"word":"PINOCHES","valid":false}
+    ,{"word":"SACCULE","valid":true}
+    ,{"word":"ACCLUSE","valid":false}
+    ,{"word":"HEGEMONS","valid":true}
+    ,{"word":"HOGMENES","valid":false}
+    ,{"word":"BULIMIAC","valid":true}
+    ,{"word":"UMBILICA","valid":false}
+    ,{"word":"CARTABLE","valid":true}
+    ,{"word":"BRACTEAL","valid":true}
+    ,{"word":"TRACABLE","valid":false}
+    ,{"word":"RACHIDES","valid":true}
+    ,{"word":"CEDARISH","valid":false}
+    ,{"word":"ANTIPOPE","valid":true}
+    ,{"word":"PEPONITA","valid":false}
+    ,{"word":"WELTERED","valid":true}
+    ,{"word":"TWEEDLER","valid":false}
+    ,{"word":"TOTALISM","valid":true}
+    ,{"word":"MISTOTAL","valid":false}
 
 ]

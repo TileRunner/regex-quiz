@@ -1,0 +1,17 @@
+[
+    {"word":"DISKLESS","valid":true}
+    ,{"word":"SKIDLESS","valid":false}
+    ,{"word":"GENERICS","valid":true}
+    ,{"word":"SCREEING","valid":false}
+    ,{"word":"ALDICARB","valid":true}
+    ,{"word":"CARBIDAL","valid":false}
+    ,{"word":"CULLYING","valid":true}
+    ,{"word":"GLUCINYL","valid":false}
+    ,{"word":"BECHARMS","valid":true}
+    ,{"word":"BRECHAMS","valid":true}
+    ,{"word":"CHAMBERS","valid":true}
+    ,{"word":"CHAMBRES","valid":false}
+    ,{"word":"NEGLIGES","valid":true}
+    ,{"word":"GINGELES","valid":false}
+
+]
