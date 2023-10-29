@@ -1,0 +1,26 @@
+[
+    {"word":"REDIPS","valid":true}
+    ,{"word":"SPIDER","valid":true}
+    ,{"word":"PRIDES","valid":true}
+    ,{"word":"SPIRED","valid":true}
+    ,{"word":"PRISED","valid":true}
+    ,{"word":"SPRIED","valid":false}
+    ,{"word":"BOOMKINS","valid":true}
+    ,{"word":"KOMBONIS","valid":false}
+    ,{"word":"BOATYARD","valid":true}
+    ,{"word":"TAYBOARD","valid":false}
+    ,{"word":"PELTASTS","valid":true}
+    ,{"word":"SPATTLES","valid":false}
+    ,{"word":"SPINOUT","valid":true}
+    ,{"word":"OUTSPIN","valid":false}
+    ,{"word":"RIPARIAN","valid":true}
+    ,{"word":"PRIARIAN","valid":false}
+    ,{"word":"MACHACAS","valid":true}
+    ,{"word":"MACACHAS","valid":false}
+    ,{"word":"SHOWRING","valid":true}
+    ,{"word":"WHORINGS","valid":true}
+    ,{"word":"WRONGISH","valid":false}
+    ,{"word":"SHAWN","valid":true}
+    ,{"word":"HWANS","valid":false}
+
+]

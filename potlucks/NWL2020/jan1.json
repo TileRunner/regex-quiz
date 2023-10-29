@@ -1,5 +1,6 @@
 [
     {"word":"SOLUBLES","valid":true}
+    ,{"word":"BULLOSES","valid":false}
     ,{"word":"ELLIPSES","valid":true}
     ,{"word":"PILELESS","valid":true}
     ,{"word":"PELLISSE","valid":false}
@@ -18,6 +19,7 @@
     ,{"word":"BELLMAN","valid":true}
     ,{"word":"CHOPINS","valid":true}
     ,{"word":"PHONICS","valid":true}
+    ,{"word":"CIPHONS","valid":false}
     ,{"word":"LUNGANS","valid":true}
     ,{"word":"LANGUNS","valid":false}
     ,{"word":"CORTICES","valid":true}
@@ -27,6 +29,7 @@
     ,{"word":"ACHER","valid":false}
     ,{"word":"PALMISTS","valid":true}
     ,{"word":"PSALMIST","valid":true}
+    ,{"word":"PSALTISM","valid":false}
     ,{"word":"INTREPID","valid":true}
     ,{"word":"DIPTERIN","valid":false}
     ,{"word":"MIRTHS","valid":true}
@@ -51,5 +54,4 @@
     ,{"word":"PYLORAS","valid":false}
     ,{"word":"DEEPENS","valid":true}
     ,{"word":"SNEEPED","valid":false}
-    ,{"word":"SPEENED","valid":false}
 ]

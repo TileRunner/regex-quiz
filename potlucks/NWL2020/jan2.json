@@ -8,15 +8,18 @@
     ,{"word":"BLASTULA","valid":true}
     ,{"word":"BALLUSTA","valid":false}
     ,{"word":"WASHRAGS","valid":true}
+    ,{"word":"HAWGRASS","valid":false}
     ,{"word":"SNOWBIRD","valid":true}
     ,{"word":"DISBROWN","valid":false}
     ,{"word":"RAGTAGS","valid":true}
     ,{"word":"TAGRAGS","valid":true}
+    ,{"word":"STAGGAR","valid":false}
     ,{"word":"SAMOSA","valid":true}
     ,{"word":"OMASAS","valid":false}
     ,{"word":"MIRIEST","valid":true}
     ,{"word":"MISTIER","valid":true}
     ,{"word":"RIMIEST","valid":true}
+    ,{"word":"MERITIS","valid":false}
     ,{"word":"ADIPIC","valid":true}
     ,{"word":"APIDIC","valid":false}
     ,{"word":"SHAMBA","valid":true}
@@ -35,12 +38,14 @@
     ,{"word":"HAUBERG","valid":false}
     ,{"word":"HORSIES","valid":true}
     ,{"word":"HOSIERS","valid":true}
+    ,{"word":"HOISERS","valid":false}
     ,{"word":"INDOXYLS","valid":true}
     ,{"word":"XYLIDONS","valid":false}
     ,{"word":"POLYPIDE","valid":true}
     ,{"word":"PEPLOIDY","valid":false}
     ,{"word":"TOWERS","valid":true}
     ,{"word":"WORSET","valid":true}
+    ,{"word":"STOWER","valid":false}
     ,{"word":"RESETTER","valid":true}
     ,{"word":"STREETER","valid":false}
     ,{"word":"FRIZZLE","valid":true}
