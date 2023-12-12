@@ -13,5 +13,53 @@
     ,{"word":"CHAMBRES","valid":false}
     ,{"word":"NEGLIGES","valid":true}
     ,{"word":"GINGELES","valid":false}
+    ,{"word":"ENSKIES","valid":true}
+    ,{"word":"KINESES","valid":true}
+    ,{"word":"SKEINES","valid":false}
+    ,{"word":"UNRIBBED","valid":true}
+    ,{"word":"UNBRIBED","valid":false}
+    ,{"word":"INSIGHTS","valid":true}
+    ,{"word":"HISTINGS","valid":false}
+    ,{"word":"REWEARS","valid":true}
+    ,{"word":"SWEARER","valid":true}
+    ,{"word":"WEARERS","valid":true}
+    ,{"word":"RESWEAR","valid":false}
+    ,{"word":"SCRIMS","valid":true}
+    ,{"word":"CRISMS","valid":false}
+    ,{"word":"POMATUMS","valid":true}
+    ,{"word":"POMMATUS","valid":false}
+    ,{"word":"CHOUSER","valid":true}
+    ,{"word":"ROUCHES","valid":true}
+    ,{"word":"CHOREUS","valid":false}
+    ,{"word":"ANISETTE","valid":true}
+    ,{"word":"TETANIES","valid":true}
+    ,{"word":"TETANISE","valid":true}
+    ,{"word":"TAENITES","valid":true}
+    ,{"word":"STEATINE","valid":false}
+    ,{"word":"BOBSLED","valid":true}
+    ,{"word":"SLOBBED","valid":false}
+    ,{"word":"ACHROMAT","valid":true}
+    ,{"word":"TRACHOMA","valid":true}
+    ,{"word":"CHROMATA","valid":false}
+    ,{"word":"BOREAL","valid":true}
+    ,{"word":"BOLERA","valid":false}
+    ,{"word":"ABELMOSK","valid":true}
+    ,{"word":"SMOKABLE","valid":true}
+    ,{"word":"BALKSOME","valid":false}
+    ,{"word":"SACKFULS","valid":true}
+    ,{"word":"SACKSFUL","valid":true}
+    ,{"word":"CASKFULS","valid":false}
+    ,{"word":"RESHONE","valid":true}
+    ,{"word":"SENHORE","valid":false}
+    ,{"word":"UPSIDES","valid":true}
+    ,{"word":"PUSSIED","valid":false}
+    ,{"word":"PERFIDY","valid":true}
+    ,{"word":"PERDIFY","valid":false}
+    ,{"word":"CAULDS","valid":true}
+    ,{"word":"DUCALS","valid":false}
+    ,{"word":"SLAPDASH","valid":true}
+    ,{"word":"ADSPLASH","valid":false}
+    ,{"word":"CALVED","valid":true}
+    ,{"word":"CLAVED","valid":false}
 
 ]

@@ -76,5 +76,28 @@
     ,{ "desc":"Chris's Oct 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"oct1.json", "desc":"Chris's Oct errs #1"}
         ,{ "filename":"oct2.json", "desc":"Chris's Oct errs #2"}
+        ,{ "filename":"oct3.json", "desc":"Chris's Oct errs #3"}
+        ,{ "filename":"oct4.json", "desc":"Chris's Oct errs #4"}
+        ,{ "filename":"oct5.json", "desc":"Chris's Oct errs #5"}
+    ]}
+    ,{ "desc":"Chris's Nov errs #1", "lexicon":"NWL2020", "set": [
+        { "filename":"nov1.json", "desc":"Chris's Nov errs #1"}
+        ,{ "filename":"nov2.json", "desc":"Chris's Nov errs #2"}
+        ,{ "filename":"nov3.json", "desc":"Chris's Nov errs #3"}
+        ,{ "filename":"nov4.json", "desc":"Chris's Nov errs #4"}
+        ,{ "filename":"nov5.json", "desc":"Chris's Nov errs #5"}
+    ]}
+    ,{ "desc":"Chris's Dec errs #1", "lexicon":"NWL2020", "set": [
+        { "filename":"dec1.json", "desc":"Chris's Dec errs #1"}
+        ,{ "filename":"dec2.json", "desc":"Chris's Dec errs #2"}
+        ,{ "filename":"dec3.json", "desc":"Chris's Dec errs #3"}
+    ]}
+    ,{ "desc":"NWL2023 lexicon update", "lexicon":"NWL2023", "set": [
+        { "filename":"LexiconUpdate3.json", "desc":"3-letter words added and deleted"}
+        ,{ "filename":"LexiconUpdate4.json", "desc":"4-letter words added and deleted"}
+        ,{ "filename":"LexiconUpdate5.json", "desc":"5-letter words added and deleted"}
+        ,{ "filename":"LexiconUpdate6.json", "desc":"6-letter words added and deleted"}
+        ,{ "filename":"LexiconUpdate7.json", "desc":"7-letter words added and deleted"}
+        ,{ "filename":"LexiconUpdate8.json", "desc":"8-letter words added and deleted"}
     ]}
 ]
