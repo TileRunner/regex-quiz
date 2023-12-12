@@ -1,0 +1,21 @@
+[
+    {"word":"SAFARI","valid":true}
+    ,{"word":"RAFIAS","valid":false}
+    ,{"word":"WATERISH","valid":true}
+    ,{"word":"WRAITHES","valid":false}
+    ,{"word":"IMAGINGS","valid":true}
+    ,{"word":"MISAGING","valid":false}
+    ,{"word":"DEGRADED","valid":true}
+    ,{"word":"GADDERED","valid":false}
+    ,{"word":"OVERLEWD","valid":true}
+    ,{"word":"OVERWELD","valid":false}
+    ,{"word":"FULVOUS","valid":true}
+    ,{"word":"FLUVOUS","valid":false}
+    ,{"word":"POLYTYPE","valid":true}
+    ,{"word":"POLYPETY","valid":false}
+    ,{"word":"FELLERS","valid":true}
+    ,{"word":"REFELLS","valid":false}
+    ,{"word":"CONVEYOR","valid":true}
+    ,{"word":"CONVOYER","valid":false}
+
+]

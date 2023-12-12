@@ -22,5 +22,49 @@
     ,{"word":"WRONGISH","valid":false}
     ,{"word":"SHAWN","valid":true}
     ,{"word":"HWANS","valid":false}
-
+    ,{"word":"TESSERAL","valid":true}
+    ,{"word":"RESLATES","valid":true}
+    ,{"word":"TEARLESS","valid":true}
+    ,{"word":"STEALERS","valid":true}
+    ,{"word":"SALTERES","valid":false}
+    ,{"word":"LINTLESS","valid":true}
+    ,{"word":"STILLENS","valid":false}
+    ,{"word":"ENRAPT","valid":true}
+    ,{"word":"ARPENT","valid":true}
+    ,{"word":"PARENT","valid":true}
+    ,{"word":"TREPAN","valid":true}
+    ,{"word":"ENTRAP","valid":true}
+    ,{"word":"PANTER","valid":false}
+    ,{"word":"SKEPTICS","valid":true}
+    ,{"word":"SPICKETS","valid":false}
+    ,{"word":"BUDWORM","valid":true}
+    ,{"word":"BUMWORD","valid":false}
+    ,{"word":"DEFENDER","valid":true}
+    ,{"word":"FENDERED","valid":true}
+    ,{"word":"REFENDED","valid":false}
+    ,{"word":"BURSEEDS","valid":true}
+    ,{"word":"SUBSERED","valid":false}
+    ,{"word":"REDUBS","valid":true}
+    ,{"word":"DEBURS","valid":true}
+    ,{"word":"REBUDS","valid":false}
+    ,{"word":"WINDBELL","valid":true}
+    ,{"word":"WELLBIND","valid":false}
+    ,{"word":"UNUNBIUM","valid":true}
+    ,{"word":"UNBUNIUM","valid":false}
+    ,{"word":"ANYPLACE","valid":true}
+    ,{"word":"CLYPAEAN","valid":false}
+    ,{"word":"ASTRAL","valid":true}
+    ,{"word":"TALARS","valid":true}
+    ,{"word":"ALTARS","valid":true}
+    ,{"word":"TARSAL","valid":true}
+    ,{"word":"RATALS","valid":true}
+    ,{"word":"ARTALS","valid":false}
+    ,{"word":"STALLION","valid":true}
+    ,{"word":"LANITOLS","valid":false}
+    ,{"word":"GNOMISTS","valid":true}
+    ,{"word":"GNOSTISM","valid":false}
+    ,{"word":"ALBINAL","valid":true}
+    ,{"word":"BALNIAL","valid":false}
+    ,{"word":"SEECATCH","valid":true}
+    ,{"word":"CACHETES","valid":false}
 ]
