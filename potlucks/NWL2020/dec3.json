@@ -2,5 +2,58 @@
     {"word":"TYCHISM","valid":true}
     ,{"word":"CHYMIST","valid":true}
     ,{"word":"MYTHICS","valid":false}
-
+    ,{"word":"HOLYTIDE","valid":true}
+    ,{"word":"ETHYLOID","valid":false}
+    ,{"word":"SYCONIUM","valid":true}
+    ,{"word":"MYCONIUS","valid":false}
+    ,{"word":"MOSASAUR","valid":true}
+    ,{"word":"MASSOURA","valid":false}
+    ,{"word":"WREAKERS","valid":true}
+    ,{"word":"REWAKERS","valid":false}
+    ,{"word":"MALISONS","valid":true}
+    ,{"word":"SOLAMINS","valid":false}
+    ,{"word":"PSILOSES","valid":true}
+    ,{"word":"PLOSSIES","valid":false}
+    ,{"word":"DIAZOS","valid":true}
+    ,{"word":"AZIDOS","valid":false}
+    ,{"word":"ROWTHS","valid":true}
+    ,{"word":"WORTHS","valid":true}
+    ,{"word":"THROWS","valid":true}
+    ,{"word":"WHORTS","valid":true}
+    ,{"word":"WROTHS","valid":false}
+    ,{"word":"SHARKED","valid":true}
+    ,{"word":"KHEDARS","valid":false}
+    ,{"word":"UNRIPEST","valid":true}
+    ,{"word":"PRUNIEST","valid":true}
+    ,{"word":"REINPUTS","valid":false}
+    ,{"word":"PSEPHITE","valid":true}
+    ,{"word":"EPIPHETS","valid":false}
+    ,{"word":"DAUBERS","valid":true}
+    ,{"word":"EARBUDS","valid":true}
+    ,{"word":"ABDURES","valid":false}
+    ,{"word":"COSH","valid":true}
+    ,{"word":"OCHS","valid":false}
+    ,{"word":"KAMOTIQS","valid":true}
+    ,{"word":"QAMOTIKS","valid":false}
+    ,{"word":"TOYSHOP","valid":true}
+    ,{"word":"TYPHOOS","valid":false}
+    ,{"word":"FLICHTER","valid":true}
+    ,{"word":"FLITCHER","valid":false}
+    ,{"word":"LIMONIUM","valid":true}
+    ,{"word":"LINOMIUM","valid":false}
+    ,{"word":"ACETYLS","valid":true}
+    ,{"word":"STELACY","valid":false}
+    ,{"word":"ISOTHERM","valid":true}
+    ,{"word":"THEORISM","valid":false}
+    ,{"word":"AXONEMES","valid":true}
+    ,{"word":"ANOXEMES","valid":false}
+    ,{"word":"CAROCHES","valid":true}
+    ,{"word":"COACHERS","valid":true}
+    ,{"word":"CROACHES","valid":false}
+    ,{"word":"RANDOMLY","valid":true}
+    ,{"word":"ALMONDRY","valid":false}
+    ,{"word":"MYCETOMA","valid":true}
+    ,{"word":"AMMOCYTE","valid":false}
+    ,{"word":"PORTALED","valid":true}
+    ,{"word":"PATROLED","valid":false}
 ]

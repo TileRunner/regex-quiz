@@ -91,6 +91,9 @@
         { "filename":"dec1.json", "desc":"Chris's Dec errs #1"}
         ,{ "filename":"dec2.json", "desc":"Chris's Dec errs #2"}
         ,{ "filename":"dec3.json", "desc":"Chris's Dec errs #3"}
+        ,{ "filename":"dec4.json", "desc":"Chris's Dec errs #4"}
+        ,{ "filename":"dec5.json", "desc":"Chris's Dec errs #5"}
+        ,{ "filename":"dec6.json", "desc":"Chris's Dec errs #6"}
     ]}
     ,{ "desc":"NWL2023 lexicon update", "lexicon":"NWL2023", "set": [
         { "filename":"LexiconUpdate3.json", "desc":"3-letter words added and deleted"}

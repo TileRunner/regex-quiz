@@ -1,0 +1,20 @@
+[
+    {"word":"BECROWD","valid":true}
+    ,{"word":"CROWBED","valid":false}
+    ,{"word":"LAKEBEDS","valid":true}
+    ,{"word":"SKEEBALD","valid":false}
+    ,{"word":"MANHUNT","valid":true}
+    ,{"word":"HUNTMAN","valid":false}
+    ,{"word":"LIMACINE","valid":true}
+    ,{"word":"MICELIAN","valid":false}
+    ,{"word":"TAILINGS","valid":true}
+    ,{"word":"INTAGLIS","valid":false}
+    ,{"word":"SELENIUM","valid":true}
+    ,{"word":"SEMILUNE","valid":false}
+    ,{"word":"AGNOMENS","valid":true}
+    ,{"word":"NONGAMES","valid":false}
+    ,{"word":"ALLEGED","valid":true}
+    ,{"word":"ALLEDGE","valid":false}
+    ,{"word":"LAWLIKE","valid":true}
+    ,{"word":"AWLLIKE","valid":false}
+]
