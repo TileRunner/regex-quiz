@@ -1,0 +1,32 @@
+[
+    {"word":"HUI","valid":true}
+    ,{"word":"GER","valid":true}
+    ,{"word":"TOC","valid":true}
+    ,{"word":"PIR","valid":true}
+    ,{"word":"RUC","valid":true}
+    ,{"word":"SAV","valid":true}
+    ,{"word":"TIK","valid":true}
+    ,{"word":"GYP","valid":true}
+    ,{"word":"TYG","valid":true}
+    ,{"word":"TAU","valid":true}
+    ,{"word":"KYU","valid":true}
+    ,{"word":"YGO","valid":true}
+    ,{"word":"TAO","valid":true}
+    ,{"word":"HAO","valid":true}
+    ,{"word":"PUY","valid":true}
+    ,{"word":"HUO","valid":false}
+    ,{"word":"GIR","valid":false}
+    ,{"word":"TOK","valid":false}
+    ,{"word":"PIK","valid":false}
+    ,{"word":"RUK","valid":false}
+    ,{"word":"CAV","valid":false}
+    ,{"word":"LAN","valid":false}
+    ,{"word":"KYA","valid":false}
+    ,{"word":"HAU","valid":false}
+    ,{"word":"ETS","valid":false}
+    ,{"word":"UVE","valid":false}
+    ,{"word":"YOG","valid":false}
+    ,{"word":"GAO","valid":false}
+    ,{"word":"GYE","valid":false}
+    ,{"word":"YUL","valid":false}
+]
