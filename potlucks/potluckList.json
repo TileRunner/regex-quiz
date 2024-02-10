@@ -1,5 +1,8 @@
 [
-    { "desc":"Chris's January 2023 errors", "lexicon":"NWL2020", "set": [
+    { "desc":"Vera's words", "lexicon":"CSW2022", "set": [
+        { "filename": "Vera1.json", "desc":"3-letter words"}
+    ]}
+    ,{ "desc":"Chris's January 2023 errors", "lexicon":"NWL2020", "set": [
         { "filename":"jan1.json", "desc":"Chris's Jan errs #1" }
         , { "filename":"jan2.json", "desc":"Chris's Jan errs #2" }
         , { "filename":"jan3.json", "desc":"Chris's Jan errs #3" }
