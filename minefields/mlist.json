@@ -2,55 +2,6 @@
     {
         "filename":"minefield1.txt",
         "desc":"Minefield #1",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"minefield2.txt",
-        "desc":"Minefield #2",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"minefield3.txt",
-        "desc":"Minefield #3",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"minefield4.txt",
-        "desc":"Minefield #4",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"minefield5.txt",
-        "desc":"Minefield #5",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"minefield6.txt",
-        "desc":"Minefield #6",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"MoonTheBeagle.txt",
-        "desc":"From MoonTheBeagle, Set 1",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"MoonTheBeagle2.txt",
-        "desc":"From MoonTheBeagle, Set 2",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"MoonTheBeagle3.txt",
-        "desc":"From MoonTheBeagle, Set 3",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"MoonTheBeagle4.txt",
-        "desc":"From MoonTheBeagle, Set 4",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"MoonTheBeagle5.txt",
-        "desc":"From MoonTheBeagle, Set 5",
-        "lexicon":"NWL2020"
-    },{
-        "filename":"MoonTheBeagle6.txt",
-        "desc":"From MoonTheBeagle, Set 6",
-        "lexicon":"NWL2020"
-    }
-    ,{
-        "filename":"minefield1.txt",
-        "desc":"Minefield #1",
         "lexicon":"NWL2023"
     },{
         "filename":"minefield2.txt",
