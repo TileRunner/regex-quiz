@@ -1,7 +1,0 @@
-(C|K)ALPAC?K?
-:C|K&ALPA&C|Nothing&K|Nothing
-	CALPAC
-	CALPACK
-	KALPA
-	KALPAC
-	KALPAK

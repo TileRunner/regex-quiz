@@ -1,7 +1,7 @@
 [
     {
         "desc":"Random quizzes",
-        "lexicon":"NWL2020",
+        "lexicon":"NWL2023",
         "set":[
             {
                 "filename":"g1q1.json",
@@ -15,7 +15,7 @@
     }
     , {
         "desc":"Thematic quizzes",
-        "lexicon":"NWL2020",
+        "lexicon":"NWL2023",
         "set":[
             {
                 "filename":"SpecificConsonants.json",

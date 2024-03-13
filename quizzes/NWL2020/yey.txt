@@ -1,6 +1,0 @@
-.{2,4}YEY
-:2 - 4 letters&YEY
-	CLAYEY
-	HAYEY
-	SKYEY
-	WHEYEY
